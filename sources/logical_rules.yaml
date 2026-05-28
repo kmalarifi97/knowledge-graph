@@ -1,0 +1,236 @@
+# Forced dependencies. Each rule is an edge that follows from the
+# mathematics or physical definition itself, not from any teaching tradition.
+# If a textbook taught Y before X anyway, it would be wrong: X is genuinely
+# required to define Y.
+#
+# Fields:
+#   from:       endpoint label or QID
+#   to:         endpoint label or QID
+#   type:       prerequisite | is-a | part-of
+#   rationale:  one sentence, ground the dependency
+#
+# Reliability is not set per-rule; the logical source assigns a uniform
+# 0.95 reliability in code (see sources/logical.py).
+
+# ---- math: calculus chain ------------------------------------------------
+- from: Function (mathematics)
+  to: Limit of a function
+  type: prerequisite
+  rationale: A limit is defined as a limit *of a function*; the function concept is presupposed.
+
+- from: Limit of a function
+  to: Derivative
+  type: prerequisite
+  rationale: The derivative is defined as the limit of a difference quotient.
+
+- from: Limit of a function
+  to: Integral
+  type: prerequisite
+  rationale: The Riemann integral is defined as the limit of Riemann sums.
+
+- from: Derivative
+  to: Antiderivative
+  type: prerequisite
+  rationale: An antiderivative is, by definition, a function whose derivative equals the given function.
+
+- from: Antiderivative
+  to: Fundamental theorem of calculus
+  type: prerequisite
+  rationale: FTC states the equivalence between antiderivatives and definite integrals; antiderivatives are presupposed.
+
+- from: Integral
+  to: Fundamental theorem of calculus
+  type: prerequisite
+  rationale: FTC relates the definite integral to antidifferentiation; the integral concept is presupposed.
+
+- from: Derivative
+  to: Partial derivative
+  type: prerequisite
+  rationale: A partial derivative is an ordinary derivative taken while holding other variables constant; the ordinary derivative is presupposed.
+
+- from: Derivative
+  to: Ordinary differential equation
+  type: prerequisite
+  rationale: An ODE is an equation relating a function to its derivatives; without the derivative concept the equation has no content.
+
+# ---- math: vectors -------------------------------------------------------
+- from: Euclidean vector
+  to: Dot product
+  type: prerequisite
+  rationale: The dot product is a binary operation on vectors; vectors are presupposed.
+
+- from: Euclidean vector
+  to: Cross product
+  type: prerequisite
+  rationale: The cross product is a binary operation on vectors in three dimensions; vectors are presupposed.
+
+# ---- physics: kinematic chain (intra-physics) ---------------------------
+- from: Time
+  to: Velocity
+  type: prerequisite
+  rationale: Velocity is defined as a rate of change with respect to time; time is presupposed.
+
+- from: Position (vector)
+  to: Velocity
+  type: prerequisite
+  rationale: Velocity is the time derivative of position; position is presupposed.
+
+- from: Velocity
+  to: Acceleration
+  type: prerequisite
+  rationale: Acceleration is the time derivative of velocity; velocity is presupposed.
+
+# ---- cross-domain: calculus → mechanics ---------------------------------
+# These are the headline forced edges the slice is designed to surface.
+- from: Derivative
+  to: Velocity
+  type: prerequisite
+  rationale: In continuous mechanics, velocity is defined as dx/dt — the derivative of position with respect to time. The derivative concept is required to even state what velocity means.
+
+- from: Derivative
+  to: Acceleration
+  type: prerequisite
+  rationale: Acceleration is dv/dt, the derivative of velocity with respect to time.
+
+- from: Euclidean vector
+  to: Velocity
+  type: prerequisite
+  rationale: Velocity is a vector quantity (magnitude and direction); the vector concept is required to distinguish it from speed.
+
+- from: Euclidean vector
+  to: Acceleration
+  type: prerequisite
+  rationale: Acceleration is a vector quantity.
+
+- from: Euclidean vector
+  to: Force
+  type: prerequisite
+  rationale: Force is a vector quantity; Newtonian mechanics treats forces as vectors that add componentwise.
+
+- from: Integral
+  to: Work (physics)
+  type: prerequisite
+  rationale: Work is defined as the line integral of force over displacement; the integral concept is required.
+
+- from: Ordinary differential equation
+  to: Newton's second law
+  type: prerequisite
+  rationale: Newton's second law in its dynamical form F = m·d²x/dt² is a second-order ODE; the ODE concept is required to state and solve it.
+
+- from: Cross product
+  to: Torque
+  type: prerequisite
+  rationale: Torque is defined as τ = r × F, the cross product of position and force.
+
+# ---- physics: Newton's second law dependencies --------------------------
+- from: Mass
+  to: Newton's second law
+  type: prerequisite
+  rationale: Newton's second law relates net force to mass times acceleration; mass is one of its terms.
+
+- from: Force
+  to: Newton's second law
+  type: prerequisite
+  rationale: Newton's second law expresses force in terms of mass and acceleration; force is the equation's subject.
+
+- from: Acceleration
+  to: Newton's second law
+  type: prerequisite
+  rationale: Newton's second law relates net force to mass times acceleration; acceleration is one of its terms.
+
+# ---- physics: energy chain ----------------------------------------------
+- from: Force
+  to: Work (physics)
+  type: prerequisite
+  rationale: Work is defined as the action of a force over a displacement; the force concept is required.
+
+- from: Work (physics)
+  to: Kinetic energy
+  type: prerequisite
+  rationale: Kinetic energy is defined via the work-energy theorem (work done equals change in kinetic energy); rigorously defining KE goes through work.
+
+- from: Kinetic energy
+  to: Conservation of energy
+  type: prerequisite
+  rationale: The conservation principle exchanges kinetic for other energy forms; KE is one of the terms it conserves.
+
+- from: Potential energy
+  to: Conservation of energy
+  type: prerequisite
+  rationale: The conservation principle exchanges potential for other energy forms; PE is one of the terms it conserves.
+
+# ---- physics: momentum chain --------------------------------------------
+- from: Mass
+  to: Momentum
+  type: prerequisite
+  rationale: Momentum is defined as mass times velocity; mass is one of its terms.
+
+- from: Velocity
+  to: Momentum
+  type: prerequisite
+  rationale: Momentum is defined as mass times velocity; velocity is one of its terms.
+
+- from: Momentum
+  to: Conservation of momentum
+  type: prerequisite
+  rationale: The conservation principle conserves momentum specifically; the momentum concept is presupposed.
+
+# ---- physics: rotational ------------------------------------------------
+- from: Force
+  to: Torque
+  type: prerequisite
+  rationale: Torque is the rotational analogue of force, defined as r × F; the force concept is required.
+
+- from: Mass
+  to: Moment of inertia
+  type: prerequisite
+  rationale: Moment of inertia is the rotational analogue of mass, computed from a mass distribution.
+
+- from: Moment of inertia
+  to: Angular momentum
+  type: prerequisite
+  rationale: Angular momentum equals moment of inertia times angular velocity; moment of inertia is one of its terms.
+
+- from: Angular velocity
+  to: Angular momentum
+  type: prerequisite
+  rationale: Angular momentum equals moment of inertia times angular velocity; angular velocity is one of its terms.
+
+# ---- physics: gravitation -----------------------------------------------
+- from: Mass
+  to: Newton's law of universal gravitation
+  type: prerequisite
+  rationale: The gravitational force law has the masses of the two bodies as its principal terms.
+
+- from: Force
+  to: Newton's law of universal gravitation
+  type: prerequisite
+  rationale: The law specifies a force; the force concept is presupposed.
+
+# ---- typed taxonomy edges (is-a / part-of) ------------------------------
+# Logical also emits these; they are structurally honest and prevent the
+# llm source from mis-labelling them as prerequisite.
+- from: Friction
+  to: Force
+  type: is-a
+  rationale: Friction is a kind of contact force.
+
+- from: Normal force
+  to: Force
+  type: is-a
+  rationale: A normal force is a kind of contact force.
+
+- from: Kinetic energy
+  to: Energy
+  type: is-a
+  rationale: Kinetic energy is a kind of energy.
+
+- from: Potential energy
+  to: Energy
+  type: is-a
+  rationale: Potential energy is a kind of energy.
+
+- from: Trigonometric functions
+  to: Function (mathematics)
+  type: is-a
+  rationale: Trigonometric functions are mathematical functions.

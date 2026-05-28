@@ -1,0 +1,77 @@
+# Frozen agent-extracted edges, textbook-style.
+#
+# This file stands in for a real corpus extractor. A future
+# `sources/llm_extract.py` will read textbook chunks, run an LLM with a
+# strict output contract, and produce this same shape. Until that exists,
+# we freeze the agent's own model-knowledge proposals to disk so they are
+# auditable and reproducible across runs.
+#
+# Reliability is set uniformly in code (0.45) because we have no corpus
+# anchor for these claims. Many of them will end up in review.jsonl by
+# threshold; the ones that overlap with logical will be reinforced and
+# carry the logical source's higher confidence after arbitration.
+
+# ---- overlaps with logical (arbitration should merge, not duplicate) ----
+- from: Derivative
+  to: Velocity
+  type: prerequisite
+  rationale: Textbook treatments of motion universally introduce derivatives before defining velocity in continuous form.
+
+- from: Force
+  to: Work (physics)
+  type: prerequisite
+  rationale: Work chapters in introductory physics texts presuppose force.
+
+# ---- intentional CONFLICT: opposite direction to a logical edge --------
+# Logical says: Position (vector) -> Velocity (velocity is the derivative
+# of position). Here the llm proposes the reverse, framing it the way some
+# texts do — "position is the integral of velocity, so velocity is taught
+# first." Arbitration must surface this, not silently pick a winner.
+- from: Velocity
+  to: Position (vector)
+  type: prerequisite
+  rationale: Some texts derive position by integrating velocity, suggesting velocity is the more fundamental kinematic quantity.
+
+# ---- new edges logical didn't have, low confidence ---------------------
+- from: Trigonometric functions
+  to: Simple harmonic motion
+  type: prerequisite
+  rationale: SHM solutions are written as sines and cosines; texts presuppose familiarity with trig functions.
+
+- from: Ordinary differential equation
+  to: Simple harmonic motion
+  type: prerequisite
+  rationale: SHM is the canonical second-order linear ODE example; texts often introduce it as such.
+
+- from: Newton's second law
+  to: Simple harmonic motion
+  type: prerequisite
+  rationale: SHM derivations apply F = -kx in Newton's second law.
+
+- from: Conservation of energy
+  to: Simple harmonic motion
+  type: prerequisite
+  rationale: Energy-method derivations of SHM use the conservation principle.
+
+- from: Newton's second law
+  to: Projectile motion
+  type: prerequisite
+  rationale: Projectile analyses apply Newton's second law under constant gravitational acceleration.
+
+- from: Euclidean vector
+  to: Projectile motion
+  type: prerequisite
+  rationale: Projectile motion is analysed by decomposing motion into vector components.
+
+- from: Newton's law of universal gravitation
+  to: Projectile motion
+  type: prerequisite
+  rationale: Texts often introduce gravitation before treating projectile motion near the Earth's surface.
+
+# ---- a borderline edge that should land in review by type concern ------
+# llm proposes this as prerequisite, but logical asserts is-a. Arbitration
+# routes the type mismatch to review.
+- from: Friction
+  to: Newton's second law
+  type: prerequisite
+  rationale: Friction problems are typically worked using Newton's second law and are introduced together in the same chapter.

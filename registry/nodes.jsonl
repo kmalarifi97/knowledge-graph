@@ -1,0 +1,38 @@
+{"id":"Q11348","label":"Function (mathematics)","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q11348","verified":true},"aliases":["Function","Mathematical function"]}
+{"id":"Q12916","label":"Real number","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q12916","verified":true},"aliases":["Reals"]}
+{"id":"Q246639","label":"Limit of a function","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q246639","verified":false},"aliases":["Limit","Mathematical limit"]}
+{"id":"Q11197","label":"Derivative","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q11197","verified":true},"aliases":["Differentiation","Derivative (mathematics)"]}
+{"id":"Q186475","label":"Partial derivative","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q186475","verified":false},"aliases":["Partial derivatives"]}
+{"id":"Q752211","label":"Antiderivative","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q752211","verified":false},"aliases":["Indefinite integral","Primitive function"]}
+{"id":"Q80091","label":"Integral","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q80091","verified":false},"aliases":["Definite integral","Integration"]}
+{"id":"Q205084","label":"Fundamental theorem of calculus","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q205084","verified":false},"aliases":["FTC"]}
+{"id":"Q465274","label":"Ordinary differential equation","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q465274","verified":false},"aliases":["ODE","Ordinary differential equations"]}
+{"id":"Q44528","label":"Euclidean vector","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q44528","verified":true},"aliases":["Vector","Vector (mathematics)"]}
+{"id":"Q178192","label":"Dot product","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q178192","verified":false},"aliases":["Scalar product","Inner product (Euclidean)"]}
+{"id":"kg:tmp:cross-product","label":"Cross product","domain":"mathematics","anchor":{"source":"tentative","qid":"kg:tmp:cross-product","verified":false},"aliases":["Vector product"]}
+{"id":"Q93344","label":"Trigonometric functions","domain":"mathematics","anchor":{"source":"wikidata","qid":"Q93344","verified":false},"aliases":["Trig functions","Sine and cosine"]}
+{"id":"Q11471","label":"Time","domain":"physics","anchor":{"source":"wikidata","qid":"Q11471","verified":true},"aliases":["Physical time"]}
+{"id":"Q11423","label":"Mass","domain":"physics","anchor":{"source":"wikidata","qid":"Q11423","verified":true},"aliases":["Inertial mass"]}
+{"id":"Q44417","label":"Position (vector)","domain":"physics","anchor":{"source":"wikidata","qid":"Q44417","verified":false},"aliases":["Position","Position vector"]}
+{"id":"Q190291","label":"Displacement (geometry)","domain":"physics","anchor":{"source":"wikidata","qid":"Q190291","verified":false},"aliases":["Displacement","Displacement vector"]}
+{"id":"Q11465","label":"Velocity","domain":"physics","anchor":{"source":"wikidata","qid":"Q11465","verified":true},"aliases":["Speed (vector)"]}
+{"id":"Q11376","label":"Acceleration","domain":"physics","anchor":{"source":"wikidata","qid":"Q11376","verified":true},"aliases":[]}
+{"id":"Q11402","label":"Force","domain":"physics","anchor":{"source":"wikidata","qid":"Q11402","verified":true},"aliases":["Net force"]}
+{"id":"Q14627","label":"Newton's laws of motion","domain":"physics","anchor":{"source":"wikidata","qid":"Q14627","verified":true},"aliases":["Newtonian laws"]}
+{"id":"Q2397319","label":"Newton's second law","domain":"physics","anchor":{"source":"wikidata","qid":"Q2397319","verified":false},"aliases":["Newton's second law of motion","F=ma"]}
+{"id":"Q166231","label":"Friction","domain":"physics","anchor":{"source":"wikidata","qid":"Q166231","verified":true},"aliases":["Frictional force"]}
+{"id":"Q1058508","label":"Normal force","domain":"physics","anchor":{"source":"wikidata","qid":"Q1058508","verified":false},"aliases":[]}
+{"id":"Q42213","label":"Work (physics)","domain":"physics","anchor":{"source":"wikidata","qid":"Q42213","verified":true},"aliases":["Mechanical work"]}
+{"id":"Q11379","label":"Energy","domain":"physics","anchor":{"source":"wikidata","qid":"Q11379","verified":true},"aliases":[]}
+{"id":"Q46276","label":"Kinetic energy","domain":"physics","anchor":{"source":"wikidata","qid":"Q46276","verified":true},"aliases":[]}
+{"id":"Q155640","label":"Potential energy","domain":"physics","anchor":{"source":"wikidata","qid":"Q155640","verified":true},"aliases":[]}
+{"id":"Q133235","label":"Conservation of energy","domain":"physics","anchor":{"source":"wikidata","qid":"Q133235","verified":true},"aliases":["Energy conservation"]}
+{"id":"Q41273","label":"Momentum","domain":"physics","anchor":{"source":"wikidata","qid":"Q41273","verified":true},"aliases":["Linear momentum"]}
+{"id":"Q170298","label":"Conservation of momentum","domain":"physics","anchor":{"source":"wikidata","qid":"Q170298","verified":false},"aliases":["Momentum conservation"]}
+{"id":"Q48103","label":"Torque","domain":"physics","anchor":{"source":"wikidata","qid":"Q48103","verified":false},"aliases":["Moment of force"]}
+{"id":"Q161635","label":"Angular velocity","domain":"physics","anchor":{"source":"wikidata","qid":"Q161635","verified":false},"aliases":[]}
+{"id":"Q161254","label":"Angular momentum","domain":"physics","anchor":{"source":"wikidata","qid":"Q161254","verified":false},"aliases":[]}
+{"id":"Q165618","label":"Moment of inertia","domain":"physics","anchor":{"source":"wikidata","qid":"Q165618","verified":false},"aliases":[]}
+{"id":"Q188488","label":"Simple harmonic motion","domain":"physics","anchor":{"source":"wikidata","qid":"Q188488","verified":false},"aliases":["SHM"]}
+{"id":"Q14620","label":"Newton's law of universal gravitation","domain":"physics","anchor":{"source":"wikidata","qid":"Q14620","verified":false},"aliases":["Universal gravitation","Newtonian gravity"]}
+{"id":"Q3009","label":"Projectile motion","domain":"physics","anchor":{"source":"wikidata","qid":"Q3009","verified":false},"aliases":["Projectile"]}

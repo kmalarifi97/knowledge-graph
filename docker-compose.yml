@@ -1,0 +1,25 @@
+# One service today. Neo4j slot reserved for when the JSONL store graduates
+# to a real graph database; until then nothing here depends on it.
+services:
+  kg:
+    build: .
+    image: knowledge-graph:dev
+    container_name: kg
+    working_dir: /app
+    # Bind-mount the repo so JSONL outputs land back in the host tree and
+    # are diffable under git. Without this, generated files would only
+    # exist inside the container layer.
+    volumes:
+      - ./:/app
+    # Default command from Dockerfile runs the pipeline. Override with
+    # `docker compose run --rm kg <cmd>` for ad-hoc work.
+
+  # neo4j:
+  #   image: neo4j:5-community
+  #   environment:
+  #     NEO4J_AUTH: neo4j/changeme
+  #   ports:
+  #     - "7474:7474"
+  #     - "7687:7687"
+  #   volumes:
+  #     - ./store/neo4j:/data
