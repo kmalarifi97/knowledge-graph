@@ -55,9 +55,9 @@
 
 # ---- math: vectors -------------------------------------------------------
 - from: Euclidean vector
-  to: Dot product
+  to: Scalar product
   type: prerequisite
-  rationale: The dot product is a binary operation on vectors; vectors are presupposed.
+  rationale: The dot (scalar) product is a binary operation on vectors; vectors are presupposed.
 
 - from: Euclidean vector
   to: Cross product
@@ -70,7 +70,7 @@
   type: prerequisite
   rationale: Velocity is defined as a rate of change with respect to time; time is presupposed.
 
-- from: Position (vector)
+- from: Position vector
   to: Velocity
   type: prerequisite
   rationale: Velocity is the time derivative of position; position is presupposed.
@@ -120,7 +120,7 @@
 - from: Cross product
   to: Torque
   type: prerequisite
-  rationale: Torque is defined as τ = r × F, the cross product of position and force.
+  rationale: Torque is defined as τ = r × F, the cross product of position vector and force.
 
 # ---- physics: Newton's second law dependencies --------------------------
 - from: Mass
@@ -230,7 +230,113 @@
   type: is-a
   rationale: Potential energy is a kind of energy.
 
-- from: Trigonometric functions
+- from: Trigonometric function
   to: Function (mathematics)
   type: is-a
   rationale: Trigonometric functions are mathematical functions.
+
+# ============================================================
+# Chemistry vertical: kinetics + thermochemistry
+# Cross-domain forced edges live here, not in a separate file —
+# the graph is one asset across domains by design.
+# ============================================================
+
+# ---- cross-domain: math → chemistry ------------------------------------
+- from: Derivative
+  to: Reaction rate
+  type: prerequisite
+  rationale: Reaction rate is defined as d[C]/dt, the time derivative of a concentration; the derivative concept is required to state what rate means.
+
+- from: Ordinary differential equation
+  to: Rate equation
+  type: prerequisite
+  rationale: A rate equation in differential form (e.g. d[A]/dt = -k[A]^n) is an ODE; the ODE concept is required to state and integrate it.
+
+- from: Exponential function
+  to: Arrhenius equation
+  type: prerequisite
+  rationale: The Arrhenius equation k = A·exp(-Ea/RT) is an exponential dependence on inverse temperature; the exponential function is presupposed.
+
+- from: Logarithm
+  to: Arrhenius equation
+  type: prerequisite
+  rationale: The linearized Arrhenius form ln k = ln A - Ea/(RT) is what is used to extract Ea from data; the logarithm is presupposed in the standard analysis.
+
+# ---- cross-domain: physics → chemistry ---------------------------------
+- from: Energy
+  to: Enthalpy
+  type: prerequisite
+  rationale: Enthalpy H = U + pV is a thermodynamic energy quantity; the energy concept is presupposed.
+
+- from: Conservation of energy
+  to: Hess's law
+  type: prerequisite
+  rationale: Hess's law (the enthalpy change of a reaction is path-independent) is a direct consequence of energy conservation applied to state functions.
+
+- from: Temperature
+  to: Arrhenius equation
+  type: prerequisite
+  rationale: Temperature T appears explicitly in the Arrhenius equation; it is presupposed.
+
+- from: Temperature
+  to: Chemical equilibrium
+  type: prerequisite
+  rationale: The position and constant of a chemical equilibrium are temperature-dependent (van't Hoff); the temperature concept is presupposed.
+
+# ---- intra-chemistry: kinetics chain -----------------------------------
+- from: Chemical reaction
+  to: Reaction rate
+  type: prerequisite
+  rationale: A reaction rate is the rate *of* a chemical reaction; the reaction concept is presupposed.
+
+- from: Concentration
+  to: Reaction rate
+  type: prerequisite
+  rationale: Reaction rate is defined as the rate of change of a species' concentration; the concentration concept is required to define rate.
+
+- from: Reaction rate
+  to: Rate equation
+  type: prerequisite
+  rationale: A rate equation expresses how the reaction rate depends on concentrations; the rate concept is its subject.
+
+- from: Rate equation
+  to: Reaction rate constant
+  type: prerequisite
+  rationale: The rate constant k is, by definition, the proportionality constant appearing in the rate equation; the rate equation is presupposed.
+
+- from: Activation energy
+  to: Arrhenius equation
+  type: prerequisite
+  rationale: Ea is one of the equation's terms.
+
+- from: Reaction rate constant
+  to: Arrhenius equation
+  type: prerequisite
+  rationale: The Arrhenius equation gives k as a function of T; the rate constant is its subject.
+
+# ---- intra-chemistry: equilibrium chain --------------------------------
+- from: Chemical reaction
+  to: Chemical equilibrium
+  type: prerequisite
+  rationale: Chemical equilibrium is the state a reaction system reaches; the reaction concept is presupposed.
+
+- from: Chemical equilibrium
+  to: Equilibrium constant
+  type: prerequisite
+  rationale: The equilibrium constant characterizes a chemical equilibrium; the equilibrium concept is presupposed.
+
+- from: Chemical equilibrium
+  to: Le Chatelier's principle
+  type: prerequisite
+  rationale: Le Chatelier's principle describes how equilibria respond to perturbation; the equilibrium concept is presupposed.
+
+# ---- intra-chemistry: thermochemistry ----------------------------------
+- from: Enthalpy
+  to: Thermochemistry
+  type: prerequisite
+  rationale: Thermochemistry is the study of enthalpy and entropy changes accompanying chemical reactions; the enthalpy concept is presupposed.
+
+- from: Enthalpy
+  to: Hess's law
+  type: prerequisite
+  rationale: Hess's law operates on enthalpy changes; the enthalpy concept is presupposed.

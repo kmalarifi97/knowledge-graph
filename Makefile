@@ -12,7 +12,18 @@ pipeline: build
 
 # Individual stages, useful when debugging one component.
 registry: build
-	docker compose run --rm kg python -m registry.registry --sync
+	docker compose run --rm kg python -m registry.registry
+
+sync: build
+	docker compose run --rm kg python -m registry.sync
+
+sync-dry: build
+	docker compose run --rm kg python -m registry.sync --dry-run
+
+# Re-verify every anchor, including ones already marked verified.
+# Catches the case where an over-confident seed assertion was wrong.
+sync-all: build
+	docker compose run --rm kg python -m registry.sync --all
 
 logical: build
 	docker compose run --rm kg python -m sources.logical

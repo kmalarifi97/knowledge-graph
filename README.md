@@ -59,13 +59,25 @@ Acceptance threshold: **0.70**. Below threshold → `review.jsonl`.
 
 ## Scope of this pass
 
-Vertical slice: **classical mechanics + the calculus it forces**.
-Picked to exercise the full pipeline including a cross-domain forced edge
-(calculus → dynamics), entity resolution, DAG check, and arbitration
-between `logical` and `llm` sources.
+Two vertical slices:
 
-The other domains (chemistry, the rest of physics, the rest of math) are
-deliberately not seeded yet. Prove the machine before scaling it.
+1. **Classical mechanics + the calculus it forces** — proves the pipeline
+   end-to-end on one tract, including cross-domain forced edges
+   (math → physics) and the directional-conflict path.
+2. **Chemical kinetics + thermochemistry** — proves the machine scales to
+   a second domain. Adds chemistry nodes plus a few supporting math/physics
+   nodes (Logarithm, Exponential function, Temperature) and exercises two
+   new cross-domain forced edges (math → chemistry, physics → chemistry).
+
+The two slices share one registry and one arbitrated graph — chemistry is
+not a separate stream. Cross-domain edges flow naturally through
+arbitration with no special handling.
+
+Anchor hygiene: every node is verified against Wikidata via
+`registry/sync.py`. Run `make sync-all` to re-verify the whole registry
+(including previously-trusted seeds) — this exists because the agent's
+confident-but-wrong QID assertions were caught by it, not by the original
+sync pass.
 
 ## Running
 
