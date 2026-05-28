@@ -1,0 +1,107 @@
+{
+  "book": {
+    "title_ar": "علوم الأرض والفضاء",
+    "title_en": "Earth and Space Sciences",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 453,
+    "page_offset": 0,
+    "notes": "Front cover labels this as الجزء الأول (1-1) — Part 1 of 1; treated as a single-part book with chapters at the top level (no units above chapters). Glossary (المصطلحات) is by far the largest appendix (~208 pages, p246–453) which is unusual but matches what is in the PDF."
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_ar": "تطور الكون",
+      "title_en": "Evolution of the Universe",
+      "start_page": 12,
+      "end_page": 39,
+      "lessons": [
+        { "id": "1-1", "title_ar": "نشأة الكون", "start_page": 14, "end_page": 23 },
+        { "id": "1-2", "title_ar": "النجوم والمجرات", "start_page": 24, "end_page": 39 }
+      ]
+    },
+    {
+      "id": 2,
+      "title_ar": "الميكانيكا السماوية",
+      "title_en": "Celestial Mechanics",
+      "start_page": 40,
+      "end_page": 73,
+      "lessons": [
+        { "id": "2-1", "title_ar": "قانون المجاذبية وقوانين كبلر", "start_page": 42, "end_page": 54 },
+        { "id": "2-2", "title_ar": "التقنية الفضائية", "start_page": 55, "end_page": 73 }
+      ]
+    },
+    {
+      "id": 3,
+      "title_ar": "المعادن",
+      "title_en": "Minerals",
+      "start_page": 74,
+      "end_page": 99,
+      "lessons": [
+        { "id": "3-1", "title_ar": "ما المعدن؟", "start_page": 76, "end_page": 85 },
+        { "id": "3-2", "title_ar": "أنواع المعادن وأهميتها", "start_page": 86, "end_page": 99 }
+      ]
+    },
+    {
+      "id": 4,
+      "title_ar": "الصخور",
+      "title_en": "Rocks",
+      "start_page": 100,
+      "end_page": 149,
+      "lessons": [
+        { "id": "4-1", "title_ar": "ما الصخور النارية؟", "start_page": 102, "end_page": 107 },
+        { "id": "4-2", "title_ar": "تصنيف الصخور النارية", "start_page": 108, "end_page": 115 },
+        { "id": "4-3", "title_ar": "تشكل الصخور الرسوبية", "start_page": 116, "end_page": 122 },
+        { "id": "4-4", "title_ar": "أنواع الصخور الرسوبية", "start_page": 123, "end_page": 127 },
+        { "id": "4-5", "title_ar": "الصخور المتحولة", "start_page": 128, "end_page": 149 }
+      ]
+    },
+    {
+      "id": 5,
+      "title_ar": "الصفائح الأرضية وآثارها",
+      "title_en": "Earth's Plates and their Effects",
+      "start_page": 150,
+      "end_page": 177,
+      "lessons": [
+        { "id": "5-1", "title_ar": "انجراف القارات", "start_page": 152, "end_page": 156 },
+        { "id": "5-2", "title_ar": "توسع قاع المحيط", "start_page": 157, "end_page": 163 },
+        { "id": "5-3", "title_ar": "حدود الصفائح وأسباب حركتها", "start_page": 164, "end_page": 177 }
+      ]
+    },
+    {
+      "id": 6,
+      "title_ar": "البراكين والزلازل",
+      "title_en": "Volcanoes and Earthquakes",
+      "start_page": 178,
+      "end_page": 226,
+      "lessons": [
+        { "id": "6-1", "title_ar": "ما البركان؟", "start_page": 180, "end_page": 188 },
+        { "id": "6-2", "title_ar": "الثورانات البركانية", "start_page": 189, "end_page": 195 },
+        { "id": "6-3", "title_ar": "الأمواج الزلزالية وبنية الأرض", "start_page": 196, "end_page": 203 },
+        { "id": "6-4", "title_ar": "قياس الزلازل وتحديد أماكنها", "start_page": 204, "end_page": 209 },
+        { "id": "6-5", "title_ar": "الزلازل والمجتمع", "start_page": 210, "end_page": 226 }
+      ]
+    }
+  ],
+  "appendices": [
+    { "id": "minerals-metallic-luster", "title_ar": "صفات المعادن ذات البريق الفلزي", "start_page": 228, "end_page": 228 },
+    { "id": "minerals-nonmetallic-luster", "title_ar": "صفات المعادن ذات البريق اللافلزي", "start_page": 229, "end_page": 229 },
+    { "id": "rock-properties", "title_ar": "خواص الصخور", "start_page": 230, "end_page": 231 },
+    { "id": "cosmic-facts-sheet", "title_ar": "صحيفة الحقائق الكونية", "start_page": 232, "end_page": 233 },
+    { "id": "metallic-minerals-ksa", "title_ar": "المعادن الفلزية في المملكة العربية السعودية", "start_page": 234, "end_page": 235 },
+    { "id": "ocean-emergence-map", "title_ar": "خريطة ظهور المحيطات", "start_page": 236, "end_page": 237 },
+    { "id": "plate-boundaries", "title_ar": "حدود الصفائح", "start_page": 238, "end_page": 239 },
+    { "id": "arabian-peninsula-geology", "title_ar": "جيولوجية شبه الجزيرة العربية", "start_page": 240, "end_page": 241 },
+    { "id": "seismic-stations-ksa", "title_ar": "مواقع محطات الرصد الزلزالي في المملكة", "start_page": 242, "end_page": 242 },
+    { "id": "world-earthquake-epicenters", "title_ar": "مواقع المراكز السطحية للزلازل في العالم", "start_page": 243, "end_page": 243 },
+    { "id": "ksa-lava-fields", "title_ar": "الحرات في المملكة العربية السعودية", "start_page": 244, "end_page": 244 },
+    { "id": "industrial-minerals-ksa", "title_ar": "المعادن الصناعية في المملكة العربية السعودية", "start_page": 245, "end_page": 245 },
+    { "id": "glossary", "title_ar": "المصطلحات", "start_page": 246, "end_page": 453 }
+  ],
+  "confidence_notes": [
+    "Chapter end_page values cover all in-chapter features after the last lesson (دليل مراجعة الفصل، تقويم الفصل، اختبار مقنن). For chapters that have these wrap-up pages, the last lesson's end_page extends to one page before the next chapter starts (so 'lessons' span the entire chapter range, including review/test pages). This matches the convention from other earth-science book mappings where wrap-up material is folded into the final lesson rather than listed as separate sub-sections.",
+    "Section مرجعيات الطالب (Student References) is a page 227 cover/divider before the appendices; appendices listed individually below start at 228.",
+    "Glossary (المصطلحات) end_page=453 is the final PDF page; verified by reading p449–453 which all contain glossary entries.",
+    "Front cover at PDF p6 is labelled 'الجزء الأول (1-1)' — interpreted as 'Part 1 of 1' (i.e., the book is a single part). No unit-level structure used."
+  ]
+}

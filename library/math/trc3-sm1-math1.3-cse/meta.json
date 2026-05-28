@@ -1,0 +1,39 @@
+{
+  "folder": "math/trc3-sm1-math1.3-cse",
+  "subject": "math",
+  "trc": "TRC3",
+  "sm": "SM1",
+  "code": "MATH1.3",
+  "track": "CSE",
+  "files": [
+    {
+      "name": "volume-1.pdf",
+      "md5": "bb5e8aa453f029d831047873aae8ba44",
+      "source_filename": "3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+      "size_bytes": 19864031
+    },
+    {
+      "name": "volume-2.pdf",
+      "md5": "074d8211395c873f121d14877bfb7fd8",
+      "source_filename": "66ba6895-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/66ba6895-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+      "size_bytes": 15511143
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "acb71ab2609b13e10d2388aa6a6c8e6a",
+      "source_filename": "346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+      "size_bytes": 1569546
+    }
+  ],
+  "page_count": 213,
+  "pdf_metadata": {
+    "format": "PDF 1.7",
+    "creator": "Adobe InDesign 18.5 (Macintosh)",
+    "producer": "GPL Ghostscript 10.05.1",
+    "creationDate": "D:20251111113023Z00'00'",
+    "modDate": "D:20251111143317+03'00'"
+  }
+}

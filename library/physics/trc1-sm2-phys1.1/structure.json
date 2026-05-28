@@ -1,0 +1,223 @@
+{
+  "book": {
+    "title_ar": "الفيزياء 1 - التعليم الثانوي - نظام المسارات - السنة الثانية",
+    "title_en": "Physics 1 - Secondary Education - Pathways System - Year 2 (Single Track)",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 214,
+    "page_offset": 0,
+    "notes": "TRC1 SM2 single-track physics. PDF page number == printed page number. TOC located on pages 6-7."
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_ar": "مدخل إلى علم الفيزياء",
+      "title_en": "A Physics Toolkit",
+      "start_page": 8,
+      "end_page": 29,
+      "lessons": [
+        {
+          "id": "1-1",
+          "title_ar": "الرياضيات والفيزياء",
+          "title_en": "Mathematics and Physics",
+          "start_page": 9,
+          "end_page": 15
+        },
+        {
+          "id": "1-2",
+          "title_ar": "القياس",
+          "title_en": "Measurement",
+          "start_page": 16,
+          "end_page": 29
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_ar": "تمثيل الحركة",
+      "title_en": "Representing Motion",
+      "start_page": 30,
+      "end_page": 57,
+      "lessons": [
+        {
+          "id": "2-1",
+          "title_ar": "تصوير الحركة",
+          "title_en": "Picturing Motion",
+          "start_page": 31,
+          "end_page": 33
+        },
+        {
+          "id": "2-2",
+          "title_ar": "الموقع والزمن",
+          "title_en": "Position and Time",
+          "start_page": 34,
+          "end_page": 37
+        },
+        {
+          "id": "2-3",
+          "title_ar": "منحنى (الموقع - الزمن)",
+          "title_en": "Position–Time Graphs",
+          "start_page": 38,
+          "end_page": 42
+        },
+        {
+          "id": "2-4",
+          "title_ar": "السرعة المتجهة",
+          "title_en": "Velocity",
+          "start_page": 43,
+          "end_page": 57
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_ar": "الحركة المتسارعة",
+      "title_en": "Accelerated Motion",
+      "start_page": 58,
+      "end_page": 93,
+      "lessons": [
+        {
+          "id": "3-1",
+          "title_ar": "التسارع (العجلة)",
+          "title_en": "Acceleration",
+          "start_page": 59,
+          "end_page": 69
+        },
+        {
+          "id": "3-2",
+          "title_ar": "الحركة بتسارع ثابت",
+          "title_en": "Motion with Constant Acceleration",
+          "start_page": 70,
+          "end_page": 78
+        },
+        {
+          "id": "3-3",
+          "title_ar": "السقوط الحر",
+          "title_en": "Free Fall",
+          "start_page": 79,
+          "end_page": 93
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_ar": "القوى في بُعد واحد",
+      "title_en": "Forces in One Dimension",
+      "start_page": 94,
+      "end_page": 129,
+      "lessons": [
+        {
+          "id": "4-1",
+          "title_ar": "القوة والحركة",
+          "title_en": "Force and Motion",
+          "start_page": 95,
+          "end_page": 104
+        },
+        {
+          "id": "4-2",
+          "title_ar": "استخدام قوانين نيوتن",
+          "title_en": "Using Newton's Laws",
+          "start_page": 105,
+          "end_page": 111
+        },
+        {
+          "id": "4-3",
+          "title_ar": "قوى التأثير المتبادل",
+          "title_en": "Interaction Forces",
+          "start_page": 112,
+          "end_page": 129
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_ar": "القوى في بُعدين",
+      "title_en": "Forces in Two Dimensions",
+      "start_page": 130,
+      "end_page": 159,
+      "lessons": [
+        {
+          "id": "5-1",
+          "title_ar": "المتجهات",
+          "title_en": "Vectors",
+          "start_page": 131,
+          "end_page": 138
+        },
+        {
+          "id": "5-2",
+          "title_ar": "الاحتكاك",
+          "title_en": "Friction",
+          "start_page": 139,
+          "end_page": 145
+        },
+        {
+          "id": "5-3",
+          "title_ar": "القوة والحركة في بُعدين",
+          "title_en": "Force and Motion in Two Dimensions",
+          "start_page": 146,
+          "end_page": 159
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_ar": "الحركة في بُعدين",
+      "title_en": "Motion in Two Dimensions",
+      "start_page": 160,
+      "end_page": 183,
+      "lessons": [
+        {
+          "id": "6-1",
+          "title_ar": "حركة المقذوف",
+          "title_en": "Projectile Motion",
+          "start_page": 161,
+          "end_page": 167
+        },
+        {
+          "id": "6-2",
+          "title_ar": "الحركة الدائرية",
+          "title_en": "Circular Motion",
+          "start_page": 168,
+          "end_page": 171
+        },
+        {
+          "id": "6-3",
+          "title_ar": "السرعة المتجهة النسبية",
+          "title_en": "Relative Velocity",
+          "start_page": 172,
+          "end_page": 183
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "id": "student-resources",
+      "title_ar": "مصادر تعليمية للطالب",
+      "title_en": "Student Resources",
+      "start_page": 184,
+      "end_page": 184
+    },
+    {
+      "id": "math",
+      "title_ar": "دليل الرياضيات",
+      "title_en": "Math Reference",
+      "start_page": 185,
+      "end_page": 205
+    },
+    {
+      "id": "tables",
+      "title_ar": "الجداول",
+      "title_en": "Tables",
+      "start_page": 206,
+      "end_page": 207
+    },
+    {
+      "id": "glossary",
+      "title_ar": "المصطلحات",
+      "title_en": "Glossary",
+      "start_page": 208,
+      "end_page": 214
+    }
+  ]
+}

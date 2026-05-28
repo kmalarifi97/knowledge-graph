@@ -1,0 +1,555 @@
+{
+  "book": {
+    "title_ar": "الفيزياء - التعليم الثانوي - نظام المسارات - مسار علوم الحاسب والهندسة",
+    "title_en": "Physics - Secondary Education - Pathways System - Computer Science & Engineering Track",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 621,
+    "page_offset": 0,
+    "notes": "Two-volume CSE-track edition. volume-1.pdf (306 pp) covers electricity, magnetism, EM, quantum/atomic, solid-state and nuclear physics; volume-2.pdf (315 pp) covers states of matter, waves, sound, optics, and electrostatics. Each volume restarts chapter numbering at 1; PDF page numbers reset per file (each volume has page_offset 0). Chapter ids below are scoped per volume via source_file.",
+    "volumes": [
+      {
+        "file": "volume-1.pdf",
+        "page_count": 306
+      },
+      {
+        "file": "volume-2.pdf",
+        "page_count": 315
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "source_file": "volume-1.pdf",
+      "title_ar": "الكهرباء التيارية",
+      "title_en": "Current Electricity",
+      "start_page": 10,
+      "end_page": 39,
+      "lessons": [
+        {
+          "id": "1-1",
+          "title_ar": "التيار الكهربائي والدوائر الكهربائية",
+          "title_en": "Current and Circuits",
+          "start_page": 11,
+          "end_page": 22
+        },
+        {
+          "id": "1-2",
+          "title_ar": "استخدام الطاقة الكهربائية",
+          "title_en": "Using Electric Energy",
+          "start_page": 23,
+          "end_page": 39
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "source_file": "volume-1.pdf",
+      "title_ar": "دوائر التوالي والتوازي الكهربائية",
+      "title_en": "Series and Parallel Circuits",
+      "start_page": 40,
+      "end_page": 69,
+      "lessons": [
+        {
+          "id": "2-1",
+          "title_ar": "الدوائر الكهربائية البسيطة",
+          "title_en": "Simple Circuits",
+          "start_page": 41,
+          "end_page": 51
+        },
+        {
+          "id": "2-2",
+          "title_ar": "تطبيقات الدوائر الكهربائية",
+          "title_en": "Applications of Circuits",
+          "start_page": 52,
+          "end_page": 69
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "source_file": "volume-1.pdf",
+      "title_ar": "المجالات المغناطيسية",
+      "title_en": "Magnetic Fields",
+      "start_page": 70,
+      "end_page": 103,
+      "lessons": [
+        {
+          "id": "3-1",
+          "title_ar": "المغانط: الدائمة والمؤقتة",
+          "title_en": "Magnets: Permanent and Temporary",
+          "start_page": 71,
+          "end_page": 80
+        },
+        {
+          "id": "3-2",
+          "title_ar": "القوى الناتجة عن المجالات المغناطيسية",
+          "title_en": "Forces Caused by Magnetic Fields",
+          "start_page": 81,
+          "end_page": 103
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "source_file": "volume-1.pdf",
+      "title_ar": "الحث الكهرومغناطيسي",
+      "title_en": "Electromagnetic Induction",
+      "start_page": 104,
+      "end_page": 135,
+      "lessons": [
+        {
+          "id": "4-1",
+          "title_ar": "التيار الكهربائي الناتج عن المجالات المغناطيسية",
+          "title_en": "Inducing Currents from Magnetic Fields",
+          "start_page": 105,
+          "end_page": 114
+        },
+        {
+          "id": "4-2",
+          "title_ar": "المجالات المغناطيسية تولد قوة دافعة كهربائية حثية",
+          "title_en": "Changing Magnetic Fields Induce EMF",
+          "start_page": 115,
+          "end_page": 135
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "source_file": "volume-1.pdf",
+      "title_ar": "الكهرومغناطيسية",
+      "title_en": "Electromagnetism",
+      "start_page": 136,
+      "end_page": 163,
+      "lessons": [
+        {
+          "id": "5-1",
+          "title_ar": "تفاعلات المجالات الكهربائية والمغناطيسية والمادة",
+          "title_en": "Interactions of Electric and Magnetic Fields and Matter",
+          "start_page": 137,
+          "end_page": 144
+        },
+        {
+          "id": "5-2",
+          "title_ar": "المجالات الكهربائية والمغناطيسية في الفضاء",
+          "title_en": "Electric and Magnetic Fields in Space",
+          "start_page": 145,
+          "end_page": 163
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "source_file": "volume-1.pdf",
+      "title_ar": "نظرية الكم",
+      "title_en": "Quantum Theory",
+      "start_page": 164,
+      "end_page": 189,
+      "lessons": [
+        {
+          "id": "6-1",
+          "title_ar": "النموذج الجسيمي للموجات",
+          "title_en": "The Particle Model of Waves",
+          "start_page": 165,
+          "end_page": 176
+        },
+        {
+          "id": "6-2",
+          "title_ar": "موجات المادة",
+          "title_en": "Matter Waves",
+          "start_page": 177,
+          "end_page": 189
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "source_file": "volume-1.pdf",
+      "title_ar": "الذرة",
+      "title_en": "The Atom",
+      "start_page": 190,
+      "end_page": 221,
+      "lessons": [
+        {
+          "id": "7-1",
+          "title_ar": "نموذج بور الذري",
+          "title_en": "The Bohr Model of the Atom",
+          "start_page": 191,
+          "end_page": 204
+        },
+        {
+          "id": "7-2",
+          "title_ar": "النموذج الكمي للذرة",
+          "title_en": "The Quantum Model of the Atom",
+          "start_page": 205,
+          "end_page": 221
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "source_file": "volume-1.pdf",
+      "title_ar": "إلكترونيات الحالة الصلبة",
+      "title_en": "Solid-State Electronics",
+      "start_page": 222,
+      "end_page": 251,
+      "lessons": [
+        {
+          "id": "8-1",
+          "title_ar": "التوصيل الكهربائي في المواد الصلبة",
+          "title_en": "Conduction in Solids",
+          "start_page": 223,
+          "end_page": 234
+        },
+        {
+          "id": "8-2",
+          "title_ar": "الأدوات الإلكترونية",
+          "title_en": "Electronic Devices",
+          "start_page": 235,
+          "end_page": 251
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "source_file": "volume-1.pdf",
+      "title_ar": "الفيزياء النووية",
+      "title_en": "Nuclear Physics",
+      "start_page": 252,
+      "end_page": 288,
+      "lessons": [
+        {
+          "id": "9-1",
+          "title_ar": "النواة",
+          "title_en": "The Nucleus",
+          "start_page": 253,
+          "end_page": 259
+        },
+        {
+          "id": "9-2",
+          "title_ar": "الاضمحلال النووي والتفاعلات النووية",
+          "title_en": "Nuclear Decay and Reactions",
+          "start_page": 260,
+          "end_page": 268
+        },
+        {
+          "id": "9-3",
+          "title_ar": "وحدات بناء المادة",
+          "title_en": "The Building Blocks of Matter",
+          "start_page": 269,
+          "end_page": 288
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "source_file": "volume-2.pdf",
+      "title_ar": "حالات المادة",
+      "title_en": "States of Matter",
+      "start_page": 10,
+      "end_page": 55,
+      "lessons": [
+        {
+          "id": "10-1",
+          "title_ar": "خصائص الموائع",
+          "title_en": "Properties of Fluids",
+          "start_page": 11,
+          "end_page": 21
+        },
+        {
+          "id": "10-2",
+          "title_ar": "القوى داخل السوائل",
+          "title_en": "Forces Within Liquids",
+          "start_page": 22,
+          "end_page": 25
+        },
+        {
+          "id": "10-3",
+          "title_ar": "الموائع الساكنة والموائع المتحركة",
+          "title_en": "Fluids at Rest and Fluids in Motion",
+          "start_page": 26,
+          "end_page": 35
+        },
+        {
+          "id": "10-4",
+          "title_ar": "المواد الصلبة",
+          "title_en": "Solids",
+          "start_page": 36,
+          "end_page": 55
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "source_file": "volume-2.pdf",
+      "title_ar": "الاهتزازات والموجات",
+      "title_en": "Vibrations and Waves",
+      "start_page": 56,
+      "end_page": 83,
+      "lessons": [
+        {
+          "id": "11-1",
+          "title_ar": "الحركة الدورية",
+          "title_en": "Periodic Motion",
+          "start_page": 57,
+          "end_page": 62
+        },
+        {
+          "id": "11-2",
+          "title_ar": "خصائص الموجات",
+          "title_en": "Wave Properties",
+          "start_page": 63,
+          "end_page": 68
+        },
+        {
+          "id": "11-3",
+          "title_ar": "سلوك الموجات",
+          "title_en": "Wave Behavior",
+          "start_page": 69,
+          "end_page": 83
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "source_file": "volume-2.pdf",
+      "title_ar": "الصوت",
+      "title_en": "Sound",
+      "start_page": 84,
+      "end_page": 111,
+      "lessons": [
+        {
+          "id": "12-1",
+          "title_ar": "خصائص الصوت والكشف عنه",
+          "title_en": "Properties and Detection of Sound",
+          "start_page": 85,
+          "end_page": 92
+        },
+        {
+          "id": "12-2",
+          "title_ar": "الرنين في الأعمدة الهوائية والأوتار",
+          "title_en": "Resonance in Air Columns and Strings",
+          "start_page": 93,
+          "end_page": 111
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "source_file": "volume-2.pdf",
+      "title_ar": "أساسيات الضوء",
+      "title_en": "Fundamentals of Light",
+      "start_page": 112,
+      "end_page": 143,
+      "lessons": [
+        {
+          "id": "13-1",
+          "title_ar": "الاستضاءة",
+          "title_en": "Illumination",
+          "start_page": 113,
+          "end_page": 121
+        },
+        {
+          "id": "13-2",
+          "title_ar": "الطبيعة الموجية للضوء",
+          "title_en": "The Wave Nature of Light",
+          "start_page": 122,
+          "end_page": 143
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "source_file": "volume-2.pdf",
+      "title_ar": "الانعكاس والمرايا",
+      "title_en": "Reflection and Mirrors",
+      "start_page": 144,
+      "end_page": 171,
+      "lessons": [
+        {
+          "id": "14-1",
+          "title_ar": "الانعكاس عن المرايا المستوية",
+          "title_en": "Reflection from Plane Mirrors",
+          "start_page": 145,
+          "end_page": 151
+        },
+        {
+          "id": "14-2",
+          "title_ar": "المرايا الكروية",
+          "title_en": "Curved Mirrors",
+          "start_page": 152,
+          "end_page": 171
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "source_file": "volume-2.pdf",
+      "title_ar": "الانكسار والعدسات",
+      "title_en": "Refraction and Lenses",
+      "start_page": 172,
+      "end_page": 203,
+      "lessons": [
+        {
+          "id": "15-1",
+          "title_ar": "انكسار الضوء",
+          "title_en": "Refraction of Light",
+          "start_page": 173,
+          "end_page": 181
+        },
+        {
+          "id": "15-2",
+          "title_ar": "العدسات المحدبة والمقعرة",
+          "title_en": "Convex and Concave Lenses",
+          "start_page": 182,
+          "end_page": 189
+        },
+        {
+          "id": "15-3",
+          "title_ar": "تطبيقات العدسات",
+          "title_en": "Applications of Lenses",
+          "start_page": 190,
+          "end_page": 203
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "source_file": "volume-2.pdf",
+      "title_ar": "التداخل والحيود",
+      "title_en": "Interference and Diffraction",
+      "start_page": 204,
+      "end_page": 231,
+      "lessons": [
+        {
+          "id": "16-1",
+          "title_ar": "التداخل",
+          "title_en": "Interference",
+          "start_page": 205,
+          "end_page": 214
+        },
+        {
+          "id": "16-2",
+          "title_ar": "الحيود",
+          "title_en": "Diffraction",
+          "start_page": 215,
+          "end_page": 231
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "source_file": "volume-2.pdf",
+      "title_ar": "الكهرباء الساكنة",
+      "title_en": "Static Electricity",
+      "start_page": 232,
+      "end_page": 259,
+      "lessons": [
+        {
+          "id": "17-1",
+          "title_ar": "الشحنة الكهربائية",
+          "title_en": "Electric Charge",
+          "start_page": 233,
+          "end_page": 238
+        },
+        {
+          "id": "17-2",
+          "title_ar": "القوة الكهربائية",
+          "title_en": "Electric Force",
+          "start_page": 239,
+          "end_page": 259
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "source_file": "volume-2.pdf",
+      "title_ar": "المجالات الكهربائية",
+      "title_en": "Electric Fields",
+      "start_page": 260,
+      "end_page": 296,
+      "lessons": [
+        {
+          "id": "18-1",
+          "title_ar": "توليد المجالات الكهربائية وقياسها",
+          "title_en": "Producing and Measuring Electric Fields",
+          "start_page": 261,
+          "end_page": 268
+        },
+        {
+          "id": "18-2",
+          "title_ar": "تطبيقات المجالات الكهربائية",
+          "title_en": "Applications of Electric Fields",
+          "start_page": 269,
+          "end_page": 296
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "id": "math-vol1",
+      "source_file": "volume-1.pdf",
+      "title_ar": "دليل الرياضيات",
+      "title_en": "Math Reference",
+      "start_page": 289,
+      "end_page": 289
+    },
+    {
+      "id": "tables-vol1",
+      "source_file": "volume-1.pdf",
+      "title_ar": "الجداول",
+      "title_en": "Tables",
+      "start_page": 290,
+      "end_page": 293
+    },
+    {
+      "id": "glossary-vol1",
+      "source_file": "volume-1.pdf",
+      "title_ar": "المصطلحات",
+      "title_en": "Glossary",
+      "start_page": 294,
+      "end_page": 303
+    },
+    {
+      "id": "periodic-table-vol1",
+      "source_file": "volume-1.pdf",
+      "title_ar": "الجدول الدوري للعناصر",
+      "title_en": "Periodic Table of the Elements",
+      "start_page": 304,
+      "end_page": 306
+    },
+    {
+      "id": "math-vol2",
+      "source_file": "volume-2.pdf",
+      "title_ar": "دليل الرياضيات",
+      "title_en": "Math Reference",
+      "start_page": 297,
+      "end_page": 297
+    },
+    {
+      "id": "tables-vol2",
+      "source_file": "volume-2.pdf",
+      "title_ar": "الجداول",
+      "title_en": "Tables",
+      "start_page": 298,
+      "end_page": 301
+    },
+    {
+      "id": "glossary-vol2",
+      "source_file": "volume-2.pdf",
+      "title_ar": "المصطلحات",
+      "title_en": "Glossary",
+      "start_page": 302,
+      "end_page": 315
+    }
+  ],
+  "confidence_notes": [
+    "Chapter and lesson titles in volume-1 (electricity → nuclear physics) verified against rendered TOC pages 6-9 of volume-1.pdf.",
+    "Chapter and lesson titles in volume-2 (states of matter → electric fields) verified against rendered TOC pages 6-9 of volume-2.pdf.",
+    "Chapter ids 1-9 belong to volume-1.pdf; ids 10-18 belong to volume-2.pdf (the source_file field disambiguates). The physical books restart numbering at 1 inside each volume.",
+    "Appendix page ranges (math/tables/glossary endings) are inferred from the next-section start and total page count; titles match the TOC verbatim.",
+    "volume-1.pdf is the GNRL-shared book (md5 8836704e…); content also appears as volume-2.pdf in the GNRL edition. volume-2.pdf is the CSE-specific companion."
+  ]
+}

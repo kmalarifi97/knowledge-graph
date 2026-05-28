@@ -6,3 +6,14 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+
+# Book PDFs — large (2.5 GB), copyrighted Saudi MoE material; re-downloadable from library/registry.json source URLs
+*.pdf
+
+# Library pipeline bookkeeping — intermediate planning artifacts, not source
+/_dedup_analysis.json
+/_move_plan.json
+/_move_log.json
+
+# Browser-automation scratch (from playwright MCP testing)
+.playwright-mcp/

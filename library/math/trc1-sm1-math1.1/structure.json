@@ -1,0 +1,562 @@
+{
+  "book": {
+    "title_ar": "الرياضيات 1-1",
+    "title_en": "Mathematics 1.1",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 274,
+    "page_offset": 0,
+    "notes": "Two-volume textbook. Volume 1 (274 pp): chapters 1-4. Volume 2 (248 pp): chapters 5-8. Each volume restarts page numbering at PDF page 1 = printed page 1. Page counts: volume-1.pdf=274, volume-2.pdf=248, workbook.pdf=62.",
+    "volumes": [
+      {
+        "file": "volume-1.pdf",
+        "page_count": 274
+      },
+      {
+        "file": "volume-2.pdf",
+        "page_count": 248
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_ar": "التبرير والبرهان",
+      "title_en": "Reasoning and Proof",
+      "source_file": "volume-1.pdf",
+      "start_page": 10,
+      "end_page": 84,
+      "lessons": [
+        {
+          "id": "1-0",
+          "title_ar": "التهيئة للفصل 1",
+          "start_page": 11,
+          "end_page": 11
+        },
+        {
+          "id": "1-1",
+          "title_ar": "التبرير الاستقرائي والتخمين",
+          "start_page": 12,
+          "end_page": 18
+        },
+        {
+          "id": "1-2",
+          "title_ar": "المنطق",
+          "start_page": 19,
+          "end_page": 25
+        },
+        {
+          "id": "1-3",
+          "title_ar": "العبارات الشرطية",
+          "start_page": 26,
+          "end_page": 35
+        },
+        {
+          "id": "1-3-explore",
+          "title_ar": "توسع 1-3: معمل الهندسة: العبارات الشرطية الثنائية",
+          "start_page": 36,
+          "end_page": 36
+        },
+        {
+          "id": "1-4",
+          "title_ar": "التبرير الاستنتاجي",
+          "start_page": 37,
+          "end_page": 44
+        },
+        {
+          "id": "1-5",
+          "title_ar": "المسلمات والبراهين الحرة",
+          "start_page": 45,
+          "end_page": 51
+        },
+        {
+          "id": "1-6",
+          "title_ar": "البرهان الجبري",
+          "start_page": 53,
+          "end_page": 59
+        },
+        {
+          "id": "1-7",
+          "title_ar": "إثبات علاقات بين القطع المستقيمة",
+          "start_page": 60,
+          "end_page": 65
+        },
+        {
+          "id": "1-8",
+          "title_ar": "إثبات علاقات بين الزوايا",
+          "start_page": 66,
+          "end_page": 73
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_ar": "التوازي والتعامد",
+      "title_en": "Parallel and Perpendicular",
+      "source_file": "volume-1.pdf",
+      "start_page": 85,
+      "end_page": 144,
+      "lessons": [
+        {
+          "id": "2-0",
+          "title_ar": "التهيئة للفصل 2",
+          "start_page": 85,
+          "end_page": 85
+        },
+        {
+          "id": "2-1",
+          "title_ar": "المستقيمات والقواطع",
+          "start_page": 86,
+          "end_page": 91
+        },
+        {
+          "id": "2-1-explore",
+          "title_ar": "استكشاف 2-1: معمل برمجيات الهندسة: الزوايا والمستقيمات المتوازية",
+          "start_page": 92,
+          "end_page": 93
+        },
+        {
+          "id": "2-2",
+          "title_ar": "الزوايا والمستقيمات المتوازية",
+          "start_page": 94,
+          "end_page": 101
+        },
+        {
+          "id": "2-3",
+          "title_ar": "إثبات توازي مستقيمين",
+          "start_page": 102,
+          "end_page": 107
+        },
+        {
+          "id": "2-4",
+          "title_ar": "ميل المستقيم",
+          "start_page": 109,
+          "end_page": 116
+        },
+        {
+          "id": "2-5",
+          "title_ar": "صيغ معادلة المستقيم",
+          "start_page": 117,
+          "end_page": 124
+        },
+        {
+          "id": "2-5-explore",
+          "title_ar": "توسع 2-5: معمل الهندسة: معادلة الصورة المنصف",
+          "start_page": 125,
+          "end_page": 125
+        },
+        {
+          "id": "2-6",
+          "title_ar": "الأعمدة والمسافة",
+          "start_page": 126,
+          "end_page": 134
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_ar": "المثلثات المتطابقة",
+      "title_en": "Congruent Triangles",
+      "source_file": "volume-1.pdf",
+      "start_page": 145,
+      "end_page": 212,
+      "lessons": [
+        {
+          "id": "3-0",
+          "title_ar": "التهيئة للفصل 3",
+          "start_page": 145,
+          "end_page": 145
+        },
+        {
+          "id": "3-1",
+          "title_ar": "تصنيف المثلثات",
+          "start_page": 146,
+          "end_page": 152
+        },
+        {
+          "id": "3-1-explore",
+          "title_ar": "استكشاف 3-1: معمل الهندسة: زوايا المثلثات",
+          "start_page": 153,
+          "end_page": 153
+        },
+        {
+          "id": "3-2",
+          "title_ar": "زوايا المثلثات",
+          "start_page": 154,
+          "end_page": 161
+        },
+        {
+          "id": "3-3",
+          "title_ar": "المثلثات المتطابقة",
+          "start_page": 162,
+          "end_page": 169
+        },
+        {
+          "id": "3-4",
+          "title_ar": "إثبات تطابق المثلثات SSS، SAS",
+          "start_page": 170,
+          "end_page": 178
+        },
+        {
+          "id": "3-5",
+          "title_ar": "إثبات تطابق المثلثات ASA، AAS",
+          "start_page": 179,
+          "end_page": 185
+        },
+        {
+          "id": "3-5-explore",
+          "title_ar": "توسع 3-5: معمل الهندسة: تطابق المثلثات القائمة",
+          "start_page": 186,
+          "end_page": 187
+        },
+        {
+          "id": "3-6",
+          "title_ar": "المثلثات المتطابقة الضلعين والمثلثات المتطابقة الأضلاع",
+          "start_page": 188,
+          "end_page": 195
+        },
+        {
+          "id": "3-7",
+          "title_ar": "المثلثات والبرهان الإحداثي",
+          "start_page": 196,
+          "end_page": 201
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_ar": "العلاقات في المثلث",
+      "title_en": "Relationships in Triangles",
+      "source_file": "volume-1.pdf",
+      "start_page": 213,
+      "end_page": 272,
+      "lessons": [
+        {
+          "id": "4-0",
+          "title_ar": "التهيئة للفصل 4",
+          "start_page": 213,
+          "end_page": 213
+        },
+        {
+          "id": "4-1-explore",
+          "title_ar": "استكشاف 4-1: معمل الهندسة: انشاء المنصفات",
+          "start_page": 214,
+          "end_page": 214
+        },
+        {
+          "id": "4-1",
+          "title_ar": "منصفات في المثلث",
+          "start_page": 215,
+          "end_page": 223
+        },
+        {
+          "id": "4-2-explore",
+          "title_ar": "استكشاف 4-2: معمل الهندسة: انشاء القطع المتوسطة والارتفاعات",
+          "start_page": 224,
+          "end_page": 224
+        },
+        {
+          "id": "4-2",
+          "title_ar": "القطع المتوسطة والارتفاعات في المثلث",
+          "start_page": 225,
+          "end_page": 232
+        },
+        {
+          "id": "4-3",
+          "title_ar": "المتباينات في المثلث",
+          "start_page": 233,
+          "end_page": 239
+        },
+        {
+          "id": "4-4",
+          "title_ar": "البرهان غير المباشر",
+          "start_page": 241,
+          "end_page": 247
+        },
+        {
+          "id": "4-5-explore",
+          "title_ar": "استكشاف 4-5: معمل الحاسبة البيانية: متباينة المثلث",
+          "start_page": 248,
+          "end_page": 248
+        },
+        {
+          "id": "4-5",
+          "title_ar": "متباينة المثلث",
+          "start_page": 249,
+          "end_page": 254
+        },
+        {
+          "id": "4-6",
+          "title_ar": "المتباينات في مثلثين",
+          "start_page": 255,
+          "end_page": 262
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_ar": "الأشكال الرباعية",
+      "title_en": "Quadrilaterals",
+      "source_file": "volume-2.pdf",
+      "start_page": 10,
+      "end_page": 70,
+      "lessons": [
+        {
+          "id": "5-0",
+          "title_ar": "التهيئة للفصل 5",
+          "start_page": 11,
+          "end_page": 11
+        },
+        {
+          "id": "5-1",
+          "title_ar": "زوايا المضلع",
+          "start_page": 12,
+          "end_page": 19
+        },
+        {
+          "id": "5-1-explore",
+          "title_ar": "توسع 5-1: معمل الجداول الإلكترونية: زوايا المضلع",
+          "start_page": 20,
+          "end_page": 20
+        },
+        {
+          "id": "5-2",
+          "title_ar": "متوازي الأضلاع",
+          "start_page": 21,
+          "end_page": 28
+        },
+        {
+          "id": "5-3",
+          "title_ar": "تمييز متوازي الأضلاع",
+          "start_page": 29,
+          "end_page": 36
+        },
+        {
+          "id": "5-4",
+          "title_ar": "المستطيل",
+          "start_page": 38,
+          "end_page": 43
+        },
+        {
+          "id": "5-5",
+          "title_ar": "المعين والمربع",
+          "start_page": 44,
+          "end_page": 51
+        },
+        {
+          "id": "5-6",
+          "title_ar": "شبه المنحرف وشكل الطائرة الورقية",
+          "start_page": 52,
+          "end_page": 60
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_ar": "التشابه",
+      "title_en": "Similarity",
+      "source_file": "volume-2.pdf",
+      "start_page": 71,
+      "end_page": 116,
+      "lessons": [
+        {
+          "id": "6-0",
+          "title_ar": "التهيئة للفصل 6",
+          "start_page": 71,
+          "end_page": 71
+        },
+        {
+          "id": "6-1",
+          "title_ar": "المضلعات المتشابهة",
+          "start_page": 72,
+          "end_page": 79
+        },
+        {
+          "id": "6-2",
+          "title_ar": "المثلثات المتشابهة",
+          "start_page": 80,
+          "end_page": 89
+        },
+        {
+          "id": "6-3",
+          "title_ar": "المستقيمات المتوازية والأجزاء المتناسبة",
+          "start_page": 90,
+          "end_page": 98
+        },
+        {
+          "id": "6-4",
+          "title_ar": "عناصر المثلثات المتشابهة",
+          "start_page": 99,
+          "end_page": 105
+        },
+        {
+          "id": "6-4-explore",
+          "title_ar": "توسع 6-4: معمل الهندسة: التكبير",
+          "start_page": 106,
+          "end_page": 107
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_ar": "التحويلات الهندسية والتماثل",
+      "title_en": "Geometric Transformations and Symmetry",
+      "source_file": "volume-2.pdf",
+      "start_page": 117,
+      "end_page": 176,
+      "lessons": [
+        {
+          "id": "7-0",
+          "title_ar": "التهيئة للفصل 7",
+          "start_page": 117,
+          "end_page": 117
+        },
+        {
+          "id": "7-1",
+          "title_ar": "الانعكاس",
+          "start_page": 118,
+          "end_page": 125
+        },
+        {
+          "id": "7-2",
+          "title_ar": "الإزاحة (الانسحاب)",
+          "start_page": 126,
+          "end_page": 131
+        },
+        {
+          "id": "7-3-explore",
+          "title_ar": "استكشاف 7-3: معمل الهندسة: الدوران",
+          "start_page": 132,
+          "end_page": 132
+        },
+        {
+          "id": "7-3",
+          "title_ar": "الدوران",
+          "start_page": 133,
+          "end_page": 138
+        },
+        {
+          "id": "7-4-explore",
+          "title_ar": "استكشاف 7-4: معمل الحاسبة البيانية: تركيب التحويلات الهندسية",
+          "start_page": 140,
+          "end_page": 140
+        },
+        {
+          "id": "7-4",
+          "title_ar": "تركيب التحويلات الهندسية",
+          "start_page": 141,
+          "end_page": 148
+        },
+        {
+          "id": "7-4-explore-2",
+          "title_ar": "توسع 7-4: معمل الهندسة: التبليط",
+          "start_page": 149,
+          "end_page": 149
+        },
+        {
+          "id": "7-5",
+          "title_ar": "التماثل",
+          "start_page": 150,
+          "end_page": 159
+        },
+        {
+          "id": "7-6",
+          "title_ar": "التمدد",
+          "start_page": 160,
+          "end_page": 166
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_ar": "الدائرة",
+      "title_en": "Circles",
+      "source_file": "volume-2.pdf",
+      "start_page": 177,
+      "end_page": 240,
+      "lessons": [
+        {
+          "id": "8-0",
+          "title_ar": "التهيئة للفصل 8",
+          "start_page": 177,
+          "end_page": 177
+        },
+        {
+          "id": "8-1",
+          "title_ar": "الدائرة ومحيطها",
+          "start_page": 178,
+          "end_page": 185
+        },
+        {
+          "id": "8-2",
+          "title_ar": "قياس الزوايا والأقواس",
+          "start_page": 186,
+          "end_page": 193
+        },
+        {
+          "id": "8-3",
+          "title_ar": "الأقواس والأوتار",
+          "start_page": 194,
+          "end_page": 200
+        },
+        {
+          "id": "8-4",
+          "title_ar": "الزوايا المحيطية",
+          "start_page": 201,
+          "end_page": 208
+        },
+        {
+          "id": "8-5",
+          "title_ar": "المماسات",
+          "start_page": 209,
+          "end_page": 215
+        },
+        {
+          "id": "8-6",
+          "title_ar": "القطع والمماس وقياسات الزوايا",
+          "start_page": 216,
+          "end_page": 223
+        },
+        {
+          "id": "8-7",
+          "title_ar": "قطع مستقيمة خاصة في الدائرة",
+          "start_page": 224,
+          "end_page": 229
+        },
+        {
+          "id": "8-7-explore",
+          "title_ar": "استكشاف 8-8: معمل الحاسبة البيانية: معادلة الدائرة",
+          "start_page": 230,
+          "end_page": 230
+        },
+        {
+          "id": "8-8",
+          "title_ar": "معادلة الدائرة",
+          "start_page": 231,
+          "end_page": 235
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "id": "vol1-formulas-symbols",
+      "title_ar": "الصيغ والرموز (المجلد الأول)",
+      "source_file": "volume-1.pdf",
+      "start_page": 273,
+      "end_page": 274
+    },
+    {
+      "id": "vol2-formulas-symbols",
+      "title_ar": "الصيغ والرموز (المجلد الثاني)",
+      "source_file": "volume-2.pdf",
+      "start_page": 246,
+      "end_page": 248
+    }
+  ],
+  "confidence_notes": [
+    "Lesson end_page values are estimated from the TOC start_page of the next item minus 1; per-lesson study-guide/test/cumulative-test pages are not separated as lessons.",
+    "Some lesson titles like '5-6 شبه المنحرف وشكل الطائرة الورقية' transcribed from rendered TOC.",
+    "Chapter end_page for chapter 4 set to 272 (matches last formula/symbols index before volume-1 appendices). Last content page in volume-2 around 240 before appendices."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "folder": "earth-science/trc3-sm2-ess-gnrl",
+  "subject": "earth-science",
+  "trc": "TRC3",
+  "sm": "SM2",
+  "code": "ESS",
+  "track": "GNRL",
+  "files": [
+    {
+      "name": "textbook.pdf",
+      "md5": "dd9cb7a86fe5bbd2b4f06e5a100921e2",
+      "source_filename": "2587f9b1-GE-CBM-GNRL-TRC3-SM2-ESS.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/2587f9b1-GE-CBM-GNRL-TRC3-SM2-ESS.pdf",
+      "size_bytes": 316525781
+    }
+  ],
+  "page_count": 453,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.5 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20250423100038+03'00'",
+    "modDate": "D:20250713111749+03'00'"
+  }
+}

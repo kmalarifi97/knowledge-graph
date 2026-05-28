@@ -1,0 +1,39 @@
+{
+  "folder": "math/trc1-sm1-math1.1",
+  "subject": "math",
+  "trc": "TRC1",
+  "sm": "SM1",
+  "code": "MATH1.1",
+  "track": "SINGLE",
+  "files": [
+    {
+      "name": "volume-1.pdf",
+      "md5": "8fac7e9a67c4ae74826989d38174f1bc",
+      "source_filename": "c8af75f7-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/c8af75f7-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+      "size_bytes": 187450899
+    },
+    {
+      "name": "volume-2.pdf",
+      "md5": "d37a44e09b1229ef6b568f2f1679900a",
+      "source_filename": "523c5dd3-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/523c5dd3-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+      "size_bytes": 107986987
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "7a3bcde973c453e8f069d9745a432f00",
+      "source_filename": "3fd11b49-GE-CBM-TRC1-SM1-MATH1.1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/3fd11b49-GE-CBM-TRC1-SM1-MATH1.1A.pdf",
+      "size_bytes": 2375170
+    }
+  ],
+  "page_count": 274,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.0 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20250417130240+03'00'",
+    "modDate": "D:20250903144700+03'00'"
+  }
+}

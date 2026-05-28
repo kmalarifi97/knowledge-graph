@@ -1,0 +1,32 @@
+{
+  "folder": "chemistry/trc3-sm1-chmi3-cse",
+  "subject": "chemistry",
+  "trc": "TRC3",
+  "sm": "SM1",
+  "code": "CHMI3",
+  "track": "CSE",
+  "files": [
+    {
+      "name": "textbook.pdf",
+      "md5": "88308cd1211261fc94f612666c3d055a",
+      "source_filename": "6d948a3b-GE-CBM-CSE-TRC3-SM1-CHMI3.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/6d948a3b-GE-CBM-CSE-TRC3-SM1-CHMI3.pdf",
+      "size_bytes": 89317381
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "e9994f428b8b8dd16176055b0e8959be",
+      "source_filename": "GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+      "size_bytes": 8789434
+    }
+  ],
+  "page_count": 178,
+  "pdf_metadata": {
+    "format": "PDF 1.7",
+    "creator": "Adobe InDesign 17.4 (Macintosh)",
+    "producer": "GPL Ghostscript 10.00.0",
+    "creationDate": "D:20250705144739Z00'00'",
+    "modDate": "D:20250705144739Z00'00'"
+  }
+}

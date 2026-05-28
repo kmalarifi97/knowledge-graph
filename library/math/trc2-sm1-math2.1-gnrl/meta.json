@@ -1,0 +1,39 @@
+{
+  "folder": "math/trc2-sm1-math2.1-gnrl",
+  "subject": "math",
+  "trc": "TRC2",
+  "sm": "SM1",
+  "code": "MATH2.1",
+  "track": "GNRL",
+  "files": [
+    {
+      "name": "volume-1.pdf",
+      "md5": "0106c3eca98677554c65e3bb3770d011",
+      "source_filename": "80538462-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/80538462-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+      "size_bytes": 81280857
+    },
+    {
+      "name": "volume-2.pdf",
+      "md5": "960bd5a3688b6731a621a05b2b4cab1c",
+      "source_filename": "d00faf9a-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/d00faf9a-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+      "size_bytes": 31828178
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "b5dcbf24ffa37d881174e285d702498f",
+      "source_filename": "0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+      "size_bytes": 2695663
+    }
+  ],
+  "page_count": 227,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.0 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20250423081957+03'00'",
+    "modDate": "D:20251021120256+03'00'"
+  }
+}

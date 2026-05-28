@@ -1,0 +1,32 @@
+{
+  "folder": "physics/trc2-sm3-phys2",
+  "subject": "physics",
+  "trc": "TRC2",
+  "sm": "SM3",
+  "code": "PHYS2",
+  "track": "CSE,GNRL",
+  "files": [
+    {
+      "name": "textbook.pdf",
+      "md5": "ebe0714c0977cb7733fdfcdb0c674c15",
+      "source_filename": "ae52978d-GE-CBM-GNRL-TRC2-SM3-PHYS2.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/ae52978d-GE-CBM-GNRL-TRC2-SM3-PHYS2.pdf",
+      "size_bytes": 96319740
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "29937dce3405902d9fda3448e6e70116",
+      "source_filename": "GE-CBM-CSE-TRC2-SM3-phys2A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-CSE-TRC2-SM3-phys2A.pdf",
+      "size_bytes": 1071746
+    }
+  ],
+  "page_count": 242,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.4 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20230801125045+03'00'",
+    "modDate": "D:20250630093924+03'00'"
+  }
+}

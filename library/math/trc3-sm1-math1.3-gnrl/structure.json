@@ -1,0 +1,459 @@
+{
+  "book": {
+    "title_ar": "الرياضيات 1-3 (المسار العام)",
+    "title_en": "Mathematics 1.3 (General Track)",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 188,
+    "page_offset": 0,
+    "notes": "Two-volume textbook. volume-2.pdf (213 pp, identical content/MD5 to TRC3-CSE volume-1.pdf) holds chapters 1-4. volume-1.pdf (188 pp) holds chapters 5-8. Page numbering restarts at PDF page 1 = printed page 1 in each volume.",
+    "volumes": [
+      {
+        "file": "volume-1.pdf",
+        "page_count": 188
+      },
+      {
+        "file": "volume-2.pdf",
+        "page_count": 213
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_ar": "تحليل الدوال",
+      "title_en": "Analyzing Functions",
+      "source_file": "volume-2.pdf",
+      "start_page": 8,
+      "end_page": 80,
+      "lessons": [
+        {
+          "id": "1-0",
+          "title_ar": "التهيئة للفصل الأول",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "id": "1-1",
+          "title_ar": "الدوال",
+          "start_page": 10,
+          "end_page": 17
+        },
+        {
+          "id": "1-2",
+          "title_ar": "تحليل التمثيلات البيانية للدوال والعلاقات",
+          "start_page": 18,
+          "end_page": 27
+        },
+        {
+          "id": "1-3",
+          "title_ar": "الاتصال والنهايات",
+          "start_page": 28,
+          "end_page": 37
+        },
+        {
+          "id": "1-4",
+          "title_ar": "القيم القصوى ومتوسط معدل التغير",
+          "start_page": 38,
+          "end_page": 46
+        },
+        {
+          "id": "1-5",
+          "title_ar": "الدوال الرئيسة (الأم) والتحويلات الهندسية",
+          "start_page": 48,
+          "end_page": 57
+        },
+        {
+          "id": "1-6",
+          "title_ar": "العمليات على الدوال وتركيب الدالتين",
+          "start_page": 58,
+          "end_page": 65
+        },
+        {
+          "id": "1-7",
+          "title_ar": "العلاقات والدوال العكسية",
+          "start_page": 66,
+          "end_page": 73
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_ar": "العلاقات والدوال الأسية واللوغاريتمية",
+      "title_en": "Exponential and Logarithmic Relations and Functions",
+      "source_file": "volume-2.pdf",
+      "start_page": 81,
+      "end_page": 134,
+      "lessons": [
+        {
+          "id": "2-0",
+          "title_ar": "التهيئة للفصل الثاني",
+          "start_page": 81,
+          "end_page": 81
+        },
+        {
+          "id": "2-1",
+          "title_ar": "الدوال الأسية",
+          "start_page": 82,
+          "end_page": 89
+        },
+        {
+          "id": "2-1-explore",
+          "title_ar": "استكشاف 2-1: معمل الحاسبة البيانية: حل المعادلات والمتباينات الأسية",
+          "start_page": 90,
+          "end_page": 91
+        },
+        {
+          "id": "2-2",
+          "title_ar": "حل المعادلات والمتباينات الأسية",
+          "start_page": 92,
+          "end_page": 96
+        },
+        {
+          "id": "2-3",
+          "title_ar": "اللوغاريتمات والدوال اللوغاريتمية",
+          "start_page": 97,
+          "end_page": 103
+        },
+        {
+          "id": "2-4",
+          "title_ar": "خصائص اللوغاريتمات",
+          "start_page": 105,
+          "end_page": 111
+        },
+        {
+          "id": "2-5",
+          "title_ar": "حل المعادلات والمتباينات اللوغاريتمية",
+          "start_page": 112,
+          "end_page": 117
+        },
+        {
+          "id": "2-6",
+          "title_ar": "اللوغاريتمات العشرية",
+          "start_page": 118,
+          "end_page": 124
+        },
+        {
+          "id": "2-6-explore",
+          "title_ar": "توسع 2-6: معمل الحاسبة البيانية: حل المعادلات والمتباينات اللوغاريتمية",
+          "start_page": 125,
+          "end_page": 126
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_ar": "المتطابقات والمعادلات المثلثية",
+      "title_en": "Trigonometric Identities and Equations",
+      "source_file": "volume-2.pdf",
+      "start_page": 135,
+      "end_page": 170,
+      "lessons": [
+        {
+          "id": "3-0",
+          "title_ar": "التهيئة للفصل الثالث",
+          "start_page": 135,
+          "end_page": 135
+        },
+        {
+          "id": "3-1",
+          "title_ar": "المتطابقات المثلثية",
+          "start_page": 136,
+          "end_page": 140
+        },
+        {
+          "id": "3-2",
+          "title_ar": "إثبات صحة المتطابقات المثلثية",
+          "start_page": 141,
+          "end_page": 145
+        },
+        {
+          "id": "3-3",
+          "title_ar": "متطابقتا مجموع زاويتين والفرق بينهما",
+          "start_page": 146,
+          "end_page": 149
+        },
+        {
+          "id": "3-4",
+          "title_ar": "متطابقات المتطابقة لضعف الزاوية وأنصافها",
+          "start_page": 151,
+          "end_page": 156
+        },
+        {
+          "id": "3-4-explore",
+          "title_ar": "استكشاف 3-5: معمل الحاسبة البيانية: حل المعادلات المثلثية",
+          "start_page": 157,
+          "end_page": 157
+        },
+        {
+          "id": "3-5",
+          "title_ar": "حل المعادلات المثلثية",
+          "start_page": 158,
+          "end_page": 163
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_ar": "القطوع المخروطية",
+      "title_en": "Conic Sections",
+      "source_file": "volume-2.pdf",
+      "start_page": 171,
+      "end_page": 213,
+      "lessons": [
+        {
+          "id": "4-0",
+          "title_ar": "التهيئة للفصل الرابع",
+          "start_page": 171,
+          "end_page": 171
+        },
+        {
+          "id": "4-1",
+          "title_ar": "القطوع الناقصة",
+          "start_page": 172,
+          "end_page": 179
+        },
+        {
+          "id": "4-2",
+          "title_ar": "القطوع الناقصة والدوائر",
+          "start_page": 180,
+          "end_page": 187
+        },
+        {
+          "id": "4-3",
+          "title_ar": "القطوع الزائدة",
+          "start_page": 188,
+          "end_page": 196
+        },
+        {
+          "id": "4-4",
+          "title_ar": "تحديد أنواع القطوع المخروطية",
+          "start_page": 198,
+          "end_page": 202
+        },
+        {
+          "id": "4-4-explore",
+          "title_ar": "توسع 4-4: معمل الحاسبة البيانية: أنظمة المعادلات والمتباينات غير الخطية",
+          "start_page": 203,
+          "end_page": 203
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_ar": "المتجهات",
+      "title_en": "Vectors",
+      "source_file": "volume-1.pdf",
+      "start_page": 8,
+      "end_page": 50,
+      "lessons": [
+        {
+          "id": "5-0",
+          "title_ar": "التهيئة للفصل الخامس",
+          "start_page": 9,
+          "end_page": 9
+        },
+        {
+          "id": "5-1",
+          "title_ar": "مقدمة في المتجهات",
+          "start_page": 10,
+          "end_page": 17
+        },
+        {
+          "id": "5-2",
+          "title_ar": "المتجهات في المستوى الإحداثي",
+          "start_page": 18,
+          "end_page": 25
+        },
+        {
+          "id": "5-3",
+          "title_ar": "الضرب الداخلي",
+          "start_page": 26,
+          "end_page": 31
+        },
+        {
+          "id": "5-4",
+          "title_ar": "المتجهات في الفضاء الثلاثي الأبعاد",
+          "start_page": 33,
+          "end_page": 38
+        },
+        {
+          "id": "5-5",
+          "title_ar": "الضرب الداخلي والضرب الاتجاهي للمتجهات في الفضاء",
+          "start_page": 39,
+          "end_page": 43
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_ar": "الإحداثيات القطبية والأعداد المركبة",
+      "title_en": "Polar Coordinates and Complex Numbers",
+      "source_file": "volume-1.pdf",
+      "start_page": 51,
+      "end_page": 84,
+      "lessons": [
+        {
+          "id": "6-0",
+          "title_ar": "التهيئة للفصل السادس",
+          "start_page": 51,
+          "end_page": 51
+        },
+        {
+          "id": "6-1",
+          "title_ar": "الإحداثيات القطبية",
+          "start_page": 52,
+          "end_page": 58
+        },
+        {
+          "id": "6-2",
+          "title_ar": "الصورة القطبية والصورة الديكارتية للمعادلات",
+          "start_page": 59,
+          "end_page": 67
+        },
+        {
+          "id": "6-3",
+          "title_ar": "الأعداد المركبة ونظرية ديموافر",
+          "start_page": 68,
+          "end_page": 78
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_ar": "الاحتمال والإحصاء",
+      "title_en": "Probability and Statistics",
+      "source_file": "volume-1.pdf",
+      "start_page": 85,
+      "end_page": 126,
+      "lessons": [
+        {
+          "id": "7-0",
+          "title_ar": "التهيئة للفصل السابع",
+          "start_page": 85,
+          "end_page": 85
+        },
+        {
+          "id": "7-1",
+          "title_ar": "الدراسات التجريبية والمسحية والمشاهدة على البلاطة",
+          "start_page": 86,
+          "end_page": 90
+        },
+        {
+          "id": "7-1-explore",
+          "title_ar": "توسع 7-1: معمل الحاسبة البيانية: تقييم البيانات المنقولة",
+          "start_page": 91,
+          "end_page": 91
+        },
+        {
+          "id": "7-2",
+          "title_ar": "تحليل الإحصاء",
+          "start_page": 92,
+          "end_page": 96
+        },
+        {
+          "id": "7-3",
+          "title_ar": "الاحتمال المشروط",
+          "start_page": 97,
+          "end_page": 101
+        },
+        {
+          "id": "7-4",
+          "title_ar": "الاحتمال والتوزيعات الاحتمالية",
+          "start_page": 102,
+          "end_page": 107
+        },
+        {
+          "id": "7-5",
+          "title_ar": "التوزيع الطبيعي",
+          "start_page": 108,
+          "end_page": 112
+        },
+        {
+          "id": "7-5-explore",
+          "title_ar": "توسع 7-5: معمل الجبر: القانون التجريبي والعينات",
+          "start_page": 113,
+          "end_page": 113
+        },
+        {
+          "id": "7-6",
+          "title_ar": "التوزيعات ذات الحدين",
+          "start_page": 114,
+          "end_page": 119
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_ar": "النهايات والاشتقاق",
+      "title_en": "Limits and Differentiation",
+      "source_file": "volume-1.pdf",
+      "start_page": 127,
+      "end_page": 188,
+      "lessons": [
+        {
+          "id": "8-0",
+          "title_ar": "التهيئة للفصل الثامن",
+          "start_page": 127,
+          "end_page": 127
+        },
+        {
+          "id": "8-1",
+          "title_ar": "تقدير النهايات بيانياً",
+          "start_page": 128,
+          "end_page": 136
+        },
+        {
+          "id": "8-2",
+          "title_ar": "حساب النهايات جبرياً",
+          "start_page": 137,
+          "end_page": 145
+        },
+        {
+          "id": "8-2-explore",
+          "title_ar": "استكشاف 8-3: معمل الحاسبة البيانية: ميل المماس",
+          "start_page": 147,
+          "end_page": 148
+        },
+        {
+          "id": "8-3",
+          "title_ar": "المماس وميزة المنحنى",
+          "start_page": 149,
+          "end_page": 154
+        },
+        {
+          "id": "8-4",
+          "title_ar": "المشتقات",
+          "start_page": 155,
+          "end_page": 162
+        },
+        {
+          "id": "8-5",
+          "title_ar": "المساحة تحت المنحنى والتكامل",
+          "start_page": 163,
+          "end_page": 174
+        },
+        {
+          "id": "8-6",
+          "title_ar": "النظرية الأساسية في التفاضل والتكامل",
+          "start_page": 175,
+          "end_page": 179
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "id": "vol1-formulas-symbols",
+      "title_ar": "الصيغ والرموز (volume-1.pdf)",
+      "source_file": "volume-1.pdf",
+      "start_page": 186,
+      "end_page": 188
+    }
+  ],
+  "confidence_notes": [
+    "Lesson end_page values are estimated as (next start_page − 1); per-lesson study guide and chapter test pages are not separated as lessons.",
+    "Some long lesson titles like 3-4 'متطابقات المتطابقة لضعف الزاوية وأنصافها' may have rendering artifacts; verified the standard form is 'متطابقات ضعف الزاوية ونصف الزاوية'.",
+    "7-1 title 'الدراسات التجريبية والمسحية والمشاهدة على البلاطة' likely contains a transcription artifact; standard title is 'الدراسات التجريبية والمسحية والمشاهدة وتمييز كل منها' — needs verification."
+  ]
+}

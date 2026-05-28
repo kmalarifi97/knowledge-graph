@@ -1,0 +1,17 @@
+{
+  "folder": "chemistry/trc1-sm3-chmi1",
+  "subject": "chemistry",
+  "trc": "TRC1",
+  "sm": "SM3",
+  "code": "CHMI1",
+  "track": "SINGLE",
+  "files": [
+    {
+      "name": "workbook.pdf",
+      "md5": "06865886ca22ca01e8878d13900ff393",
+      "source_filename": "GE-CBM-TRC1-SM3-CHMI1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-TRC1-SM3-CHMI1A.pdf",
+      "size_bytes": 2798409
+    }
+  ]
+}

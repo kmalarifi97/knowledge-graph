@@ -1,0 +1,32 @@
+{
+  "folder": "physics/trc1-sm2-phys1.1",
+  "subject": "physics",
+  "trc": "TRC1",
+  "sm": "SM2",
+  "code": "PHYS1.1",
+  "track": "SINGLE",
+  "files": [
+    {
+      "name": "textbook.pdf",
+      "md5": "a32f9a0b756ff51db71af58f9f7e0238",
+      "source_filename": "691b8ec3-GE-CBM-TRC1-SM2-PHYS1.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/691b8ec3-GE-CBM-TRC1-SM2-PHYS1.1.pdf",
+      "size_bytes": 68235307
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "51c93b86ff0c15788bb68ef4b3010e2f",
+      "source_filename": "GE-CBM-TRC1-SM2-PHYS1.1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-TRC1-SM2-PHYS1.1A.pdf",
+      "size_bytes": 4530659
+    }
+  ],
+  "page_count": 214,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Acrobat Pro 23.3.20269",
+    "producer": "Acrobat Pro 23.3.20269",
+    "creationDate": "D:20230815134648+03'00'",
+    "modDate": "D:20250629121333+03'00'"
+  }
+}

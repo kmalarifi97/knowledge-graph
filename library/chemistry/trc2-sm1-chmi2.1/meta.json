@@ -1,0 +1,39 @@
+{
+  "folder": "chemistry/trc2-sm1-chmi2.1",
+  "subject": "chemistry",
+  "trc": "TRC2",
+  "sm": "SM1",
+  "code": "CHMI2.1",
+  "track": "CSE,GNRL",
+  "files": [
+    {
+      "name": "volume-1.pdf",
+      "md5": "c83de39f17006a1d003e29d2f82190d0",
+      "source_filename": "007b9d55-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/007b9d55-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+      "size_bytes": 142247553
+    },
+    {
+      "name": "volume-2.pdf",
+      "md5": "473b598289e1a58f9f238e3171b7c9c8",
+      "source_filename": "57e30ee8-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/57e30ee8-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+      "size_bytes": 92474839
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "6931f93e9e738edcfd8aefa8a84f986d",
+      "source_filename": "2d92176e-GE-CBM-CSE-TRC2-SM1-CHMI2.1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/2d92176e-GE-CBM-CSE-TRC2-SM1-CHMI2.1A.pdf",
+      "size_bytes": 29884752
+    }
+  ],
+  "page_count": 249,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.5 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20250416151534+03'00'",
+    "modDate": "D:20250819084630+03'00'"
+  }
+}

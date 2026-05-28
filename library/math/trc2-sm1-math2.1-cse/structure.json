@@ -1,0 +1,562 @@
+{
+  "book": {
+    "title_ar": "الرياضيات 2-1 (مسار علوم الحاسب والهندسة)",
+    "title_en": "Mathematics 2.1 (CSE Track)",
+    "edition": "1447H / 2025M (نظام المسارات)",
+    "publisher": "وزارة التعليم - المملكة العربية السعودية",
+    "total_pdf_pages": 227,
+    "page_offset": 0,
+    "notes": "Two-volume textbook. volume-2.pdf (236 pp) contains chapters 1-4 (the first half). volume-1.pdf (227 pp) contains chapters 5-8 (the second half). The file numbering does NOT correspond to chapter order. Workbook is 62 pp.",
+    "volumes": [
+      {
+        "file": "volume-1.pdf",
+        "page_count": 227
+      },
+      {
+        "file": "volume-2.pdf",
+        "page_count": 236
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": 1,
+      "title_ar": "الدوال والمتباينات",
+      "title_en": "Functions and Inequalities",
+      "source_file": "volume-2.pdf",
+      "start_page": 10,
+      "end_page": 60,
+      "lessons": [
+        {
+          "id": "1-0",
+          "title_ar": "التهيئة للفصل 1",
+          "start_page": 11,
+          "end_page": 11
+        },
+        {
+          "id": "1-1",
+          "title_ar": "خصائص الأعداد الحقيقية",
+          "start_page": 12,
+          "end_page": 17
+        },
+        {
+          "id": "1-2",
+          "title_ar": "العلاقات والدوال",
+          "start_page": 18,
+          "end_page": 23
+        },
+        {
+          "id": "1-2-explore",
+          "title_ar": "توسع 1-2: معمل الجبر: المنظمات والدوال المتصلة",
+          "start_page": 24,
+          "end_page": 24
+        },
+        {
+          "id": "1-3",
+          "title_ar": "دوال خاصة",
+          "start_page": 25,
+          "end_page": 30
+        },
+        {
+          "id": "1-4",
+          "title_ar": "تمثيل المتباينات الخطية ومتباينات القيمة المطلقة بيانياً",
+          "start_page": 32,
+          "end_page": 36
+        },
+        {
+          "id": "1-5",
+          "title_ar": "حل أنظمة المتباينات الخطية بيانياً",
+          "start_page": 37,
+          "end_page": 42
+        },
+        {
+          "id": "1-5-explore",
+          "title_ar": "توسع 1-5: معمل الحاسبة البيانية: أنظمة المتباينات الخطية",
+          "start_page": 43,
+          "end_page": 43
+        },
+        {
+          "id": "1-6",
+          "title_ar": "البرمجة الخطية والحل الأمثل",
+          "start_page": 44,
+          "end_page": 49
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title_ar": "المصفوفات",
+      "title_en": "Matrices",
+      "source_file": "volume-2.pdf",
+      "start_page": 61,
+      "end_page": 106,
+      "lessons": [
+        {
+          "id": "2-0",
+          "title_ar": "التهيئة للفصل 2",
+          "start_page": 61,
+          "end_page": 61
+        },
+        {
+          "id": "2-1",
+          "title_ar": "مقدمة في المصفوفات",
+          "start_page": 62,
+          "end_page": 67
+        },
+        {
+          "id": "2-1-explore",
+          "title_ar": "توسع 2-1: معمل الجداول الإلكترونية: تنظيم البيانات",
+          "start_page": 68,
+          "end_page": 68
+        },
+        {
+          "id": "2-2",
+          "title_ar": "العمليات على المصفوفات",
+          "start_page": 69,
+          "end_page": 75
+        },
+        {
+          "id": "2-3",
+          "title_ar": "ضرب المصفوفات",
+          "start_page": 76,
+          "end_page": 81
+        },
+        {
+          "id": "2-4",
+          "title_ar": "المحددات وقاعدة كرامر",
+          "start_page": 83,
+          "end_page": 90
+        },
+        {
+          "id": "2-5",
+          "title_ar": "التطبيق الضربي للمصفوفة وأنظمة المعادلات الخطية",
+          "start_page": 91,
+          "end_page": 96
+        },
+        {
+          "id": "2-5-explore",
+          "title_ar": "توسع 2-5: معمل الحاسبة البيانية: المصفوفات الموسعة",
+          "start_page": 97,
+          "end_page": 97
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title_ar": "كثيرات الحدود ودوالها",
+      "title_en": "Polynomial Functions",
+      "source_file": "volume-2.pdf",
+      "start_page": 107,
+      "end_page": 176,
+      "lessons": [
+        {
+          "id": "3-0",
+          "title_ar": "التهيئة للفصل 3",
+          "start_page": 107,
+          "end_page": 107
+        },
+        {
+          "id": "3-1",
+          "title_ar": "الأعداد المركبة",
+          "start_page": 108,
+          "end_page": 114
+        },
+        {
+          "id": "3-2",
+          "title_ar": "القانون العام والمميز",
+          "start_page": 115,
+          "end_page": 122
+        },
+        {
+          "id": "3-2-explore",
+          "title_ar": "توسع 3-2: معمل الجبر: مجموع الجذرين وحاصل ضربهما",
+          "start_page": 123,
+          "end_page": 124
+        },
+        {
+          "id": "3-3",
+          "title_ar": "العمليات على كثيرات الحدود",
+          "start_page": 125,
+          "end_page": 130
+        },
+        {
+          "id": "3-4",
+          "title_ar": "قسمة كثيرات الحدود",
+          "start_page": 131,
+          "end_page": 136
+        },
+        {
+          "id": "3-5",
+          "title_ar": "دوال كثيرات الحدود",
+          "start_page": 138,
+          "end_page": 144
+        },
+        {
+          "id": "3-6",
+          "title_ar": "حل معادلات كثيرات الحدود",
+          "start_page": 145,
+          "end_page": 152
+        },
+        {
+          "id": "3-6-explore",
+          "title_ar": "توسع 3-6: معمل الحاسبة البيانية: حل متباينات كثيرات الحدود",
+          "start_page": 153,
+          "end_page": 153
+        },
+        {
+          "id": "3-7",
+          "title_ar": "نظريتا الباقي والعوامل",
+          "start_page": 154,
+          "end_page": 159
+        },
+        {
+          "id": "3-8",
+          "title_ar": "الجذور والأصفار",
+          "start_page": 160,
+          "end_page": 166
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title_ar": "العلاقات والدوال العكسية والجذرية",
+      "title_en": "Inverse and Radical Relations and Functions",
+      "source_file": "volume-2.pdf",
+      "start_page": 177,
+      "end_page": 234,
+      "lessons": [
+        {
+          "id": "4-0",
+          "title_ar": "التهيئة للفصل 4",
+          "start_page": 177,
+          "end_page": 177
+        },
+        {
+          "id": "4-1",
+          "title_ar": "العمليات على الدوال",
+          "start_page": 178,
+          "end_page": 184
+        },
+        {
+          "id": "4-2",
+          "title_ar": "العلاقات والدوال العكسية",
+          "start_page": 185,
+          "end_page": 189
+        },
+        {
+          "id": "4-2-explore",
+          "title_ar": "توسع 4-2: معمل الحاسبة البيانية: الدالة العكسية",
+          "start_page": 190,
+          "end_page": 190
+        },
+        {
+          "id": "4-3",
+          "title_ar": "دوال ومتباينات الجذر التربيعي",
+          "start_page": 191,
+          "end_page": 195
+        },
+        {
+          "id": "4-4",
+          "title_ar": "الجذر النوني",
+          "start_page": 196,
+          "end_page": 200
+        },
+        {
+          "id": "4-4-explore",
+          "title_ar": "توسع 4-4: معمل الحاسبة البيانية: تمثيل دالة الجذر النوني بيانياً",
+          "start_page": 201,
+          "end_page": 201
+        },
+        {
+          "id": "4-5",
+          "title_ar": "العمليات على العبارات الجذرية",
+          "start_page": 202,
+          "end_page": 208
+        },
+        {
+          "id": "4-6",
+          "title_ar": "الأسس النسبية",
+          "start_page": 209,
+          "end_page": 214
+        },
+        {
+          "id": "4-7",
+          "title_ar": "حل المعادلات والمتباينات الجذرية",
+          "start_page": 215,
+          "end_page": 220
+        },
+        {
+          "id": "4-7-explore",
+          "title_ar": "توسع 4-7: معمل الحاسبة البيانية: حل المعادلات والمتباينات الجذرية",
+          "start_page": 221,
+          "end_page": 222
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title_ar": "العلاقات والدوال النسبية",
+      "title_en": "Rational Relations and Functions",
+      "source_file": "volume-1.pdf",
+      "start_page": 10,
+      "end_page": 64,
+      "lessons": [
+        {
+          "id": "5-0",
+          "title_ar": "التهيئة للفصل 5",
+          "start_page": 11,
+          "end_page": 11
+        },
+        {
+          "id": "5-1",
+          "title_ar": "ضرب العبارات النسبية وقسمتها",
+          "start_page": 12,
+          "end_page": 20
+        },
+        {
+          "id": "5-2",
+          "title_ar": "جمع العبارات النسبية وطرحها",
+          "start_page": 21,
+          "end_page": 26
+        },
+        {
+          "id": "5-3",
+          "title_ar": "تمثيل دوال الطلوب بيانياً",
+          "start_page": 27,
+          "end_page": 32
+        },
+        {
+          "id": "5-4",
+          "title_ar": "تمثيل الدوال النسبية بيانياً",
+          "start_page": 34,
+          "end_page": 39
+        },
+        {
+          "id": "5-4-explore",
+          "title_ar": "توسع 5-4: معمل الحاسبة البيانية: تمثيل الدوال النسبية بيانياً",
+          "start_page": 40,
+          "end_page": 40
+        },
+        {
+          "id": "5-5",
+          "title_ar": "دوال التغير",
+          "start_page": 41,
+          "end_page": 46
+        },
+        {
+          "id": "5-6",
+          "title_ar": "حل المعادلات والمتباينات النسبية",
+          "start_page": 47,
+          "end_page": 52
+        },
+        {
+          "id": "5-6-explore",
+          "title_ar": "توسع 5-6: معمل الحاسبة البيانية: حل المعادلات والمتباينات النسبية",
+          "start_page": 53,
+          "end_page": 54
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title_ar": "المتتابعات والمتسلسلات",
+      "title_en": "Sequences and Series",
+      "source_file": "volume-1.pdf",
+      "start_page": 65,
+      "end_page": 112,
+      "lessons": [
+        {
+          "id": "6-0",
+          "title_ar": "التهيئة للفصل 6",
+          "start_page": 65,
+          "end_page": 65
+        },
+        {
+          "id": "6-1",
+          "title_ar": "المتتابعات بوصفها دوال",
+          "start_page": 66,
+          "end_page": 71
+        },
+        {
+          "id": "6-2",
+          "title_ar": "المتتابعات والمتسلسلات الحسابية",
+          "start_page": 72,
+          "end_page": 79
+        },
+        {
+          "id": "6-3",
+          "title_ar": "المتتابعات والمتسلسلات الهندسية",
+          "start_page": 80,
+          "end_page": 85
+        },
+        {
+          "id": "6-4",
+          "title_ar": "المتسلسلات الهندسية اللانهائية",
+          "start_page": 87,
+          "end_page": 92
+        },
+        {
+          "id": "6-4-explore",
+          "title_ar": "توسع 6-4: معمل الحاسبة البيانية: نهاية المتتابعة",
+          "start_page": 93,
+          "end_page": 93
+        },
+        {
+          "id": "6-5",
+          "title_ar": "نظرية ذات الحدين",
+          "start_page": 94,
+          "end_page": 97
+        },
+        {
+          "id": "6-5-explore",
+          "title_ar": "توسع 6-5: معمل الجبر: التوافيق ومثلث باسكال",
+          "start_page": 98,
+          "end_page": 98
+        },
+        {
+          "id": "6-6",
+          "title_ar": "البرهان باستعمال مبدأ الاستقراء الرياضي",
+          "start_page": 99,
+          "end_page": 102
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title_ar": "الاحتمالات",
+      "title_en": "Probability",
+      "source_file": "volume-1.pdf",
+      "start_page": 113,
+      "end_page": 156,
+      "lessons": [
+        {
+          "id": "7-0",
+          "title_ar": "التهيئة للفصل 7",
+          "start_page": 113,
+          "end_page": 113
+        },
+        {
+          "id": "7-1",
+          "title_ar": "تحليل فضاء العينة",
+          "start_page": 114,
+          "end_page": 119
+        },
+        {
+          "id": "7-2",
+          "title_ar": "الاحتمال باستعمال التباديل والتوافيق",
+          "start_page": 120,
+          "end_page": 126
+        },
+        {
+          "id": "7-3",
+          "title_ar": "الاحتمال الهندسي",
+          "start_page": 127,
+          "end_page": 132
+        },
+        {
+          "id": "7-4",
+          "title_ar": "احتمالات الحوادث المستقلة والحوادث غير المستقلة",
+          "start_page": 134,
+          "end_page": 140
+        },
+        {
+          "id": "7-5",
+          "title_ar": "احتمالات الحوادث المتنافية",
+          "start_page": 141,
+          "end_page": 147
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title_ar": "حساب المثلثات",
+      "title_en": "Trigonometry",
+      "source_file": "volume-1.pdf",
+      "start_page": 157,
+      "end_page": 222,
+      "lessons": [
+        {
+          "id": "8-0",
+          "title_ar": "التهيئة للفصل 8",
+          "start_page": 157,
+          "end_page": 157
+        },
+        {
+          "id": "8-1-explore",
+          "title_ar": "استكشاف 8-1: معمل الجداول الإلكترونية: استقصاء المثلثات القائمة الخاصة",
+          "start_page": 158,
+          "end_page": 158
+        },
+        {
+          "id": "8-1",
+          "title_ar": "الدوال المثلثية في المثلثات القائمة الزاوية",
+          "start_page": 159,
+          "end_page": 167
+        },
+        {
+          "id": "8-2",
+          "title_ar": "الزوايا وقياساتها",
+          "start_page": 168,
+          "end_page": 173
+        },
+        {
+          "id": "8-3",
+          "title_ar": "الدوال المثلثية للزوايا",
+          "start_page": 174,
+          "end_page": 179
+        },
+        {
+          "id": "8-4",
+          "title_ar": "قانون الجيوب",
+          "start_page": 180,
+          "end_page": 186
+        },
+        {
+          "id": "8-4-explore",
+          "title_ar": "توسع 8-4: معمل الهندسة: مساحة متوازي الأضلاع",
+          "start_page": 187,
+          "end_page": 187
+        },
+        {
+          "id": "8-5",
+          "title_ar": "قانون جيوب التمام",
+          "start_page": 189,
+          "end_page": 194
+        },
+        {
+          "id": "8-6",
+          "title_ar": "الدوال الدائرية",
+          "start_page": 195,
+          "end_page": 201
+        },
+        {
+          "id": "8-7",
+          "title_ar": "تمثيل الدوال المثلثية بيانياً",
+          "start_page": 202,
+          "end_page": 208
+        },
+        {
+          "id": "8-8",
+          "title_ar": "الدوال المثلثية العكسية",
+          "start_page": 209,
+          "end_page": 214
+        }
+      ]
+    }
+  ],
+  "appendices": [
+    {
+      "id": "vol1-formulas-symbols",
+      "title_ar": "الصيغ والرموز (volume-1.pdf)",
+      "source_file": "volume-1.pdf",
+      "start_page": 225,
+      "end_page": 227
+    }
+  ],
+  "confidence_notes": [
+    "volume-1.pdf and volume-2.pdf naming is reversed from chapter order: volume-2.pdf contains chapters 1-4, volume-1.pdf contains chapters 5-8.",
+    "Lesson end_page values are estimated as (next start_page - 1); per-lesson dedicated 'دليل الدراسة', 'اختبار الفصل', and 'الإعداد للاختبارات' pages are folded into the parent chapter end_page rather than listed as separate lessons.",
+    "5-3 title 'تمثيل دوال الطلوب' may be a transcription artifact for 'تمثيل دوال المقلوب' (Reciprocal Functions) — needs verification.",
+    "Volume-2 has no separate appendix sheet visible in TOC; volume-1 closes with الصيغ والرموز."
+  ]
+}

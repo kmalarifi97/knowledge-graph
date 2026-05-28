@@ -1,0 +1,39 @@
+{
+  "folder": "physics/trc3-sm1-phys1-cse",
+  "subject": "physics",
+  "trc": "TRC3",
+  "sm": "SM1",
+  "code": "PHYS1",
+  "track": "CSE",
+  "files": [
+    {
+      "name": "volume-1.pdf",
+      "md5": "8836704ecd6d66212380d22c05cad2a3",
+      "source_filename": "2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+      "size_bytes": 125241019
+    },
+    {
+      "name": "volume-2.pdf",
+      "md5": "2b0acf4ed4ee8501b7e0fd1e504f89b2",
+      "source_filename": "a4da1624-GE-CBM-CSE-TRC3-SM1-PHYS1.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/a4da1624-GE-CBM-CSE-TRC3-SM1-PHYS1.pdf",
+      "size_bytes": 36034468
+    },
+    {
+      "name": "workbook.pdf",
+      "md5": "8ec81d1501efab0e52515af05351891e",
+      "source_filename": "60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+      "source_url": "https://iencontent.ien.edu.sa/books/60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+      "size_bytes": 3541129
+    }
+  ],
+  "page_count": 306,
+  "pdf_metadata": {
+    "format": "PDF 1.6",
+    "creator": "Adobe InDesign 18.5 (Macintosh)",
+    "producer": "Adobe PDF Library 17.0",
+    "creationDate": "D:20250514084527+03'00'",
+    "modDate": "D:20250908100255+03'00'"
+  }
+}

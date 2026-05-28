@@ -1,0 +1,731 @@
+{
+  "generated_at": "2026-05-28",
+  "source": "https://iencontent.ien.edu.sa/books/",
+  "publisher": "وزارة التعليم - المملكة العربية السعودية (Saudi MoE)",
+  "edition_note": "1447H / 2025M Pathways system (نظام المسارات) for Saudi secondary education",
+  "books": [
+    {
+      "folder": "chemistry/trc2-sm1-chmi2.1",
+      "subject": "chemistry",
+      "trc": "TRC2",
+      "sm": "SM1",
+      "code": "CHMI2.1",
+      "track": "CSE,GNRL",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "c83de39f17006a1d003e29d2f82190d0",
+          "source_filename": "007b9d55-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/007b9d55-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+          "size_bytes": 142247553
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "473b598289e1a58f9f238e3171b7c9c8",
+          "source_filename": "57e30ee8-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/57e30ee8-GE-CBM-CSE-TRC2-SM1-CHMI2.1.pdf",
+          "size_bytes": 92474839
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "6931f93e9e738edcfd8aefa8a84f986d",
+          "source_filename": "2d92176e-GE-CBM-CSE-TRC2-SM1-CHMI2.1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/2d92176e-GE-CBM-CSE-TRC2-SM1-CHMI2.1A.pdf",
+          "size_bytes": 29884752
+        }
+      ],
+      "page_count": 249,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.5 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250416151534+03'00'",
+        "modDate": "D:20250819084630+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الكيمياء 2",
+      "title_en": "Chemistry 2",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 13,
+      "lesson_count": 52,
+      "appendix_count": 5,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 249
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 325
+        }
+      ],
+      "confidence_note_count": 2
+    },
+    {
+      "folder": "math/trc2-sm1-math2.1-cse",
+      "subject": "math",
+      "trc": "TRC2",
+      "sm": "SM1",
+      "code": "MATH2.1",
+      "track": "CSE",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "2ed3a0765aa9266e3b328f4961587f8d",
+          "source_filename": "0f54d697-GE-CBM-CSE-TRC2-SM1-MATH2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/0f54d697-GE-CBM-CSE-TRC2-SM1-MATH2.1.pdf",
+          "size_bytes": 40643515
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "3f46ef085eb13217886ae8084418b53c",
+          "source_filename": "3608b0ec-GE-CBM-CSE-TRC2-SM1-MATH2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/3608b0ec-GE-CBM-CSE-TRC2-SM1-MATH2.1.pdf",
+          "size_bytes": 31828167
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "b5dcbf24ffa37d881174e285d702498f",
+          "source_filename": "0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+          "size_bytes": 2695663
+        }
+      ],
+      "page_count": 227,
+      "pdf_metadata": {
+        "format": "PDF 1.7",
+        "creator": "Adobe InDesign 18.0 (Macintosh)",
+        "producer": "GPL Ghostscript 10.00.0",
+        "creationDate": "D:20251013061127Z00'00'",
+        "modDate": "D:20251013100559+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الرياضيات 2-1 (مسار علوم الحاسب والهندسة)",
+      "title_en": "Mathematics 2.1 (CSE Track)",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 8,
+      "lesson_count": 74,
+      "appendix_count": 1,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 227
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 236
+        }
+      ],
+      "confidence_note_count": 4
+    },
+    {
+      "folder": "math/trc2-sm1-math2.1-gnrl",
+      "subject": "math",
+      "trc": "TRC2",
+      "sm": "SM1",
+      "code": "MATH2.1",
+      "track": "GNRL",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "0106c3eca98677554c65e3bb3770d011",
+          "source_filename": "80538462-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/80538462-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+          "size_bytes": 81280857
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "960bd5a3688b6731a621a05b2b4cab1c",
+          "source_filename": "d00faf9a-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/d00faf9a-GE-CBM-GNRL-TRC2-SM1-MATH2.1.pdf",
+          "size_bytes": 31828178
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "b5dcbf24ffa37d881174e285d702498f",
+          "source_filename": "0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/0f4bda6d-GE-CBM-GNRL-TRC2-SM1-MATH2.1A.pdf",
+          "size_bytes": 2695663
+        }
+      ],
+      "page_count": 227,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.0 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250423081957+03'00'",
+        "modDate": "D:20251021120256+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الرياضيات 2-1 (المسار العام)",
+      "title_en": "Mathematics 2.1 (General Track)",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 8,
+      "lesson_count": 74,
+      "appendix_count": 1,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 227
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 236
+        }
+      ],
+      "confidence_note_count": 4
+    },
+    {
+      "folder": "earth-science/trc3-sm2-ess-gnrl",
+      "subject": "earth-science",
+      "trc": "TRC3",
+      "sm": "SM2",
+      "code": "ESS",
+      "track": "GNRL",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "dd9cb7a86fe5bbd2b4f06e5a100921e2",
+          "source_filename": "2587f9b1-GE-CBM-GNRL-TRC3-SM2-ESS.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/2587f9b1-GE-CBM-GNRL-TRC3-SM2-ESS.pdf",
+          "size_bytes": 316525781
+        }
+      ],
+      "page_count": 453,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.5 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250423100038+03'00'",
+        "modDate": "D:20250713111749+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "علوم الأرض والفضاء",
+      "title_en": "Earth and Space Sciences",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 6,
+      "lesson_count": 19,
+      "appendix_count": 13,
+      "volumes": null,
+      "confidence_note_count": 4
+    },
+    {
+      "folder": "physics/trc3-sm1-phys1-cse",
+      "subject": "physics",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "PHYS1",
+      "track": "CSE",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "8836704ecd6d66212380d22c05cad2a3",
+          "source_filename": "2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "size_bytes": 125241019
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "2b0acf4ed4ee8501b7e0fd1e504f89b2",
+          "source_filename": "a4da1624-GE-CBM-CSE-TRC3-SM1-PHYS1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/a4da1624-GE-CBM-CSE-TRC3-SM1-PHYS1.pdf",
+          "size_bytes": 36034468
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "8ec81d1501efab0e52515af05351891e",
+          "source_filename": "60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+          "size_bytes": 3541129
+        }
+      ],
+      "page_count": 306,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.5 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250514084527+03'00'",
+        "modDate": "D:20250908100255+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الفيزياء - التعليم الثانوي - نظام المسارات - مسار علوم الحاسب والهندسة",
+      "title_en": "Physics - Secondary Education - Pathways System - Computer Science & Engineering Track",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 18,
+      "lesson_count": 41,
+      "appendix_count": 7,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 306
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 315
+        }
+      ],
+      "confidence_note_count": 5
+    },
+    {
+      "folder": "physics/trc3-sm1-phys1-gnrl",
+      "subject": "physics",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "PHYS1",
+      "track": "GNRL",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "2556218f38755ac4f0559b32656fb478",
+          "source_filename": "e0f03b62-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/e0f03b62-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "size_bytes": 126953748
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "8836704ecd6d66212380d22c05cad2a3",
+          "source_filename": "2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/2746f204-GE-CBM-GNRL-TRC3-SM1-PHYS1.pdf",
+          "size_bytes": 125241019
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "8ec81d1501efab0e52515af05351891e",
+          "source_filename": "60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/60b9c705-GE-CBM-CSE-TRC3-SM1-PHYS1A.pdf",
+          "size_bytes": 3541129
+        }
+      ],
+      "page_count": 315,
+      "pdf_metadata": {
+        "format": "PDF 1.3",
+        "creator": "Adobe InDesign 18.5 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250514114525+03'00'",
+        "modDate": "D:20250701114830+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الفيزياء - التعليم الثانوي - نظام المسارات - المسار العام",
+      "title_en": "Physics - Secondary Education - Pathways System - General Track",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 18,
+      "lesson_count": 41,
+      "appendix_count": 7,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 315
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 306
+        }
+      ],
+      "confidence_note_count": 4
+    },
+    {
+      "folder": "math/trc3-sm1-math1.3-cse",
+      "subject": "math",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "MATH1.3",
+      "track": "CSE",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "bb5e8aa453f029d831047873aae8ba44",
+          "source_filename": "3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "size_bytes": 19864031
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "074d8211395c873f121d14877bfb7fd8",
+          "source_filename": "66ba6895-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/66ba6895-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "size_bytes": 15511143
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "acb71ab2609b13e10d2388aa6a6c8e6a",
+          "source_filename": "346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+          "size_bytes": 1569546
+        }
+      ],
+      "page_count": 213,
+      "pdf_metadata": {
+        "format": "PDF 1.7",
+        "creator": "Adobe InDesign 18.5 (Macintosh)",
+        "producer": "GPL Ghostscript 10.05.1",
+        "creationDate": "D:20251111113023Z00'00'",
+        "modDate": "D:20251111143317+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الرياضيات 1-3 (مسار علوم الحاسب والهندسة)",
+      "title_en": "Mathematics 1.3 (CSE Track)",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 8,
+      "lesson_count": 57,
+      "appendix_count": 1,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 213
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 188
+        }
+      ],
+      "confidence_note_count": 3
+    },
+    {
+      "folder": "math/trc3-sm1-math1.3-gnrl",
+      "subject": "math",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "MATH1.3",
+      "track": "GNRL",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "9ef1c3e4eea003b057d19463fe3c98b9",
+          "source_filename": "e285cb61-GE-CBM-GNRL-TRC3-SM1-MATH1.3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/e285cb61-GE-CBM-GNRL-TRC3-SM1-MATH1.3.pdf",
+          "size_bytes": 39523000
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "bb5e8aa453f029d831047873aae8ba44",
+          "source_filename": "3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/3fe48b82-GE-CBM-CSE-TRC3-SM1-MATH1.3.pdf",
+          "size_bytes": 19864031
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "acb71ab2609b13e10d2388aa6a6c8e6a",
+          "source_filename": "346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/346d0e62-GE-CBM-GNRL-TRC3-SM1-MATH1.3A.pdf",
+          "size_bytes": 1569546
+        }
+      ],
+      "page_count": 188,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.0 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250505082612+03'00'",
+        "modDate": "D:20251021163128+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الرياضيات 1-3 (المسار العام)",
+      "title_en": "Mathematics 1.3 (General Track)",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 8,
+      "lesson_count": 57,
+      "appendix_count": 1,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 188
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 213
+        }
+      ],
+      "confidence_note_count": 3
+    },
+    {
+      "folder": "math/trc1-sm1-math1.1",
+      "subject": "math",
+      "trc": "TRC1",
+      "sm": "SM1",
+      "code": "MATH1.1",
+      "track": "SINGLE",
+      "files": [
+        {
+          "name": "volume-1.pdf",
+          "md5": "8fac7e9a67c4ae74826989d38174f1bc",
+          "source_filename": "c8af75f7-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/c8af75f7-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+          "size_bytes": 187450899
+        },
+        {
+          "name": "volume-2.pdf",
+          "md5": "d37a44e09b1229ef6b568f2f1679900a",
+          "source_filename": "523c5dd3-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/523c5dd3-GE-CBM-TRC1-SM1-MATH1.1.pdf",
+          "size_bytes": 107986987
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "7a3bcde973c453e8f069d9745a432f00",
+          "source_filename": "3fd11b49-GE-CBM-TRC1-SM1-MATH1.1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/3fd11b49-GE-CBM-TRC1-SM1-MATH1.1A.pdf",
+          "size_bytes": 2375170
+        }
+      ],
+      "page_count": 274,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.0 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20250417130240+03'00'",
+        "modDate": "D:20250903144700+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الرياضيات 1-1",
+      "title_en": "Mathematics 1.1",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 8,
+      "lesson_count": 73,
+      "appendix_count": 2,
+      "volumes": [
+        {
+          "file": "volume-1.pdf",
+          "page_count": 274
+        },
+        {
+          "file": "volume-2.pdf",
+          "page_count": 248
+        }
+      ],
+      "confidence_note_count": 3
+    },
+    {
+      "folder": "physics/trc1-sm2-phys1.1",
+      "subject": "physics",
+      "trc": "TRC1",
+      "sm": "SM2",
+      "code": "PHYS1.1",
+      "track": "SINGLE",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "a32f9a0b756ff51db71af58f9f7e0238",
+          "source_filename": "691b8ec3-GE-CBM-TRC1-SM2-PHYS1.1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/691b8ec3-GE-CBM-TRC1-SM2-PHYS1.1.pdf",
+          "size_bytes": 68235307
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "51c93b86ff0c15788bb68ef4b3010e2f",
+          "source_filename": "GE-CBM-TRC1-SM2-PHYS1.1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-TRC1-SM2-PHYS1.1A.pdf",
+          "size_bytes": 4530659
+        }
+      ],
+      "page_count": 214,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Acrobat Pro 23.3.20269",
+        "producer": "Acrobat Pro 23.3.20269",
+        "creationDate": "D:20230815134648+03'00'",
+        "modDate": "D:20250629121333+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الفيزياء 1 - التعليم الثانوي - نظام المسارات - السنة الثانية",
+      "title_en": "Physics 1 - Secondary Education - Pathways System - Year 2 (Single Track)",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 6,
+      "lesson_count": 18,
+      "appendix_count": 4,
+      "volumes": null,
+      "confidence_note_count": 0
+    },
+    {
+      "folder": "chemistry/trc3-sm1-chmi3-cse",
+      "subject": "chemistry",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "CHMI3",
+      "track": "CSE",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "88308cd1211261fc94f612666c3d055a",
+          "source_filename": "6d948a3b-GE-CBM-CSE-TRC3-SM1-CHMI3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/6d948a3b-GE-CBM-CSE-TRC3-SM1-CHMI3.pdf",
+          "size_bytes": 89317381
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "e9994f428b8b8dd16176055b0e8959be",
+          "source_filename": "GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+          "size_bytes": 8789434
+        }
+      ],
+      "page_count": 178,
+      "pdf_metadata": {
+        "format": "PDF 1.7",
+        "creator": "Adobe InDesign 17.4 (Macintosh)",
+        "producer": "GPL Ghostscript 10.00.0",
+        "creationDate": "D:20250705144739Z00'00'",
+        "modDate": "D:20250705144739Z00'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الكيمياء 3",
+      "title_en": "Chemistry 3",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 4,
+      "lesson_count": 13,
+      "appendix_count": 2,
+      "volumes": null,
+      "confidence_note_count": 0
+    },
+    {
+      "folder": "chemistry/trc3-sm1-chmi3-gnrl",
+      "subject": "chemistry",
+      "trc": "TRC3",
+      "sm": "SM1",
+      "code": "CHMI3",
+      "track": "GNRL",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "769e1e3dceeb4a067eb3a8ed88e564ce",
+          "source_filename": "f1d32ac3-GE-CBM-GNRL-TRC3-SM1-CHMI3.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/f1d32ac3-GE-CBM-GNRL-TRC3-SM1-CHMI3.pdf",
+          "size_bytes": 135207227
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "e9994f428b8b8dd16176055b0e8959be",
+          "source_filename": "GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-CSE-TRC3-SM1-CHMI3A.pdf",
+          "size_bytes": 8789434
+        }
+      ],
+      "page_count": 178,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 17.4 (Macintosh)",
+        "producer": "Adobe PDF Library 16.0.7",
+        "creationDate": "D:20221017134110+03'00'",
+        "modDate": "D:20250630140622+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الكيمياء 3",
+      "title_en": "Chemistry 3",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 4,
+      "lesson_count": 13,
+      "appendix_count": 2,
+      "volumes": null,
+      "confidence_note_count": 0
+    },
+    {
+      "folder": "physics/trc2-sm3-phys2",
+      "subject": "physics",
+      "trc": "TRC2",
+      "sm": "SM3",
+      "code": "PHYS2",
+      "track": "CSE,GNRL",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "ebe0714c0977cb7733fdfcdb0c674c15",
+          "source_filename": "ae52978d-GE-CBM-GNRL-TRC2-SM3-PHYS2.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/ae52978d-GE-CBM-GNRL-TRC2-SM3-PHYS2.pdf",
+          "size_bytes": 96319740
+        },
+        {
+          "name": "workbook.pdf",
+          "md5": "29937dce3405902d9fda3448e6e70116",
+          "source_filename": "GE-CBM-CSE-TRC2-SM3-phys2A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-CSE-TRC2-SM3-phys2A.pdf",
+          "size_bytes": 1071746
+        }
+      ],
+      "page_count": 242,
+      "pdf_metadata": {
+        "format": "PDF 1.6",
+        "creator": "Adobe InDesign 18.4 (Macintosh)",
+        "producer": "Adobe PDF Library 17.0",
+        "creationDate": "D:20230801125045+03'00'",
+        "modDate": "D:20250630093924+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الفيزياء 2 - التعليم الثانوي - نظام المسارات - السنة الثانية",
+      "title_en": "Physics 2 - Secondary Education - Pathways System - Year 2",
+      "edition": "1447 / 2025",
+      "chapter_count": 6,
+      "lesson_count": 13,
+      "appendix_count": 3,
+      "volumes": null,
+      "confidence_note_count": 0
+    },
+    {
+      "folder": "chemistry/trc1-sm1-chmi1",
+      "subject": "chemistry",
+      "trc": "TRC1",
+      "sm": "SM1",
+      "code": "CHMI1",
+      "track": "SINGLE",
+      "files": [
+        {
+          "name": "textbook.pdf",
+          "md5": "618af40a1f18c8ebfda5ae500fa40f77",
+          "source_filename": "GE-CBM-TRC1-SM1-CHMI1.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-TRC1-SM1-CHMI1.pdf",
+          "size_bytes": 55825084
+        }
+      ],
+      "page_count": 198,
+      "pdf_metadata": {
+        "format": "PDF 1.7",
+        "creator": "Adobe InDesign 16.2 (Macintosh)",
+        "producer": "GPL Ghostscript 10.05.1",
+        "creationDate": "D:20251016073724Z00'00'",
+        "modDate": "D:20251016104727+03'00'"
+      },
+      "has_structure_json": true,
+      "title_ar": "الكيمياء 1",
+      "title_en": "Chemistry 1",
+      "edition": "1447H / 2025M (نظام المسارات)",
+      "chapter_count": 5,
+      "lesson_count": 18,
+      "appendix_count": 3,
+      "volumes": null,
+      "confidence_note_count": 0
+    },
+    {
+      "folder": "chemistry/trc1-sm3-chmi1",
+      "subject": "chemistry",
+      "trc": "TRC1",
+      "sm": "SM3",
+      "code": "CHMI1",
+      "track": "SINGLE",
+      "files": [
+        {
+          "name": "workbook.pdf",
+          "md5": "06865886ca22ca01e8878d13900ff393",
+          "source_filename": "GE-CBM-TRC1-SM3-CHMI1A.pdf",
+          "source_url": "https://iencontent.ien.edu.sa/books/GE-CBM-TRC1-SM3-CHMI1A.pdf",
+          "size_bytes": 2798409
+        }
+      ],
+      "has_structure_json": false
+    },
+    {
+      "folder": "reference",
+      "subject": "reference",
+      "name": "periodictableofelements.pdf",
+      "md5": "c01f477c3239bc4b92b272131a09deed",
+      "size_bytes": 3156477,
+      "source_url": "https://iencontent.ien.edu.sa/books/periodictableofelements.pdf",
+      "has_structure_json": false
+    }
+  ],
+  "totals": {
+    "unique_books": 14,
+    "total_chapters": 120,
+    "total_lessons": 563,
+    "total_appendices": 52,
+    "raw_pdfs_downloaded": 41,
+    "byte_identical_duplicates_quarantined": 11
+  }
+}
