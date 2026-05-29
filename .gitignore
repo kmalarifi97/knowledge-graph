@@ -17,3 +17,6 @@ dist/
 
 # Browser-automation scratch (from playwright MCP testing)
 .playwright-mcp/
+
+# Lesson-extraction page-image cache (rendered from gitignored PDFs)
+extraction/_pagecache/

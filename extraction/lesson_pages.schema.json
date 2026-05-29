@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://school-ai/lesson_pages.schema.json",
+  "title": "Lesson page content (vision-free textbook representation)",
+  "description": "One file per lesson. Turns textbook page images into structured text ONCE so the chat/storyboard run on cheap text models. Validation guarantees: every question is individually addressable; headings/titles are captured; equations carry LaTeX; any figure carries a written description.",
+  "type": "object",
+  "required": ["lesson_id", "title_ar", "title_en", "page_range", "pages"],
+  "additionalProperties": false,
+  "properties": {
+    "lesson_id": { "type": "string", "description": "Matches structure.json lesson id, e.g. \"1-1\"." },
+    "title_ar": { "type": "string", "minLength": 1 },
+    "title_en": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "book_title_ar": { "type": "string" },
+        "edition": { "type": "string" },
+        "page_offset": { "type": "integer" },
+        "extraction": { "type": "string", "enum": ["manual", "vision-once", "manual+vision-once"] },
+        "fidelity": { "type": "string", "enum": ["verbatim", "paraphrased-faithful"] }
+      }
+    },
+    "page_range": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": "integer", "minimum": 1 },
+        "end": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "lesson_summary_ar": { "type": "string" },
+    "key_terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["term_ar"],
+        "additionalProperties": false,
+        "properties": {
+          "term_ar": { "type": "string" },
+          "term_en": { "type": "string" }
+        }
+      }
+    },
+    "common_misconceptions_ar": { "type": "array", "items": { "type": "string" } },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["page", "blocks"],
+        "additionalProperties": false,
+        "properties": {
+          "page": { "type": "integer", "minimum": 1 },
+          "blocks": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/block" }
+          }
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "block": {
+      "oneOf": [
+        { "$ref": "#/$defs/heading" },
+        { "$ref": "#/$defs/objectives" },
+        { "$ref": "#/$defs/paragraph" },
+        { "$ref": "#/$defs/equation" },
+        { "$ref": "#/$defs/figure" },
+        { "$ref": "#/$defs/table" },
+        { "$ref": "#/$defs/worked_example" },
+        { "$ref": "#/$defs/question_set" },
+        { "$ref": "#/$defs/question" },
+        { "$ref": "#/$defs/key_term" },
+        { "$ref": "#/$defs/margin_note" }
+      ]
+    },
+
+    "heading": {
+      "type": "object",
+      "required": ["type", "level", "text_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "heading" },
+        "level": { "type": "integer", "minimum": 1, "maximum": 4 },
+        "text_ar": { "type": "string", "minLength": 1 },
+        "text_en": { "type": "string" }
+      }
+    },
+
+    "objectives": {
+      "type": "object",
+      "required": ["type", "items_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "objectives" },
+        "items_ar": { "type": "array", "minItems": 1, "items": { "type": "string" } }
+      }
+    },
+
+    "paragraph": {
+      "type": "object",
+      "required": ["type", "text_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "paragraph" },
+        "text_ar": { "type": "string", "minLength": 1 },
+        "text_en": { "type": "string" }
+      }
+    },
+
+    "equation": {
+      "type": "object",
+      "required": ["type", "id", "latex"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "equation" },
+        "id": { "type": "string" },
+        "latex": { "type": "string", "minLength": 1, "description": "REQUIRED. Plain LaTeX, text-safe." },
+        "caption_ar": { "type": "string" },
+        "symbols_ar": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["symbol", "meaning_ar"],
+            "additionalProperties": false,
+            "properties": {
+              "symbol": { "type": "string" },
+              "meaning_ar": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+
+    "figure": {
+      "type": "object",
+      "required": ["type", "id", "label_ar", "description_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "figure" },
+        "id": { "type": "string" },
+        "label_ar": { "type": "string", "description": "Printed label, e.g. \"شكل 1-3\"." },
+        "caption_ar": { "type": "string" },
+        "description_ar": {
+          "type": "string",
+          "minLength": 20,
+          "description": "REQUIRED. The vision-free substitute: describe what the figure shows in enough detail to author from. Min length guards against empty stubs."
+        },
+        "pedagogical_point_ar": { "type": "string" }
+      }
+    },
+
+    "table": {
+      "type": "object",
+      "required": ["type", "id", "rows"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "table" },
+        "id": { "type": "string" },
+        "caption_ar": { "type": "string" },
+        "columns_ar": { "type": "array", "items": { "type": "string" } },
+        "rows": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } }
+      }
+    },
+
+    "worked_example": {
+      "type": "object",
+      "required": ["type", "id", "prompt_ar", "solution_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "worked_example" },
+        "id": { "type": "string" },
+        "printed_number": { "type": "string" },
+        "prompt_ar": { "type": "string", "minLength": 1 },
+        "solution_ar": { "type": "string", "minLength": 1 },
+        "answer": { "type": "string" },
+        "figure_ref": { "type": ["string", "null"] }
+      }
+    },
+
+    "question_set": {
+      "type": "object",
+      "required": ["type", "title_ar", "page", "questions"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "question_set" },
+        "title_ar": { "type": "string", "description": "e.g. تحقق / أسئلة المراجعة / تقويم الفصل" },
+        "page": { "type": "integer", "minimum": 1 },
+        "questions": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/question" } }
+      }
+    },
+
+    "question": {
+      "type": "object",
+      "required": ["type", "id", "printed_number", "page", "qkind", "prompt_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "question" },
+        "id": { "type": "string", "description": "Stable, e.g. q-1-1-p15-3. Resolves a teacher's \"سؤال 3 صفحة 15\"." },
+        "printed_number": { "type": "string", "description": "REQUIRED. The number as printed; how the teacher refers to it." },
+        "page": { "type": "integer", "minimum": 1 },
+        "section_ar": { "type": "string" },
+        "qkind": { "type": "string", "enum": ["conceptual", "numerical", "graph", "true_false", "mcq"] },
+        "prompt_ar": { "type": "string", "minLength": 1 },
+        "given_ar": { "type": "array", "items": { "type": "string" } },
+        "options_ar": { "type": "array", "items": { "type": "string" }, "description": "For mcq." },
+        "subparts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "prompt_ar"],
+            "additionalProperties": false,
+            "properties": {
+              "label": { "type": "string" },
+              "prompt_ar": { "type": "string" }
+            }
+          }
+        },
+        "figure_ref": { "type": ["string", "null"] },
+        "answer_ar": { "type": "string" },
+        "solution_steps_ar": { "type": "array", "items": { "type": "string" } },
+        "concept_tags": { "type": "array", "items": { "type": "string" } },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] }
+      }
+    },
+
+    "key_term": {
+      "type": "object",
+      "required": ["type", "term_ar", "definition_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "key_term" },
+        "term_ar": { "type": "string" },
+        "term_en": { "type": "string" },
+        "definition_ar": { "type": "string" }
+      }
+    },
+
+    "margin_note": {
+      "type": "object",
+      "required": ["type", "text_ar"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "const": "margin_note" },
+        "text_ar": { "type": "string" }
+      }
+    }
+  }
+}
