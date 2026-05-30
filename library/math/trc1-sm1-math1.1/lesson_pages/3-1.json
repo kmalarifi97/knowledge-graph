@@ -1,0 +1,1104 @@
+{
+  "lesson_id": "3-1",
+  "title_ar": "تصنيف المثلثات",
+  "title_en": "Classifying Triangles",
+  "source": {
+    "book_title_ar": "الرياضيات 1-1 - نظام المسارات - السنة الأولى",
+    "edition": "1447H / 2025M",
+    "page_offset": 0,
+    "extraction": "vision-once",
+    "fidelity": "paraphrased-faithful"
+  },
+  "page_range": { "start": 146, "end": 152 },
+  "lesson_summary_ar": "يتناول الدرس تصنيف المثلثات بطريقتين: وفق قياسات زواياها (حادة الزاوية، منفرجة الزاوية، قائمة الزاوية)، ووفق أطوال أضلاعها (متساوي الأضلاع، متساوي الساقين، مختلف الأضلاع). يتعلم الطالب تحديد نوع المثلث بالنظر إلى زواياه أو أضلاعه، وإيجاد قياسات الزوايا أو أطوال الأضلاع المجهولة باستخدام خصائص تلك المثلثات، وحل مسائل جبرية تتضمن التصنيف في سياقات حياتية وهندسية وإحداثية.",
+  "key_terms": [
+    { "term_ar": "المثلث الحاد الزوايا",   "term_en": "acute triangle" },
+    { "term_ar": "المثلث المنفرج الزاوية", "term_en": "obtuse triangle" },
+    { "term_ar": "المثلث القائم الزاوية",  "term_en": "right triangle" },
+    { "term_ar": "المثلث متساوي الأضلاع", "term_en": "equilateral triangle" },
+    { "term_ar": "المثلث متساوي الساقين", "term_en": "isosceles triangle" },
+    { "term_ar": "المثلث مختلف الأضلاع",  "term_en": "scalene triangle" }
+  ],
+  "common_misconceptions_ar": [
+    "الاعتقاد أن المثلث متساوي الساقين يجب أن يكون حاد الزوايا؛ في حين يمكن أن يكون منفرج الزاوية أو قائم الزاوية.",
+    "الخلط بين التصنيف بالزوايا والتصنيف بالأضلاع؛ إذ لكل مثلث وصفان مستقلان: أحدهما بحسب الزوايا والآخر بحسب الأضلاع.",
+    "الظن أن المثلث متساوي الأضلاع لا يُعدّ متساوي الساقين؛ والصواب أنه يُعدّ كذلك لأن له ضلعين متساويين على الأقل.",
+    "افتراض إمكانية وجود أكثر من زاوية قائمة في المثلث الواحد؛ في حين لا يمكن احتواء مثلث على أكثر من زاوية قائمة واحدة."
+  ],
+  "pages": [
+    {
+      "page": 146,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text_ar": "تصنيف المثلثات",
+          "text_en": "Classifying Triangles"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "لماذا؟ المثلث حاضر في مجالات الحياة اليومية؛ إذ تبرز العناصر المثلثية في تصاميم الملاعب الرياضية والمنشآت المعمارية. يُمكّن تصنيف المثلثات من فهم خصائصها وتوظيفها."
+        },
+        {
+          "type": "objectives",
+          "items_ar": [
+            "أصنّف المثلثات وفق قياسات زواياها وأطوال أضلاعها.",
+            "أجد قيمًا مجهولة في مثلثات وفق صفاتها."
+          ]
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث الحاد الزوايا",
+          "term_en": "acute triangle",
+          "definition_ar": "مثلث جميع زواياه حادة؛ أي قياس كل زاوية أقل من 90°."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث المنفرج الزاوية",
+          "term_en": "obtuse triangle",
+          "definition_ar": "مثلث إحدى زواياه منفرجة؛ أي قياسها أكبر من 90°."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث القائم الزاوية",
+          "term_en": "right triangle",
+          "definition_ar": "مثلث إحدى زواياه قائمة؛ أي قياسها 90°."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث متساوي الأضلاع",
+          "term_en": "equilateral triangle",
+          "definition_ar": "مثلث أضلاعه الثلاثة متساوية الأطوال."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث متساوي الساقين",
+          "term_en": "isosceles triangle",
+          "definition_ar": "مثلث له ضلعان متساويا الطول على الأقل."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "المثلث مختلف الأضلاع",
+          "term_en": "scalene triangle",
+          "definition_ar": "مثلث أضلاعه الثلاثة مختلفة الأطوال."
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "يُكتب المثلث ABC بالرمز △ABC. أضلاعه هي: \\overline{AB}، \\overline{BC}، \\overline{CA}. زواياه هي: ∠A، ∠B، ∠C. رؤوسه هي: A، B، C. وتصنيف المثلثات وفق زواياها: تصنيف المثلثات وفق أضلاعها. يمكن تصنيف أي مثلث وفق زواياه إلى أحد الأنواع الثلاثة باستخدام قياسات زواياه."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-angle-classification",
+          "label_ar": "مفهوم أساسي: تصنيف المثلثات وفق زواياها",
+          "description_ar": "ثلاثة مثلثات جنبًا إلى جنب: الأول حاد الزوايا (جميع زواياه أقل من 90°)، والثاني منفرج الزاوية (إحدى زواياه أكبر من 90°)، والثالث قائم الزاوية (إحدى زواياه 90° تُمثلها علامة الزاوية القائمة). تحت كل مثلث اسمه: مثلث حاد الزاوية، مثلث منفرج الزاوية، مثلث قائم الزاوية.",
+          "pedagogical_point_ar": "التصنيف الثلاثي للمثلثات بحسب الزوايا."
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-1-1",
+          "printed_number": "1",
+          "prompt_ar": "صنّف كلًّا من المثلثين الآتيين وفق زواياه:\n(أ) مثلث زواياه: 75°، 75°، 30°\n(ب) مثلث زواياه: 90°، 30°، 60°",
+          "solution_ar": "(أ) الزوايا 75° و75° و30° جميعها أقل من 90°؛ إذن المثلث حاد الزوايا.\n(ب) إحدى الزوايا قياسها 90°؛ إذن المثلث قائم الزاوية.",
+          "answer": "(أ) حاد الزوايا  (ب) قائم الزاوية",
+          "figure_ref": null
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 146,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p146-1A",
+              "printed_number": "1A",
+              "page": 146,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث الذي زواياه 115°، 30°، 35° وفق زواياه.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p146-1B",
+              "printed_number": "1B",
+              "page": 146,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث △ABC الذي زواياه جميعها 60° وفق زواياه.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 147,
+      "blocks": [
+        {
+          "type": "margin_note",
+          "text_ar": "مراجعة المفردات: الزاوية الحادة: قياسها أقل من 90°. الزاوية القائمة: قياسها 90°. الزاوية المنفرجة: قياسها أكبر من 90°. الزاوية المستقيمة: قياسها أكبر من 90°."
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-1-2",
+          "printed_number": "2",
+          "prompt_ar": "تصنيف المثلثات ضمن أشكال مختلفة وفق زواياها:\nصنّف △PQR إذا كانت النقطة S داخل الزاوية PQR بحيث m∠PQS = 45° وm∠SQR = 59°.",
+          "solution_ar": "m∠PQR = m∠PQS + m∠SQR = 45° + 59° = 104°\nلأن m∠PQR = 104° > 90° فإن △PQR منفرج الزاوية.",
+          "answer": "△PQR منفرج الزاوية",
+          "figure_ref": "fig-3-1-pqr-angle"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-pqr-angle",
+          "label_ar": "مثال 2",
+          "description_ar": "شكل هندسي يمثّل المثلث PQR مع نقطة S تقع داخل الزاوية PQR بحيث تُقسّمها إلى زاويتين: ∠PQS = 45° وΔSQR = 59°. الزاوية القائمة PQR تساوي مجموع الزاويتين أي 104°.",
+          "pedagogical_point_ar": "استخدام مفهوم مطوّل الزاوية لإيجاد قياس الزاوية الكلية ثم تصنيف المثلث."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 147,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p147-2",
+              "printed_number": "2",
+              "page": 147,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "numerical",
+              "prompt_ar": "استعمل الشكل لإيجاد قياس الزاوية في △PQS وصنّفه وفق زواياه.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا", "قياس الزاوية"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تصنيف المثلثات وفق أضلاعها"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-side-classification",
+          "label_ar": "مفهوم أساسي: تصنيف المثلثات وفق أضلاعها",
+          "description_ar": "ثلاثة مثلثات جنبًا إلى جنب: الأول متساوي الأضلاع (علامات تساوٍ على الأضلاع الثلاثة)، والثاني متساوي الساقين (علامات تساوٍ على ضلعين فقط)، والثالث مختلف الأضلاع (لا علامات تساوٍ). تحت كل منهما اسمه: مثلث متساوي الأضلاع، مثلث متساوي الساقين، مثلث مختلف الأضلاع. وبجانب الشكل صورة واقعية لمثلث متساوي الساقين من الحياة.",
+          "pedagogical_point_ar": "تصنيف المثلثات بعدد الأضلاع المتساوية: ثلاثة أو اثنان أو لا شيء."
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-1-3",
+          "printed_number": "3",
+          "prompt_ar": "من واقع الحياة — صنّف المثلثات وفق أضلاعها:\nفي العمارة: مثلث ضلعاه 55 cm لكل منهما. هل يمكن أن تكون جميع المثلثات في الشكل متساوية الأضلاع؟",
+          "solution_ar": "بما أن ضلعين متساويان (كلاهما 55 cm)، فالمثلث متساوي الساقين على الأقل. لكي يكون متساوي الأضلاع يجب أن يكون الضلع الثالث أيضًا 55 cm.",
+          "answer": "متساوي الساقين على الأقل",
+          "figure_ref": null
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 147,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p147-3",
+              "printed_number": "3",
+              "page": 147,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "قيادة السيارة والسلامة: صنّف المثلث الظاهر في لافتة التحذير وفق أضلاعه.",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 148,
+      "blocks": [
+        {
+          "type": "worked_example",
+          "id": "ex-3-1-4",
+          "printed_number": "4",
+          "prompt_ar": "تصنيف المثلثات ضمن أشكال مختلفة وفق أضلاعها:\nإذا كانت M منتصف \\overline{JL}، والنقطة H منتصف \\overline{ML}، وعُلم أن JM = ML = 1.5 وMH = 0.75، فصنّف المثلثات الثلاثة وفق أضلاعها ووضّح إجابتك.",
+          "solution_ar": "من تعريف منتصف القطعة: JM = ML = 1.5.\nكذلك MH = 0.75 (لأن H منتصف ML)، وبالتالي JM = MH = 0.75.\nومنه KM = ML = 0.75، وKL = 0؟ لا — بل تُصنَّف المثلثات الثلاثة وفق أطوال أضلاعها الفعلية:\nΔJMH: أضلاعه JM = MH = 0.75 و JH مجهول → متساوي الساقين.\nΔMLH: أضلاعه ML = LH = 0.75 → متساوي الساقين.\nΔJKL: وفق المعطيات المعطاة → يُصنَّف بناء على أطوال الأضلاع الكاملة.",
+          "answer": "كل من ΔJMH وΔMLH مثلث متساوي الساقين وفق الأطوال المحسوبة",
+          "figure_ref": "fig-3-1-jkml"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-jkml",
+          "label_ar": "مثال 4",
+          "description_ar": "شكل يمثّل المثلث ΔJKL مع النقطة M منتصف \\overline{JL} والنقطة H منتصف \\overline{ML}. القياسات المدوّنة: JM = ML = 1.3 cm، MH = 0.75 cm. تُقسَّم المثلث إلى مثلثات داخلية متعددة يُصنَّف كل منها وفق أضلاعه.",
+          "pedagogical_point_ar": "توظيف تعريف المنتصف لإيجاد أطوال الأضلاع ثم تصنيف المثلثات الناتجة."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 148,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p148-4",
+              "printed_number": "4",
+              "page": 148,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلثات الناتجة عن المنتصف في الشكل المجاور وفق أضلاعها وضّح إجابتك.",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-1-5",
+          "printed_number": "5",
+          "prompt_ar": "إيجاد قياسات أضلاع المثلث المجهولة:\nجبر: △ABC متساوي الساقين بحيث AC = CB. أوجد قيمة x وأطوال الأضلاع إذا كان AC = 4x + 1 وCB = 5x − 0.5 وAB = 9x − 0.5.",
+          "solution_ar": "الخطوة 1 — أوجد x:\nAC = CB (تعريف متساوي الساقين)\n4x + 1 = 5x − 0.5\n1 + 0.5 = 5x − 4x\nx = 1.5\nالخطوة 2 — أوجد الأطوال:\nAC = 4(1.5) + 1 = 7\nCB = 5(1.5) − 0.5 = 7\nAB = 9(1.5) − 0.5 = 13 − 0.5 = 12.5",
+          "answer": "x = 1.5، AC = CB = 7، AB = 12.5",
+          "figure_ref": "fig-3-1-abc-algebra"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-abc-algebra",
+          "label_ar": "مثال 5",
+          "description_ar": "مثلث ABC متساوي الساقين، الضلع AC مُعبَّر عنه بـ (4x + 1)، والضلع CB بـ (5x − 0.5)، والضلع AB بـ (9x − 0.5). العلاقة AC = CB مُشار إليها بعلامات تساوٍ على الضلعين.",
+          "pedagogical_point_ar": "استخدام خاصية تساوي ساقَي المثلث متساوي الساقين لإعداد معادلة جبرية وحلها."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 148,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p148-5",
+              "printed_number": "5",
+              "page": 148,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد قيمة x وأطوال أضلاع المثلث المتساوي الساقين ΔFGH إذا كان FG = (3y + 3) وGH = (2y + 7) وFG = GH.",
+              "given_ar": ["FG = 3y + 3", "GH = 2y + 7", "FG = GH"],
+              "concept_tags": ["المثلث متساوي الساقين", "حل المعادلات"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 149,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تأكد",
+          "page": 149,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p149-1",
+              "printed_number": "1",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث ذا الزواية 130° وفق زواياه (زاوية منفرجة 130°).",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-2",
+              "printed_number": "2",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث ذا الزاوية 23° و25° وفق زواياه (صورة مبنى بمثلث خارجي 130°).",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-3",
+              "printed_number": "3",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث ذا الزاوية 90° وفق زواياه (صورة مبنى بمثلث قائم 90°).",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-4",
+              "printed_number": "4",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △ABD وفق زواياه من الشكل المجاور: ∠A = 60°، ∠ABD = 60°، ∠ADB = 60°.",
+              "given_ar": ["∠A = 60°", "∠ABD = 60°", "∠ADB = 60°"],
+              "figure_ref": "fig-3-1-abdc-q2",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-5",
+              "printed_number": "5",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △BDC وفق زواياه من الشكل المجاور: ∠BDC = 120°، ∠DBC = 30°.",
+              "given_ar": ["∠BDC = 120°", "∠DBC = 30°"],
+              "figure_ref": "fig-3-1-abdc-q2",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-6",
+              "printed_number": "6",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △ABC وفق زواياه من الشكل المجاور.",
+              "figure_ref": "fig-3-1-abdc-q2",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-7",
+              "printed_number": "7",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "صنّف المثلث ذا الأضلاع 12 cm و 5 cm و 13 cm وفق زواياه وأضلاعه.",
+              "given_ar": ["الأضلاع: 12 cm و 5 cm و 13 cm"],
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-8",
+              "printed_number": "8",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "صنّف المثلث ذا الزاويتين 45° و45° وضلعيه المتساويين (كل منهما 13 cm) وفق زواياه وأضلاعه.",
+              "given_ar": ["زاويتان: 45° و45°", "ضلعان متساويان: 13 cm لكل منهما"],
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-9",
+              "printed_number": "9",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "إذا كانت K منتصف \\overline{FH}، فصنّف △FGH وفق أضلاعه.",
+              "figure_ref": "fig-3-1-fgh-q4",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-10",
+              "printed_number": "10",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "إذا كانت K منتصف \\overline{FH}، فصنّف △GIL وفق أضلاعه.",
+              "figure_ref": "fig-3-1-fgh-q4",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-11",
+              "printed_number": "11",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "إذا كانت K منتصف \\overline{FH}، فصنّف △FHL وفق أضلاعه.",
+              "figure_ref": "fig-3-1-fgh-q4",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-12",
+              "printed_number": "12",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: أوجد قيمة المتغير وأطوال الأضلاع: مثلث متساوي الساقين أضلاعه (3f)، (4f − 5)، (4f − 5).",
+              "given_ar": ["الضلع الأول: 3f", "الضلعان المتساويان: 4f − 5"],
+              "concept_tags": ["المثلث متساوي الساقين", "حل المعادلات"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-13",
+              "printed_number": "13",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: أوجد قيمة المتغير وأطوال الأضلاع في المثلث الآتي: أضلاعه (2c + 7)، (2c + 7)، والضلع الثالث.",
+              "given_ar": ["ضلعان متساويان: 2c + 7"],
+              "concept_tags": ["المثلث متساوي الساقين", "حل المعادلات"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p149-14",
+              "printed_number": "14",
+              "page": 149,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "مجموعات: الفصل أن تكتشف أيًّا من مثلثات الشكل الهندسي المجاور متساوي الأضلاع أو متساوي الساقين أو مختلف الأضلاع. فكّر في أفضل طريقة لتحقيق ذلك وفسّر إجابتك.",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-abdc-q2",
+          "label_ar": "مسألة 2 (تأكد)",
+          "description_ar": "رباعي الأضلاع ABDC مقسوم بالقطر BD إلى مثلثين: △ABD و△BDC. الزوايا المدوّنة: ∠A = 60°، ∠ABD = 60°، ∠ADB = 60°، ∠BDC = 120°، ∠DBC = 30°، والزوايا الأخرى محسوبة منها."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-fgh-q4",
+          "label_ar": "مسألة 4 (تأكد)",
+          "description_ar": "مثلث FGH مع نقاط داخلية K منتصف FH وI وL على الأضلاع، مُقسَّم إلى مثلثات فرعية. الأطوال المدوّنة: GH = 8، GF = 5، مع تحديد المنتصف K على FH."
+        }
+      ]
+    },
+    {
+      "page": 150,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 150,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p150-15",
+              "printed_number": "15",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (15) وفق زواياه: زواياه 25°، 115°، 40°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-16",
+              "printed_number": "16",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (16) وفق زواياه: زواياه 50°، 65°، 65°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-17",
+              "printed_number": "17",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (17) وفق زواياه: زواياه 55°، 90°، 35°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-18",
+              "printed_number": "18",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (18) وفق زواياه: زواياه 60°، 60°، 60°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-19",
+              "printed_number": "19",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (19) وفق زواياه: زواياه 85°، 25°، 70°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-20",
+              "printed_number": "20",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث (20) وفق زواياه: زواياه 90°، 45°، 45°.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-21",
+              "printed_number": "21",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △UYZ وفق زواياه من الشكل: ∠U = 43°، ∠Y = 60°، ∠Z = 47°.",
+              "figure_ref": "fig-3-1-uyz-bcd",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-22",
+              "printed_number": "22",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △BCD وفق زواياه من الشكل: ∠ABD = 39°، ∠B = 86°، ∠ADB = 45°، ∠BDC = 55°، ∠BCD = 45°.",
+              "figure_ref": "fig-3-1-uyz-bcd",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-23",
+              "printed_number": "23",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △ADB وفق زواياه من الشكل.",
+              "figure_ref": "fig-3-1-uyz-bcd",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-24",
+              "printed_number": "24",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △UXZ وفق زواياه من الشكل: ∠UXY = 47°، ∠XYW = 120°، ∠WYZ = 40°.",
+              "figure_ref": "fig-3-1-uxyz",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-25",
+              "printed_number": "25",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △UWZ وفق زواياه من الشكل.",
+              "figure_ref": "fig-3-1-uxyz",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-26",
+              "printed_number": "26",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △UXY وفق زواياه من الشكل.",
+              "figure_ref": "fig-3-1-uxyz",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-27",
+              "printed_number": "27",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث الظاهر في الصورة الأولى (27) وفق زواياه وأضلاعه.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-28",
+              "printed_number": "28",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف المثلث الظاهر في الصورة الثانية (28) وفق زواياه وأضلاعه.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-29",
+              "printed_number": "29",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "إذا كانت C منتصف \\overline{AB} والنقطة E منتصف \\overline{DF}، فصنّف △ABC وفق أضلاعه.",
+              "given_ar": ["C منتصف AB", "E منتصف DF", "الأطوال الجزئية: AB = 10، BC = 4، CD = 4، DF = 10"],
+              "figure_ref": "fig-3-1-abcdef",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-30",
+              "printed_number": "30",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "إذا كانت C منتصف \\overline{AB} والنقطة E منتصف \\overline{DF}، فصنّف △ABD وفق أضلاعه.",
+              "given_ar": ["C منتصف AB", "E منتصف DF"],
+              "figure_ref": "fig-3-1-abcdef",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-31",
+              "printed_number": "31",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "إذا كانت C منتصف \\overline{AB} والنقطة E منتصف \\overline{DF}، فصنّف △ACD وفق أضلاعه.",
+              "given_ar": ["C منتصف AB", "E منتصف DF"],
+              "figure_ref": "fig-3-1-abcdef",
+              "concept_tags": ["تصنيف المثلثات بالأضلاع", "المنتصف"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-32",
+              "printed_number": "32",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: △ΔFGH متساوي الأضلاع، أوجد قيمة x وطول كل ضلع:\nFG = 6x + 1، GH = 3x + 10، FH = 9x − 8.",
+              "given_ar": ["FG = 6x + 1", "GH = 3x + 10", "FH = 9x − 8"],
+              "concept_tags": ["المثلث متساوي الأضلاع", "حل المعادلات"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p150-33",
+              "printed_number": "33",
+              "page": 150,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: △RST متساوي الساقين بحيث RS = ST. أوجد قيمة x وطول كل ضلع:\nRS = 7x − 5، ST = 5x + 7، RT = 3x + 5.",
+              "given_ar": ["RS = 7x − 5", "ST = 5x + 7", "RT = 3x + 5", "RS = ST"],
+              "concept_tags": ["المثلث متساوي الساقين", "حل المعادلات"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-uyz-bcd",
+          "label_ar": "مسائل 21-23 (تدرب)",
+          "description_ar": "شكلان: الأول رباعي الأضلاع ABCD مع القطر BD يُقسّمه إلى △ABD و△BCD. الزوايا المدوّنة: ∠ABD = 39°، ∠ADB = 86°، ∠BDA = 45°، ∠BDC = 55°، ∠BCD = 45°. الثاني مثلث UYZ مستقل بزوايا: ∠U = 43°، ∠Y = 60°، ∠Z = 47°.",
+          "pedagogical_point_ar": "تصنيف مثلثات متعددة ناتجة من تقسيم شكل رباعي بقطر."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-uxyz",
+          "label_ar": "مسائل 24-26 (تدرب)",
+          "description_ar": "مثلث UWZ كبير مع نقطتين X وY تقعان على الأضلاع أو داخل المثلث بحيث: ∠UXY = 47°، ∠XYW = 120°، ∠WYZ = 40°، ∠UZY = 60°. يُقسَّم إلى ثلاثة مثلثات: △UXY و△UXZ و△UWZ.",
+          "pedagogical_point_ar": "تصنيف مثلثات متعددة ناتجة من تقسيم مثلث كبير بقطعتين مستقيمتين داخليتين."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-abcdef",
+          "label_ar": "مسائل 29-31 (تدرب)",
+          "description_ar": "شكل يمثّل الأربع نقاط A وB وC وD وE وF مع النقطة C منتصف AB والنقطة E منتصف DF. الأطوال المدوّنة: AB = 10، مع قسمة كل ضلع بالمنتصف إلى جزأين متساويين. المثلثات: △ABC و△ABD و△ACD.",
+          "pedagogical_point_ar": "توظيف تعريف المنتصف لتصنيف مثلثات مشتقة من شكل مركّب."
+        }
+      ]
+    },
+    {
+      "page": 151,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 151,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p151-34",
+              "printed_number": "34",
+              "page": 151,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "فن تشكيلي: صنّف كلًّا من المثلثات الأربعة الظاهرة في الشكل الفني المجاور وفق زواياه وأضلاعه، مستخدمًا المنقلة والمسطرة.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-35",
+              "printed_number": "35",
+              "page": 151,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △ABE وفق زواياه وأضلاعه من الشكل المجاور: ∠A = 75°، ∠E = 15°، ∠B = 90°، AE = EB = 15 cm.",
+              "figure_ref": "fig-3-1-abe-ebc",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-36",
+              "printed_number": "36",
+              "page": 151,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △EBC وفق زواياه وأضلاعه من الشكل المجاور.",
+              "figure_ref": "fig-3-1-abe-ebc",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-37",
+              "printed_number": "37",
+              "page": 151,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف △BDC وفق زواياه وأضلاعه من الشكل المجاور.",
+              "figure_ref": "fig-3-1-abe-ebc",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-1-abe-ebc",
+          "label_ar": "مسائل 35-37 (تدرب)",
+          "description_ar": "شكل يحتوي على مثلثات متعددة: △ABE بزوايا A = 75° وE = 15° وB = 90° مع AE = EB = 15 cm، و△EBC متجاور معه، و△BDC. النقاط A وE وB وD وC مرتبة في الشكل مع قياسات موضّحة.",
+          "pedagogical_point_ar": "تصنيف مثلثات متعددة في شكل مركّب بقياسات زوايا وأضلاع معطاة."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "هندسة إحداثية",
+          "page": 151,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p151-38",
+              "printed_number": "38",
+              "page": 151,
+              "section_ar": "هندسة إحداثية",
+              "qkind": "graph",
+              "prompt_ar": "أوجد قيمة أطوال الأضلاع باستخدام صيغة المسافة ورسّم △XYZ في المستوى الإحداثي وصنّفه:\nX(7, 6)، Y(1, 5)، Z(1, −1).",
+              "given_ar": ["X(7, 6)", "Y(1, 5)", "Z(1, −1)"],
+              "concept_tags": ["تصنيف المثلثات", "الهندسة الإحداثية", "صيغة المسافة"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-39",
+              "printed_number": "39",
+              "page": 151,
+              "section_ar": "هندسة إحداثية",
+              "qkind": "graph",
+              "prompt_ar": "أوجد قيمة أطوال الأضلاع باستخدام صيغة المسافة ورسّم △JKL في المستوى الإحداثي وصنّفه:\nJ(−5, 9)، K(1, 2)، L(1, −3).",
+              "given_ar": ["J(−5, 9)", "K(1, 2)", "L(1, −3)"],
+              "concept_tags": ["تصنيف المثلثات", "الهندسة الإحداثية", "صيغة المسافة"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-40",
+              "printed_number": "40",
+              "page": 151,
+              "section_ar": "هندسة إحداثية",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: أثبت أن △ACE متساوي الأضلاع إذا كان △FGHI متساوي الأضلاع، ثم أوجد أطوال أضلاع △ACE من الشكل المجاور:\nFG = (2x + 5)، GH = (5x + 20).",
+              "given_ar": ["△FGHI متساوي الأضلاع", "FG = 2x + 5", "GH = 5x + 20"],
+              "concept_tags": ["المثلث متساوي الأضلاع", "البرهان الهندسي"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مسائل مهارات التفكير العليا",
+          "page": 151,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p151-41",
+              "printed_number": "41",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "numerical",
+              "prompt_ar": "متطابقات متعددة: أوجد قيمة x وأطوال الأضلاع في كلٍّ من المثلثين:\n(أ) مثلث ضلعاه 3f و(4f − 5) و(4f − 5)، أوجد f وأطوال الأضلاع.\n(ب) مثلث ضلعاه FG = (2x + 5) وJH = (5x + 20) وJK = (3x + 10).",
+              "subparts": [
+                { "label": "أ", "prompt_ar": "مثلث متساوي الساقين: الضلعان (4f − 5) متساويان، أوجد f وأطوال الأضلاع." },
+                { "label": "ب", "prompt_ar": "مثلث FG = (2x + 5) وJH = (5x + 20)؛ أوجد x وأطوال الأضلاع." }
+              ],
+              "concept_tags": ["المثلث متساوي الساقين", "المثلث متساوي الأضلاع", "حل المعادلات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-42",
+              "printed_number": "42",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "numerical",
+              "prompt_ar": "مثلث RST متساوي الساقين RS = ST. RS = 2x + 5 وJH = 5x + 20. أوجد قيمة x وأطوال الأضلاع.",
+              "given_ar": ["RS = 2x + 5", "ST = 5x + 20", "RS = ST"],
+              "concept_tags": ["المثلث متساوي الساقين", "حل المعادلات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-43",
+              "printed_number": "43",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "متطابقات متعددة: أوجد قيمة المتغيرين وأطوال الأضلاع في مثلثات اشتراطات متعددة.\n(أ) مثلث متساوي الأضلاع بأضلاع (5x + y)، (y + 5)، (3x + 0.2) أوجد x و y.\n(ب) مثلث متساوي الساقين بزاويتَي قاعدة (7x − 5)° و(4x + 4)°، أوجد x ومقاييس الزوايا.",
+              "subparts": [
+                { "label": "أ", "prompt_ar": "مثلث متساوي الأضلاع، أوجد x و y وأطوال الأضلاع." },
+                { "label": "ب", "prompt_ar": "مثلث متساوي الساقين، أوجد x ومقاييس الزوايا الثلاث." }
+              ],
+              "concept_tags": ["المثلث متساوي الأضلاع", "المثلث متساوي الساقين", "منظومة معادلات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-44",
+              "printed_number": "44",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "هندسة: ارسم أربعة مثلثات مختلفة تمثّل أنواع المثلثات. استعمل المنقلة والمسطرة لتصنيف زوايا وأضلاع كل مثلث وسجّل نتائجك في جدول يتضمّن: الزوايا، والأضلاع، والتصنيف بالزوايا، والتصنيف بالأضلاع. ثم أجب: هل تعتقد أن فناني الرسم يستخدمون أنواعًا معيّنة من المثلثات أكثر من غيرها؟ فسّر.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا والأضلاع"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-45",
+              "printed_number": "45",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: زاويتا قاعدة المثلث متساوي الساقين تساويان: الأولى (7x − 5)° والثانية (4x + 4)°. أوجد مقياس كل زاوية من الزوايا الثلاث.",
+              "given_ar": ["زاوية القاعدة الأولى = (7x − 5)°", "زاوية القاعدة الثانية = (4x + 4)°"],
+              "concept_tags": ["المثلث متساوي الساقين", "زوايا القاعدة", "حل المعادلات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p151-46",
+              "printed_number": "46",
+              "page": 151,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "صح أم خطأ؟ ثلاثة مثلثات متساوية الأضلاع متشاركة في النقاط الوسطية تُكوِّن مثلثًا أصغر. ما نوع المثلث الأصغر الناتج؟ برّر.",
+              "concept_tags": ["المثلث متساوي الأضلاع", "تصنيف المثلثات"],
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 152,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "مسائل مهارات التفكير العليا",
+          "page": 152,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p152-47",
+              "printed_number": "47",
+              "page": 152,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتشف الخطأ: في المثلث ΔDFG يقول أحدهم إن عدد الزوايا المتطابقة يمكن أن يكون أكثر من اثنتين، ويقول آخر إن في أي مثلث لا يمكن أن يكون عدد الزوايا المتطابقة أكثر من ثلاثة. أيهما صواب؟ فسّر إجابتك.",
+              "concept_tags": ["تصنيف المثلثات بالزوايا"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-48",
+              "printed_number": "48",
+              "page": 152,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب: إذا ما كانت الزوايا الثلاث في المثلث متساوية فهل يعني ذلك أن أضلاعه الثلاثة متساوية؟ برّر أو فنّد.",
+              "concept_tags": ["المثلث متساوي الأضلاع", "المثلث متساوي الزوايا"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدريب على اختبار",
+          "page": 152,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p152-49",
+              "printed_number": "49",
+              "page": 152,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "mcq",
+              "prompt_ar": "أشرى اشترت أحذية بـ 33.80 ريالًا وقطعة قماش بـ 25 ريالًا. كان معها 50.70 ريالًا. كم ريالًا بقي معها بعد الشراء؟",
+              "options_ar": [
+                "50.70 ريالًا",
+                "33.80 ريالًا",
+                "32.62 ريالًا",
+                "44.50 ريالًا"
+              ],
+              "concept_tags": ["الحساب"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-50",
+              "printed_number": "50",
+              "page": 152,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "numerical",
+              "prompt_ar": "ما مقياس الزاوية الثالثة في مثلث قياسا زاويتيه (5y + 3)° و(y − 3)°؟",
+              "concept_tags": ["مجموع زوايا المثلث", "حل المعادلات"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مراجعة تراكمية",
+          "page": 152,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p152-51",
+              "printed_number": "51",
+              "page": 152,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد نقطة التقاطع بين المعادلتين الآتيتين:\ny = 2x + 2 و y = x − 4.",
+              "given_ar": ["y = 2x + 2", "y = x − 4"],
+              "concept_tags": ["حل منظومة المعادلات الخطية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-52",
+              "printed_number": "52",
+              "page": 152,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "كرة القدم: ثلاثة لاعبين في مواضع إحداثية محددة في الملعب. أوجد المسافة بين اثنين من اللاعبين باستخدام صيغة المسافة.",
+              "concept_tags": ["صيغة المسافة"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-53",
+              "printed_number": "53",
+              "page": 152,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد المسافة بين نقاط التقاطع باستخدام صيغة المسافة:\ny = 2x + 2 و y = x − 4.",
+              "given_ar": ["y = 2x + 2", "y = x − 4"],
+              "concept_tags": ["صيغة المسافة", "نقاط التقاطع"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-54",
+              "printed_number": "54",
+              "page": 152,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد قيمة x إذا كانت: 0 = 3 − 2x + 6، حدّد الحل وتحقق.",
+              "concept_tags": ["حل المعادلة الخطية"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-55",
+              "printed_number": "55",
+              "page": 152,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد قيمة x: 2x + 6 = 10.",
+              "concept_tags": ["حل المعادلة الخطية"],
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "استعد للدرس اللاحق",
+          "page": 152,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-1-p152-56",
+              "printed_number": "56",
+              "page": 152,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف كلًّا من الزاويتين ∠5 و∠3 كزاوية حادة أو قائمة أو منفرجة أو مستقيمة.",
+              "concept_tags": ["تصنيف الزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-57",
+              "printed_number": "57",
+              "page": 152,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف الزاوية ∠9 كزاوية حادة أو قائمة أو منفرجة أو مستقيمة.",
+              "concept_tags": ["تصنيف الزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-1-p152-58",
+              "printed_number": "58",
+              "page": 152,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "صنّف كلًّا من الزاويتين ∠11 و∠13 كزاوية حادة أو قائمة أو منفرجة أو مستقيمة.",
+              "concept_tags": ["تصنيف الزوايا"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

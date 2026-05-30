@@ -1,0 +1,921 @@
+{
+  "lesson_id": "3-4",
+  "title_ar": "إثبات تطابق المثلثات SSS، SAS",
+  "title_en": "Proving Triangles Congruent — SSS, SAS",
+  "source": {
+    "book_title_ar": "الرياضيات 1-1 - نظام المسارات - السنة الأولى",
+    "edition": "1447H / 2025M",
+    "page_offset": 0,
+    "extraction": "vision-once",
+    "fidelity": "paraphrased-faithful"
+  },
+  "page_range": { "start": 170, "end": 178 },
+  "lesson_summary_ar": "يتناول الدرس إثبات تطابق المثلثات باستخدام حالتَي الضلع-الضلع-الضلع (SSS) والضلع-الزاوية-الضلع (SAS). تُعرَّف مسلمة SSS التي تنص على أن تطابق الأضلاع الثلاثة المتقابلة يكفي لإثبات تطابق المثلثين، ومسلمة SAS التي تشترط تطابق ضلعين والزاوية المحصورة بينهما. يتعلّم الطالب كتابة الإثباتات ذات العمودين وإثباتات الإحداثيات، ويميز الزاوية المحصورة (الزاوية المشمولة) من غيرها، وتُطبَّق المسلمتان على مسائل هندسية وواقعية.",
+  "key_terms": [
+    { "term_ar": "مسلمة SSS (الضلع-الضلع-الضلع)", "term_en": "SSS Postulate (Side-Side-Side)" },
+    { "term_ar": "مسلمة SAS (الضلع-الزاوية-الضلع)", "term_en": "SAS Postulate (Side-Angle-Side)" },
+    { "term_ar": "الزاوية المحصورة (المشمولة)", "term_en": "Included Angle" },
+    { "term_ar": "إثبات الإحداثيات", "term_en": "Coordinate Proof" },
+    { "term_ar": "إثبات ذو عمودين", "term_en": "Two-Column Proof" }
+  ],
+  "common_misconceptions_ar": [
+    "الظن بأن أي تطابق لضلعين وزاوية يُثبت التطابق؛ الصحيح أن الزاوية يجب أن تكون محصورة بين الضلعين (SAS) وليست في أي موضع آخر.",
+    "إغفال شرط الزاوية المحصورة في SAS والخلط بينها وبين حالة SSA التي لا تُثبت التطابق بالضرورة.",
+    "في إثبات الإحداثيات، نسيان حساب الأضلاع الثلاثة كاملةً عند تطبيق SSS، أو الاكتفاء بحساب ضلعين فقط.",
+    "الخلط بين المسلمة (تُقبل دون برهان) والنظرية (تحتاج إثباتًا)."
+  ],
+  "pages": [
+    {
+      "page": 170,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text_ar": "إثبات تطابق المثلثات SSS، SAS",
+          "text_en": "Proving Triangles Congruent — SSS, SAS"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "لماذا؟ في هذا الدرس يتعلم الطالب استعمال مسلمتَي SSS و SAS لإثبات تطابق المثلثات، ويكتب الإثباتات ذات العمودين وإثباتات الإحداثيات."
+        },
+        {
+          "type": "objectives",
+          "items_ar": [
+            "استعمال مسلمة SSS لإثبات تطابق المثلثات.",
+            "استعمال مسلمة SAS لإثبات تطابق المثلثات."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "أنشطة واستكشاف: إثبات تطابق المثلثات باستعمال المسطرة (SSS)"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "يمكن استعمال المسطرة لاستكشاف ما إذا كانت المثلثات التي لها أضلاع متطابقة متطابقة أم لا."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text_ar": "مسلمة 3.1"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "مسلمة SSS (الضلع-الضلع-الضلع): إذا كانت أضلاع مثلث متطابقة مع الأضلاع المقابلة لها في مثلث آخر فإن المثلثين متطابقان."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-sss-postulate",
+          "label_ar": "مسلمة 3.1 - SSS",
+          "description_ar": "مثلثان ABC و DEF متطابقان بحيث AB = DE وBC = EF وAC = DF، مع وجود علامات تطابق على كل زوج من الأضلاع المتقابلة، والاستنتاج أن المثلث ABC ≅ المثلث DEF.",
+          "pedagogical_point_ar": "يكفي إثبات تطابق الأضلاع الثلاثة المتقابلة لإثبات تطابق المثلثين تمامًا."
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-4-1",
+          "printed_number": "1",
+          "prompt_ar": "مثال 1: تطبيق مسلمة SSS. المعطيات: ZE ≅ ZK وEG ≅ KH وGZ ≅ HZ. المطلوب: إثبات أن △GEZ ≅ △HKZ.",
+          "solution_ar": "الخطوات:\n1. ZE ≅ ZK (معطى)\n2. EG ≅ KH (معطى)\n3. GZ ≅ HZ (معطى)\n4. △GEZ ≅ △HKZ (مسلمة SSS)\nالدليل: تطابقت الأضلاع الثلاثة المتقابلة في المثلثين فتطابق المثلثان بموجب مسلمة SSS.",
+          "answer": "△GEZ ≅ △HKZ"
+        }
+      ]
+    },
+    {
+      "page": 171,
+      "blocks": [
+        {
+          "type": "worked_example",
+          "id": "ex-3-4-2",
+          "printed_number": "2",
+          "prompt_ar": "مثال 2: من واقع الحياة - إثبات تطابق مثلثين بالإحداثيات. المعطيات: إحداثيات رؤوس المثلث ABC هي A(1,3)، B(0,3)، C(2,5)، وإحداثيات رؤوس المثلث EFG هي E(1,-3)، F(2,-5)، G(-4,-3).",
+          "solution_ar": "الخطوة أ: أوجد إحداثيات أو أطوال الأضلاع:\nAB = √[(1-0)² + (3-3)²] = √1 = 1\nEF = √[(1-2)² + (-3+5)²] = √(1+4) = √5\nأوجد AC وBC وEG وFG بنفس الأسلوب ثم قارن.\nالخطوة ب: إذا تطابقت الأضلاع الثلاثة المتقابلة فاستنتج التطابق بموجب مسلمة SSS.",
+          "answer": "تُحسب أطوال أضلاع كلا المثلثين باستخدام صيغة المسافة، فإذا تطابقت الأضلاع الثلاثة المتقابلة فـ △ABC ≅ △EFG بموجب مسلمة SSS."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-coordinate-proof",
+          "label_ar": "مثال 2 - إثبات الإحداثيات",
+          "description_ar": "مستوى إحداثي يُظهر مثلثين: الأول ABC برؤوس تقريبية في الربع الأول والثاني، والثاني في الربع الثالث والرابع، مع حساب أطوال الأضلاع باستخدام صيغة المسافة للمقارنة وإثبات التطابق بموجب مسلمة SSS.",
+          "pedagogical_point_ar": "إثبات الإحداثيات يستلزم حساب أطوال جميع الأضلاع الثلاثة للمثلثين ومقارنتها."
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "ملاحظة: في إثبات الإحداثيات بمسلمة SSS يُحسب طول كل ضلع بصيغة المسافة d = √[(x₂-x₁)² + (y₂-y₁)²]، ثم تُقارن الأضلاع الثلاثة المتقابلة."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 171,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p171-2A",
+              "printed_number": "2أ",
+              "page": 171,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن △ABC ≅ △EFG إذا كانت المعطيات: QJ ≅ ZK وJL ≅ KL.",
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p171-2B",
+              "printed_number": "2ب",
+              "page": 171,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "هل المثلثان في الشكل المجاور متطابقان بموجب مسلمة SSS؟ وضّح إجابتك.",
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text_ar": "نظرة تعمق: تحليل الأخطاء"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "في الجزء ب من مثال 2، يجب التحقق من أن جميع الأضلاع الثلاثة المتقابلة متطابقة لا ضلعان فقط. الاكتفاء بضلعين لا يكفي لتطبيق مسلمة SSS."
+        }
+      ]
+    },
+    {
+      "page": 172,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "إثبات وأساسيات: إثبات تطابق مثلثين رُسما باستعمال المسطرة (SSS)"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-sss-steps",
+          "label_ar": "خطوات استعمال مسلمة SSS",
+          "description_ar": "ثلاثة مراحل مرسومة توضح كيفية إثبات مثلثين باستخدام SSS: الخطوة 1 تُظهر مثلثًا ABC مع وضع علامات على أضلاعه، الخطوة 2 تُظهر مثلثًا XY مع إضافة علامات التطابق، والخطوة 3 تُظهر المثلثين مع الاستنتاج △ABC ≅ △XY.",
+          "pedagogical_point_ar": "عند الإثبات بـ SSS تُعلَّم الأضلاع المتطابقة الثلاثة بعلامات التطابق ثم يُستنتج تطابق المثلثين."
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "تذكّر أن مسلمة SSS لا تشترط وجود ترتيب معين للأضلاع إلا مطابقتها للأضلاع المقابلة بين المثلثين. الاستعمال السليم يستلزم التحقق من تطابق كل ضلع مع نظيره المقابل."
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "أفكار لإثبات الأشياء: إذا أردت إثبات تطابق مثلثين، حاول أولًا تحديد الأضلاع المشتركة بين المثلثين (الضلع المشترك) أو الأضلاع المتطابقة المعطاة، ثم تحقق هل تكفي للتطبيق."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text_ar": "مسلمة 3.2"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "مسلمة SAS (الضلع-الزاوية-الضلع): إذا كان ضلعان والزاوية المحصورة بينهما في مثلث ما متطابقَين مع الضلعين والزاوية المحصورة بينهما في مثلث آخر فإن المثلثين متطابقان."
+        },
+        {
+          "type": "key_term",
+          "term_ar": "الزاوية المحصورة (المشمولة)",
+          "term_en": "Included Angle",
+          "definition_ar": "الزاوية المحصورة بين ضلعين في المثلث، أي الزاوية التي يُشكّل الضلعان المعنيان جانبَيها."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-sas-postulate",
+          "label_ar": "مسلمة 3.2 - SAS",
+          "description_ar": "مثلثان ABC و DEF يُظهران تطابق ضلعين والزاوية المحصورة بينهما: AB ≅ DE والزاوية B ≅ الزاوية E وBC ≅ EF، مع علامات التطابق على الأضلاع والزاوية، والاستنتاج أن △ABC ≅ △DEF.",
+          "pedagogical_point_ar": "الزاوية في SAS يجب أن تكون محصورة بين الضلعين المتطابقين لا في أي موضع آخر."
+        }
+      ]
+    },
+    {
+      "page": 173,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "من واقع الحياة: استعمال SSS لإثبات تطابق المثلثات"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-real-life-sss",
+          "label_ar": "شكل واقعي - SSS",
+          "description_ar": "صورتان لمشبكَي مرايا أو إطارَي صناعيَّين يحتويان على مثلثات هيكلية. المثلثان في الصورتين متطابقان نظرًا لتطابق أضلاعهما الثلاثة، ما يدل على استخدام مسلمة SSS في البنية الهندسية للتصاميم الهندسية الواقعية.",
+          "pedagogical_point_ar": "تُستخدم مسلمة SSS في التصاميم الهندسية الواقعية لضمان صلابة الهياكل."
+        },
+        {
+          "type": "table",
+          "id": "tbl-3-4-sss-proof",
+          "caption_ar": "إثبات من واقع الحياة: استعمال مسلمة SSS",
+          "columns_ar": ["العبارات", "الأسباب"],
+          "rows": [
+            ["WX ≅ ZY وXY ≅ WZ", "معطى"],
+            ["WY ≅ WY", "خاصية الانعكاس"],
+            ["△WXY ≅ △YZW", "مسلمة SSS"]
+          ]
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-4-3",
+          "printed_number": "3",
+          "prompt_ar": "من واقع الحياة: يُظهر الشكل مثلثين في هيكل إطار. المعطيات: WX ≅ ZY وXY ≅ WZ. المطلوب: إثبات أن △WXY ≅ △YZW.",
+          "solution_ar": "1. WX ≅ ZY (معطى)\n2. XY ≅ WZ (معطى)\n3. WY ≅ WY (خاصية الانعكاس)\n4. △WXY ≅ △YZW (مسلمة SSS)",
+          "answer": "△WXY ≅ △YZW بموجب مسلمة SSS"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 173,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p173-3",
+              "printed_number": "3",
+              "page": 173,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن △ABD ≅ △CBD إذا كانت المعطيات: BD يُنصِّف زاوية ABC وAB ≅ BC ووجد مسار ضلع مشترك BD.",
+              "concept_tags": ["مسلمة SSS", "الضلع المشترك"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "أنشطة واستكشاف: إثبات تطابق المثلثات باستعمال مسلمة SAS"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-sas-explore",
+          "label_ar": "استكشاف SAS",
+          "description_ar": "مثلث ABC مرسوم على اليمين يُظهر ضلعَين AB وAC والزاوية A المحصورة بينهما مع علامات التطابق، وعلى اليسار مثلث DEF يُظهر ضلعَين DE وDF والزاوية D المحصورة بينهما. الشكل يُظهر أن الزاوية A ≅ الزاوية D وAB ≅ DE وAC ≅ DF، ما يستلزم أن △ABC ≅ △DEF بموجب SAS.",
+          "pedagogical_point_ar": "الاستكشاف يوضح أن ضبط ضلعين والزاوية المحصورة بينهما يُعيِّن المثلث بشكل كامل."
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "أرسم مثلثًا يكون فيه AB = 5 cm وزاوية A = 45° وAC = 7 cm، ثم أرسم مثلثًا آخر بالمعطيات نفسها. ستجد أن المثلثين متطابقان في كل جوانبهما."
+        }
+      ]
+    },
+    {
+      "page": 174,
+      "blocks": [
+        {
+          "type": "worked_example",
+          "id": "ex-3-4-4",
+          "printed_number": "4",
+          "prompt_ar": "مثال 4: إثبات تطابق مثلثين بمسلمة SSS في البيان بالإحداثيات. الجزء الأول: المعطيات إحداثيات رؤوس المثلث ΔABC وإحداثيات ΔCBA في رباعي الإحداثيات. أثبت أن ΔAMC ≅ ΔATV بموجب مسلمة SSS إذا كانت TV ≅ TA وTX ≅ TX.",
+          "solution_ar": "الخطوة 1: حدد المعطيات: TV ≅ TA وTX ≅ TX (خاصية الانعكاس) وAV ≅ AX (إذا كانت معطاة).\nالخطوة 2: اكتب جدول الإثبات:\n1. TV ≅ TA (معطى)\n2. TX ≅ TX (خاصية الانعكاس)\n3. △ATV ≅ △ATX (مسلمة SSS) إذا تطابقت الأضلاع الثلاثة.",
+          "answer": "△ATV ≅ △ATX بموجب مسلمة SSS",
+          "figure_ref": "fig-3-4-sss-two-column"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-4-sss-two-column",
+          "label_ar": "مثال 4 - إثبات ذو عمودين",
+          "description_ar": "جدول إثبات ذو عمودين يُظهر في العمود الأيمن العبارات وفي الأيسر الأسباب. الصف الأول: FG ≅ FG بخاصية الانعكاس، الصف الثاني: الأضلاع المعطاة متطابقة، الصف الأخير: △FGH ≅ △FGK بموجب مسلمة SSS.",
+          "pedagogical_point_ar": "الإثبات ذو العمودين يُظهر بوضوح التسلسل المنطقي من المعطيات إلى المطلوب."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 174,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p174-4",
+              "printed_number": "4",
+              "page": 174,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن △ATV ≅ △YTo إذا كانت المعطيات TV ≅ YTo وTA ≅ ToY. أوجد الضلع المشترك أو المعطى الناقص وأتمم الإثبات.",
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تأكد"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تأكد",
+          "page": 174,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p174-1",
+              "printed_number": "1",
+              "page": 174,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "الشكل الجانبي: حدد الأضلاع الثلاثة التي ينبغي التحقق من تطابقها لإثبات أن △OABC ≅ △OZAD بموجب مسلمة SSS، وأثبت ذلك.",
+              "given_ar": ["الشكل يُظهر مثلثين متشاركين في ضلع مشترك"],
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p174-2",
+              "printed_number": "2",
+              "page": 174,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "ما العلاقات التي ينبغي معرفتها لإثبات أن △ABC ≅ △EFG بموجب مسلمة SAS إذا كانت المعطيات: AB ≅ EF؟",
+              "concept_tags": ["مسلمة SAS", "الزاوية المحصورة"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p174-3",
+              "printed_number": "3",
+              "page": 174,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن △ABC ≅ △EFG إذا كانت المعطيات: إحداثيات A(1,-3)، B(3,-3)، C(1,-5)، E(-3,3)، F(-1,3)، G(-3,1). استعمل إثبات الإحداثيات مع مسلمة SSS.",
+              "given_ar": ["A(1,-3)، B(3,-3)، C(1,-5)", "E(-3,3)، F(-1,3)، G(-3,1)"],
+              "concept_tags": ["إثبات الإحداثيات", "مسلمة SSS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p174-4b",
+              "printed_number": "4",
+              "page": 174,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: أثبت أن △ABL ≅ △ANS إذا كانت المعطيات: AN ≅ AB وBL ≅ NS والضلع المشترك AS ≅ AL.",
+              "given_ar": ["AN ≅ AB", "BL ≅ NS"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 175,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تدرب وحل المسائل"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 175,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p175-5",
+              "printed_number": "5",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب ما إذا كانت كل عبارة صحيحة أم خاطئة.",
+              "subparts": [
+                { "label": "أ", "prompt_ar": "إذا كانت AB ≅ CD وCA ≅ DB فإن △ABC ≅ △EDC." },
+                { "label": "ب", "prompt_ar": "إذا كانت QR ≅ ST وRT ≅ QT فإن △QRT ≅ △SRT." }
+              ],
+              "concept_tags": ["مسلمة SSS", "مسلمة SAS"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-6",
+              "printed_number": "6",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدد ما إذا كان يمكن إثبات تطابق كل زوج من المثلثات بموجب مسلمة SSS أو SAS. إذا أمكن فاكتب جملة التطابق. إذا لم يمكن فاكتب \"لا يمكن إثبات ذلك\".",
+              "given_ar": ["الشكل يُظهر أزواجًا من المثلثات مع علامات تطابق مختلفة"],
+              "concept_tags": ["مسلمة SSS", "مسلمة SAS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-7",
+              "printed_number": "7",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "جسور: طول كلٍّ من أحد الأجزاء الهيكلية للجسر 160 m. وضّح كيف يمكن استعمال مسلمة SSS لإثبات أن المثلثات في الهيكل متطابقة.",
+              "given_ar": ["طول كل جزء هيكلي = 160 m"],
+              "concept_tags": ["مسلمة SSS", "تطبيقات واقعية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-8",
+              "printed_number": "8",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدد ما إذا كان يمكن إثبات تطابق كل زوج من المثلثات بموجب مسلمة SSS أو SAS مع إحداثيات كل منهما.\nأ) M(2,3)، N(3,2)، O(1,4) وR(-3,2)، O(-1,4)، K(-3,1).\nب) M(-1,-1)، N(-4,-6)، O(-1,-3) وS(-3,3).",
+              "given_ar": [
+                "أ) M(2,3), N(3,2), O(1,4), R(-3,2), O'(-1,4), K(-3,1)",
+                "ب) M(-1,-1), N(-4,-6), O(-1,-3), S(-3,3)"
+              ],
+              "concept_tags": ["إثبات الإحداثيات", "مسلمة SSS"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-9",
+              "printed_number": "9",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات: BD ≅ BC وDA ≅ CA. أثبت أن △ABD ≅ △ABC بموجب مسلمة SSS.",
+              "given_ar": ["BD ≅ BC", "DA ≅ CA"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-10",
+              "printed_number": "10",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "المعطيات: QJ ≅ PT وJL ≅ TP. المطلوب: إثبات أن △JQL ≅ △TPB.",
+              "given_ar": ["QJ ≅ PT", "JL ≅ TP"],
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-11",
+              "printed_number": "11",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "المعطيات: AN ≅ AN وAN ≅ BN. أثبت أن △ABN ≅ △AJN بموجب مسلمة SSS إذا كانت الإضافات مناسبة.",
+              "concept_tags": ["مسلمة SSS", "الضلع المشترك"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p175-12",
+              "printed_number": "12",
+              "page": 175,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "المعطيات: KM ≅ KN. أثبت أن △KML ≅ △KNL.",
+              "given_ar": ["KM ≅ KN"],
+              "concept_tags": ["مسلمة SSS", "الضلع المشترك"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 176,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 176,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p176-13",
+              "printed_number": "13",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "أكمل الإثبات: المعطيات HK ≅ WZ وHZ ≅ WK. المطلوب: إثبات أن △HKZ ≅ △WZK.",
+              "given_ar": ["HK ≅ WZ", "HZ ≅ WK"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-14",
+              "printed_number": "14",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات: زاوية TPQ ≅ زاوية SPB. المطلوب: إثبات أن △TPQ ≅ △SPB بمسلمة SAS إذا توفّرت أضلاع متطابقة.",
+              "concept_tags": ["مسلمة SAS", "الزاوية المحصورة"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-15",
+              "printed_number": "15",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "الشكل يُظهر رباعي الأضلاع ABCD مع قطريه. إذا كانت الأضلاب الأربعة متساوية وزاوية AOB ≅ زاوية COB فهل △ABC ≅ △BDC؟ فسّر إجابتك.",
+              "concept_tags": ["مسلمة SAS", "الزاوية المحصورة"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-16",
+              "printed_number": "16",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إذا كانت TPQR بحيث TP ≅ TQ وRP = RQ فأثبت أن △TPR ≅ △TQR بمسلمة SSS.",
+              "given_ar": ["TP ≅ TQ", "RP = RQ"],
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-17",
+              "printed_number": "17",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: ما الذي تحتاج إلى معرفته لتثبت أن △MOD ≅ △DWO؟ فسّر.",
+              "concept_tags": ["مسلمة SSS", "مسلمة SAS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-18",
+              "printed_number": "18",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات WX ≅ WZ وYX ≅ YZ. المطلوب: إثبات أن △WXY ≅ △WZY بمسلمة SSS.",
+              "given_ar": ["WX ≅ WZ", "YX ≅ YZ"],
+              "concept_tags": ["مسلمة SSS", "الضلع المشترك"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-19",
+              "printed_number": "19",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات HK ≅ HM وFK ≅ FM. المطلوب: إثبات أن △FHK ≅ △FHM.",
+              "given_ar": ["HK ≅ HM", "FK ≅ FM"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-20",
+              "printed_number": "20",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات جدول الإثبات بالإحداثيات. المطلوب: أثبت أن △JGL ≅ △IGH بمسلمة SSS.",
+              "concept_tags": ["إثبات الإحداثيات", "مسلمة SSS"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p176-21",
+              "printed_number": "21",
+              "page": 176,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "جزء ب: أوجد ما إذا كانت المثلثات في الشكل الآتي متطابقة بموجب مسلمة SSS أو SAS. إذا أمكن فاكتب جملة التطابق.",
+              "concept_tags": ["مسلمة SSS", "مسلمة SAS"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "الضبط الرياضي: تذكّر أنه في مسلمة SAS، يجب أن تكون الزاوية محصورة (مشمولة) بين الضلعين. إذا لم تكن الزاوية محصورة بينهما فإن هذه المسلمة لا تنطبق."
+        }
+      ]
+    },
+    {
+      "page": 177,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مسائل مهارات التفكير العليا"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مسائل مهارات التفكير العليا",
+          "page": 177,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p177-22",
+              "printed_number": "22",
+              "page": 177,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "تحدٍّ: في الشكل المجاور ΔAWY ≅ ΔWXZ. أثبت أن ΔAWX ≅ ΔWYZ. (تلميح: فكّر في ما تعرفه من جملة التطابق الأولى.)",
+              "given_ar": ["ΔAWY ≅ ΔWXZ"],
+              "concept_tags": ["مسلمة SSS", "التفكير التسلسلي"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p177-23",
+              "printed_number": "23",
+              "page": 177,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتشف الخطأ: يدّعي طالب أنه أثبت أن △PVQ ≅ △PVR بموجب مسلمة SSS لأن PV ≅ PV وPQ ≅ PR. هل الإثبات صحيح؟ إذا لم يكن كذلك فما الخطأ؟",
+              "concept_tags": ["مسلمة SSS", "تحليل الأخطاء"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p177-24",
+              "printed_number": "24",
+              "page": 177,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب: صِف موقفًا في حياتك اليومية يمكن فيه استعمال مسلمة SSS أو SAS لإثبات أن شيئًا ما متطابق أو متماثل، ووضّح ذلك.",
+              "concept_tags": ["مسلمة SSS", "مسلمة SAS", "تطبيقات واقعية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p177-25",
+              "printed_number": "25",
+              "page": 177,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "تبرير: إذا أعطيت ثلاثة مستقيمات أطوالها a وb وc، صِف متى يمكن رسم مثلث. هل يوجد مثلث واحد فقط بهذه الأطوال؟ كيف يرتبط ذلك بمسلمة SSS؟",
+              "concept_tags": ["مسلمة SSS", "متباينة المثلث"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تدريب على اختبار"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدريب على اختبار",
+          "page": 177,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p177-26",
+              "printed_number": "26",
+              "page": 177,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "mcq",
+              "prompt_ar": "إذا كان △MOD ≅ △OWZ، فأي من الأزواج الآتية يمثل أضلاعًا متطابقة؟",
+              "options_ar": [
+                "أ) MO ≅ OZ",
+                "ب) OD ≅ WZ",
+                "ج) MD ≅ OW",
+                "د) DO ≅ ZW"
+              ],
+              "concept_tags": ["تطابق المثلثات", "تناظر الرؤوس"],
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مراجعة تراكمية"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مراجعة تراكمية",
+          "page": 177,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p177-27",
+              "printed_number": "27",
+              "page": 177,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "إذا كان a = 1 وb = -2 فأوجد قيمة 2a + b - (a - b)².",
+              "given_ar": ["a = 1", "b = -2"],
+              "concept_tags": ["تعويض جبري"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p177-28",
+              "printed_number": "28",
+              "page": 177,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات HI ≅ HM وHJ ≅ HL وFG ≅ FH. المطلوب: إثبات أن △HIJ ≅ △HML.",
+              "given_ar": ["HI ≅ HM", "HJ ≅ HL", "FG ≅ FH"],
+              "concept_tags": ["مسلمة SAS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p177-29",
+              "printed_number": "29",
+              "page": 177,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن ΔMNL ≅ ΔONP بموجب مسلمة SAS إذا كانت المعطيات أضلاعًا وزوايا محصورة متطابقة.",
+              "concept_tags": ["مسلمة SAS"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 178,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "اختبار منتصف الفصل — الدروس 3-1 إلى 3-4"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "اختبار منتصف الفصل",
+          "page": 178,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-4-p178-1",
+              "printed_number": "1",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "أنشئ تمثيلًا بيانيًا للبيانات وضع تخمينًا يصف ما تُظهره: إحداثيات النقاط هي A(1,-3)، B(0,-3)، C(2,5)، G(-4,-3)، Q(4,-1)، R(-1,0) وS(-5,3)، T(3,1)، Z(5)، G(-4,-3)، M(1,0).",
+              "given_ar": ["قائمة إحداثيات كما في الجدول"],
+              "concept_tags": ["التمثيل البياني"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-2",
+              "printed_number": "2",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "من الجداول التالية أيٌّ يُمثِّل جملة تطابق صحيحة؟ أوجد الحروف المتناظرة.",
+              "subparts": [
+                { "label": "أ", "prompt_ar": "15, 13, A" },
+                { "label": "ب", "prompt_ar": "15, 16, B" },
+                { "label": "ج", "prompt_ar": "15, 13, C" },
+                { "label": "د", "prompt_ar": "15, 16, D" }
+              ],
+              "concept_tags": ["تطابق المثلثات", "جملة التطابق"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-3",
+              "printed_number": "3",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "mcq",
+              "prompt_ar": "من الأشكال الآتية أيٌّ يُمثِّل تطابقًا صحيحًا بموجب SSS؟ (تُعطى أربعة أشكال)",
+              "options_ar": ["أ", "ب", "ج", "د"],
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-4",
+              "printed_number": "4",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "في الشكل المجاور: إذا كانت △ABC ≅ △RST، أوجد قيمة كل مجهول (x, y وما إليها).",
+              "given_ar": ["△ABC ≅ △RST"],
+              "concept_tags": ["تطابق المثلثات", "حل المعادلات"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-5",
+              "printed_number": "5",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "في الشكل المجاور: P = (-3,-3)، Q(4,-1)، R(-1,0)، S(-5,3)، T(3,1)، Z(5). أوجد طول كل ضلع وحدد هل يمكن إثبات التطابق بموجب SSS.",
+              "given_ar": ["P = (-3,-3)", "Q(4,-1)", "R(-1,0)", "S(-5,3)", "T(3,1)"],
+              "concept_tags": ["إثبات الإحداثيات", "مسلمة SSS"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-6",
+              "printed_number": "6",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات △MO ≅ △NO وMO ≅ NO. المطلوب: إثبات أن △MO ≅ △NO بموجب مسلمة SSS (أو SAS) مع كتابة الإثبات الكامل.",
+              "given_ar": ["MO ≅ NO"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-7",
+              "printed_number": "7",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "إثبات: المعطيات زاوية AXN ≅ زاوية ASM وXN ≅ SM. أثبت أن △AXN ≅ △ASM بموجب مسلمة SAS.",
+              "given_ar": ["∠AXN ≅ ∠ASM", "XN ≅ SM"],
+              "concept_tags": ["مسلمة SAS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-8",
+              "printed_number": "8",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "استعد للدرس اللاحق: يُعطى الشكل مثلثان. أوجد قيمة n في كل من الحالتين الآتيتين:\nأ) إذا كان 3n + 4 = 4 وb = 4.\nب) n في حالة أخرى.",
+              "concept_tags": ["حل المعادلات"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-9",
+              "printed_number": "9",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "أرسم مثلث ABC وزاوية D تساوي زاوية ABD.",
+              "concept_tags": ["رسم هندسي", "تطابق الزوايا"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-10",
+              "printed_number": "10",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "المعطيات: △MI ≅ △MN. أثبت أن △MIO ≅ △MNO بموجب مسلمة SSS.",
+              "given_ar": ["MI ≅ MN"],
+              "concept_tags": ["مسلمة SSS"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-11",
+              "printed_number": "11",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "في الفناء: إذا كانت إحداثيات P(-3,-3)، Q(4,-1) وR(-1,0) تُعيِّن مثلثًا، وPQR رسم بياني في المستوى، فأثبت أن △PQR ≅ △STU بموجب مسلمة SSS.",
+              "concept_tags": ["إثبات الإحداثيات", "مسلمة SSS"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-12",
+              "printed_number": "12",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "المعطيات: △MO ≅ △NO وMO ≅ NO. أثبت أن △LMN ≅ △LMO.",
+              "given_ar": ["MO ≅ NO"],
+              "concept_tags": ["مسلمة SSS", "إثبات ذو عمودين"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-13",
+              "printed_number": "13",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "استعد للدرس اللاحق: أرسم زاوية تساوي زاوية ABD. أوجد زاوية ABC وزاوية BDC.",
+              "concept_tags": ["رسم هندسي"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-4-p178-14",
+              "printed_number": "14",
+              "page": 178,
+              "section_ar": "اختبار منتصف الفصل",
+              "qkind": "conceptual",
+              "prompt_ar": "أوجد قياس كل من الزوايا: زاوية ABC وزاوية BDC.",
+              "concept_tags": ["تطابق المثلثات", "قياس الزوايا"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

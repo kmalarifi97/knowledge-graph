@@ -1,0 +1,765 @@
+{
+  "lesson_id": "3-5",
+  "title_ar": "إثبات تطابق المثلثات ASA، AAS",
+  "title_en": "Proving Triangles Congruent — ASA, AAS",
+  "source": {
+    "book_title_ar": "الرياضيات 1-1 - نظام المسارات - السنة الأولى",
+    "edition": "1447H / 2025M",
+    "page_offset": 0,
+    "extraction": "vision-once",
+    "fidelity": "paraphrased-faithful"
+  },
+  "page_range": { "start": 179, "end": 185 },
+  "lesson_summary_ar": "يُعرِّف الدرس مسلَّمة ASA ونظرية AAS لإثبات تطابق المثلثات. تنص مسلَّمة ASA على أنه إذا تطابق زاويتان والضلع المحصور بينهما في مثلثين فإن المثلثين متطابقان. وتنص نظرية AAS على أنه إذا تطابقت زاويتان وضلع غير محصور (متباعد) في مثلثين فإنهما متطابقان. يتعلم الطالب كتابة البراهين العمودية والتسلسلية لإثبات تطابق المثلثات بهذه الأدوات، ويميز بين ASA وAAS ويُطبِّقهما في مسائل هندسية حياتية (المسح الأرضي، الدراجات الهوائية، الملاحة).",
+  "key_terms": [
+    { "term_ar": "الضلع المحصور", "term_en": "Included Side" },
+    { "term_ar": "مسلَّمة ASA", "term_en": "Angle-Side-Angle (ASA) Postulate" },
+    { "term_ar": "نظرية AAS", "term_en": "Angle-Angle-Side (AAS) Theorem" },
+    { "term_ar": "برهان عمودي", "term_en": "Two-Column Proof" }
+  ],
+  "common_misconceptions_ar": [
+    "الخلط بين ASA وAAS: في ASA يكون الضلع محصورًا بين الزاويتين المتطابقتين، أما في AAS فالضلع غير محصور (بعيد) عن إحدى الزاويتين.",
+    "الاعتقاد بأن AAA تكفي لإثبات التطابق؛ والصحيح أنها تثبت التشابه فقط وليس التطابق.",
+    "إغفال خاصية الانعكاس (الضلع المشترك) عند استخدام ASA أو AAS في مثلثين يتشاركان ضلعًا.",
+    "تطبيق SSA (ضلعان وزاوية غير محصورة) لإثبات التطابق وهو ما لا يكفي ولا يُعدّ مسلَّمة أو نظرية معتمدة."
+  ],
+  "pages": [
+    {
+      "page": 179,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text_ar": "إثبات تطابق المثلثات ASA، AAS",
+          "text_en": "Proving Triangles Congruent — ASA, AAS"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "لماذا؟ تُقدِّر الطائرات المسيَّرة أو طائرات الاستطلاع المسافات الصعبة القياس؛ فإذا وقفت على نقطة وعُرف اتجاهان لنقطتين بعيدتين أمكن تحديد المثلث تمامًا وقياس المسافة عبر الحاجز، وهذا جوهر مسلَّمة ASA.",
+          "text_en": "Why? Survey aircraft and drones use two angle measurements and an included side to determine inaccessible distances — the core idea of the ASA Postulate."
+        },
+        {
+          "type": "objectives",
+          "items_ar": [
+            "أستعمل مسلَّمة ASA لإثبات تطابق المثلثات.",
+            "أستعمل نظرية AAS لإثبات تطابق المثلثات."
+          ]
+        },
+        {
+          "type": "key_term",
+          "term_ar": "الضلع المحصور",
+          "term_en": "Included Side",
+          "definition_ar": "الضلع الواقع بين زاويتين في مثلث؛ أي الضلع الذي يكون كلا طرفيه رأسَي الزاويتين."
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "مراجعة المفردات: الضلع المحصور هو القطعة المستقيمة الواصلة بين رأسَي زاويتين متتاليتين في مثلث."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مسلَّمة 3.3 — التطابق بزاويتين وضلع محصور بينهما (ASA)"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "إذا تطابقت زاويتان والضلع المحصور بينهما في مثلثين، فإن المثلثين متطابقان."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-asa-postulate",
+          "label_ar": "مسلَّمة 3.3",
+          "description_ar": "مثلثان ABC وDEF: في المثلث الأول الزاوية A تطابق الزاوية D، والضلع AB يطابق الضلع DE، والزاوية B تطابق الزاوية E. العناصر المتطابقة مُعلَّمة بشرطتين على الضلع وقوسين على الزاويتين. يُستنتج أن △ABC≅△DEF بمسلَّمة ASA.",
+          "pedagogical_point_ar": "يكفي تطابق زاويتين والضلع المحصور بينهما لإثبات تطابق المثلثين كليًّا."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text_ar": "أنشاء وهندسة — إنشاء مثلث باستعمال ASA"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "الخطوة 1: ارسم قطعة مستقيمة تساوي في الطول الضلع المحصور. الخطوة 2: أنشئ عند طرفها الأيسر زاوية مساوية للزاوية اليسرى في المثلث الأصلي. الخطوة 3: أنشئ عند طرفها الأيمن زاوية مساوية للزاوية اليمنى. الخطوة 4: الرأس الثالث للمثلث هو نقطة التقاطع."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-asa-construction",
+          "label_ar": "إنشاء ASA — الخطوات 1 إلى 3",
+          "description_ar": "ثلاثة رسوم متسلسلة من اليمين إلى اليسار: الخطوة 1 تُظهر قطعة أفقية بين A وB. الخطوة 2 تُظهر زاوية مرسومة بالفرجار عند A تساوي زاوية المثلث الأصلي. الخطوة 3 تُظهر زاوية ثانية مرسومة عند B وتقاطع الضلعين يُعيِّن الرأس C.",
+          "pedagogical_point_ar": "الإنشاء الهندسي يجسِّد مسلَّمة ASA عمليًا."
+        }
+      ]
+    },
+    {
+      "page": 180,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مثال 1 — استعمال مسلَّمة ASA لإثبات تطابق مثلثين"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-5-1",
+          "printed_number": "1",
+          "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle PQS \\cong \\angle RQS\\)، \\(\\overline{QS}\\) ينصِّف \\(\\angle PQR\\). المطلوب: \\(\\triangle PQS \\cong \\triangle RQS\\).",
+          "solution_ar": "البرهان العمودي:\n1. \\(\\angle PQS \\cong \\angle RQS\\) — معطى.\n2. \\(\\overline{QS} \\cong \\overline{QS}\\) — خاصية الانعكاس.\n3. \\(\\angle QSP \\cong \\angle QSR\\) — معطى (QS ينصِّف \\(\\angle PQR\\)).\n4. \\(\\triangle PQS \\cong \\triangle RQS\\) — مسلَّمة ASA.",
+          "figure_ref": "fig-3-5-ex1-pqsr"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-ex1-pqsr",
+          "label_ar": "مثال 1",
+          "description_ar": "شكل يضم مثلثَي PQS وRQS يتشاركان الضلع QS المشترك. Q في الأعلى والنقطتان P وR في الأسفل على جانبَي S. علامات تطابق الزاويتين عند Q مُوضَّحة، والضلع QS مُعلَّم بعلامة انعكاس.",
+          "pedagogical_point_ar": "الضلع المشترك يُثبَت بخاصية الانعكاس ثم يُطبَّق ASA."
+        },
+        {
+          "type": "table",
+          "id": "tbl-3-5-ex1-proof",
+          "caption_ar": "برهان عمودي — مثال 1",
+          "columns_ar": ["العبارات", "المبررات"],
+          "rows": [
+            ["1. \\(\\angle PQS \\cong \\angle RQS\\)", "1. معطى"],
+            ["2. \\(\\overline{QS} \\cong \\overline{QS}\\)", "2. خاصية الانعكاس"],
+            ["3. \\(\\angle QSP \\cong \\angle QSR\\)", "3. معطى"],
+            ["4. \\(\\triangle PQS \\cong \\triangle RQS\\)", "4. مسلَّمة ASA"]
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 180,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p180-1A",
+              "printed_number": "1A",
+              "page": 180,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle WXY \\cong \\angle ZXY\\)، \\(\\overline{XY}\\) ينصِّف \\(\\angle WXZ\\). المطلوب: \\(\\triangle WXY \\cong \\triangle ZXY\\).",
+              "given_ar": ["\\(\\angle WXY \\cong \\angle ZXY\\)", "\\(\\overline{XY}\\) ينصِّف \\(\\angle WXZ\\)"],
+              "concept_tags": ["مسلَّمة ASA", "البرهان العمودي", "خاصية الانعكاس"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p180-1B",
+              "printed_number": "1B",
+              "page": 180,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle W \\cong \\angle Y\\)، \\(\\overline{WZ} \\cong \\overline{YX}\\). المطلوب: \\(\\triangle WZX \\cong \\triangle YXZ\\).",
+              "given_ar": ["\\(\\angle W \\cong \\angle Y\\)", "\\(\\overline{WZ} \\cong \\overline{YX}\\)"],
+              "concept_tags": ["مسلَّمة ASA", "البرهان العمودي"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "نظرية 3.5 — التطابق بزاويتين وضلع غير محصور بينهما (AAS)"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "إذا تطابقت زاويتان وضلع غير محصور بينهما في مثلثين، فإن المثلثين متطابقان."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-aas-theorem",
+          "label_ar": "نظرية 3.5",
+          "description_ar": "مثلثان ABC وDEF: الزاوية A تطابق الزاوية D، والزاوية B تطابق الزاوية E، والضلع BC يطابق الضلع EF (ضلع غير محصور بين A وB). علامات التطابق على الزاويتين وعلى الضلع المقابل موضَّحة. يُستنتج أن △ABC≅△DEF بنظرية AAS.",
+          "pedagogical_point_ar": "AAS مشابه لـ ASA لكن الضلع المعلوم لا يقع بين الزاويتين المتطابقتين بل يقابل إحداهما."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text_ar": "برهان نظرية AAS"
+        },
+        {
+          "type": "table",
+          "id": "tbl-3-5-aas-proof",
+          "caption_ar": "برهان نظرية 3.5 (AAS) — المعطيات: \\(\\angle A \\cong \\angle D\\)، \\(\\angle B \\cong \\angle E\\)، \\(BC \\cong EF\\).",
+          "columns_ar": ["العبارات", "المبررات"],
+          "rows": [
+            ["1. \\(\\angle A \\cong \\angle D\\)، \\(\\angle B \\cong \\angle E\\)", "1. معطى"],
+            ["2. \\(\\angle C \\cong \\angle F\\)", "2. إذا تطابقت زاويتان في مثلثين تطابقت الزاويتان الثالثتان (نظرية مجموع زوايا المثلث = 180°)"],
+            ["3. \\(BC \\cong EF\\)", "3. معطى"],
+            ["4. \\(\\triangle ABC \\cong \\triangle DEF\\)", "4. مسلَّمة ASA (الزاوية B، الضلع BC، الزاوية C تطابق الزاوية E، الضلع EF، الزاوية F)"]
+          ]
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-5-2",
+          "printed_number": "2",
+          "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle LMN \\cong \\angle QRS\\)، \\(\\overline{LM} \\cong \\overline{QR}\\)، \\(\\angle M \\cong \\angle R\\). المطلوب: \\(\\triangle LMN \\cong \\triangle QRS\\).",
+          "solution_ar": "البرهان العمودي:\n1. \\(\\angle LMN \\cong \\angle QRS\\) و\\(\\angle M \\cong \\angle R\\) — معطى.\n2. \\(\\overline{LM} \\cong \\overline{QR}\\) — معطى.\n3. \\(\\triangle LMN \\cong \\triangle QRS\\) — نظرية AAS.",
+          "figure_ref": "fig-3-5-ex2-lmnqrs"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-ex2-lmnqrs",
+          "label_ar": "مثال 2",
+          "description_ar": "مثلثان LMN وQRS متجاوران. في المثلث LMN: L في الأعلى، M في الأسفل الأيسر، N في الأسفل الأيمن. في المثلث QRS: Q في الأعلى الأيسر، R في الأسفل، S في اليمين. علامات تطابق زاوية L مع Q وزاوية M مع R والضلع LM مع QR مُوضَّحة.",
+          "pedagogical_point_ar": "نظرية AAS: تطابق زاويتين وضلع غير محصور (LM مقابل لـ N وQR مقابل لـ S)."
+        }
+      ]
+    },
+    {
+      "page": 181,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مثال 3 — استعمال AAS لإثبات تطابق مثلثين"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-5-3",
+          "printed_number": "3",
+          "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle DAC \\cong \\angle BCA\\)، \\(DC \\parallel AB\\). المطلوب: \\(\\triangle ACD \\cong \\triangle CAB\\).",
+          "solution_ar": "البرهان العمودي:\n1. \\(\\angle DAC \\cong \\angle BCA\\) — معطى.\n2. \\(DC \\parallel AB\\) — معطى.\n3. \\(\\angle ACD \\cong \\angle CAB\\) — زوايا متبادلة (الخطان المتوازيان DC وAB مع القاطع AC).\n4. \\(\\overline{AC} \\cong \\overline{AC}\\) — خاصية الانعكاس.\n5. \\(\\triangle ACD \\cong \\triangle CAB\\) — نظرية AAS.",
+          "figure_ref": "fig-3-5-ex3-acdb"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-ex3-acdb",
+          "label_ar": "مثال 3",
+          "description_ar": "متوازي أضلاع ABCD (أو شبه منحرف) مع القطر AC يقسمه إلى مثلثَي ACD وCAB. DC في الأعلى موازٍ لـ AB في الأسفل. القطر AC يمتد من A الأيسر السفلي إلى C الأيمن العلوي. علامات الزوايا المتبادلة والانعكاس على AC مُوضَّحة.",
+          "pedagogical_point_ar": "الخطوط المتوازية تُعطي زوايا متبادلة، والضلع المشترك يُعطي تطابقًا بخاصية الانعكاس، ومن ثم يُطبَّق AAS."
+        },
+        {
+          "type": "table",
+          "id": "tbl-3-5-ex3-proof",
+          "caption_ar": "برهان عمودي — مثال 3",
+          "columns_ar": ["العبارات", "المبررات"],
+          "rows": [
+            ["1. \\(\\angle DAC \\cong \\angle BCA\\)", "1. معطى"],
+            ["2. \\(DC \\parallel AB\\)", "2. معطى"],
+            ["3. \\(\\angle ACD \\cong \\angle CAB\\)", "3. الزوايا المتبادلة بين المتوازيين وقاطعهما"],
+            ["4. \\(\\overline{AC} \\cong \\overline{AC}\\)", "4. خاصية الانعكاس"],
+            ["5. \\(\\triangle ACD \\cong \\triangle CAB\\)", "5. نظرية AAS"]
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 181,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p181-3A",
+              "printed_number": "3A",
+              "page": 181,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\overline{RQ} \\cong \\overline{TQ}\\)، \\(\\overline{RQ} \\perp \\overline{ST}\\). المطلوب: \\(\\triangle RQS \\cong \\triangle TQS\\).",
+              "given_ar": ["\\(\\overline{RQ} \\cong \\overline{TQ}\\)", "\\(\\overline{RQ} \\perp \\overline{ST}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان العمودي", "التعامد"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p181-3B",
+              "printed_number": "3B",
+              "page": 181,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\overline{RQ} \\cong \\overline{TQ}\\)، \\(\\overline{TQ} \\perp \\overline{RQ}\\). المطلوب: \\(\\triangle RQS \\cong \\triangle TOS\\). (شكل مختلف عن 3A.)",
+              "given_ar": ["\\(\\overline{RQ} \\cong \\overline{TQ}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان العمودي"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مثال 4 — من واقع الحياة: استعمال AAS في المسح الأرضي"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-3-5-4",
+          "printed_number": "4",
+          "prompt_ar": "مسح أرضي: وقف المساح عند النقطة C على ضفة نهر، ورصد نقطتين A وD على الضفة المقابلة، وقاس: \\(\\angle ACB \\cong \\angle DCB\\) (زاوية الرصد متطابقة من الجانبين) وأن \\(\\overline{MN} \\cong \\overline{RS}\\) (أُسقِطت مسافة متساوية من C باتجاه عمودي). أثبت أن المثلثين المُكوَّنَين متطابقان، ثم استنتج المسافة عبر النهر.",
+          "solution_ar": "البرهان:\n1. الزاوية ACB تطابق الزاوية DCB — معطى.\n2. \\(\\overline{CB} \\cong \\overline{CB}\\) — خاصية الانعكاس.\n3. الزاويتان CAB وCDB قائمتان (90°) — معطى (القائمة عند B في كلا المثلثين).\n4. بتطبيق نظرية AAS: △ACB ≅ △DCB.\n5. ومنه AB = DB وهي المسافة عبر النهر.",
+          "figure_ref": "fig-3-5-ex4-survey"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-ex4-survey",
+          "label_ar": "مثال 4 — مسح أرضي",
+          "description_ar": "صورة فوتوغرافية لنهر مع تمثيل هندسي: C على أحد الضفتين وA وD على الضفة الأخرى. الضلع CB عمودي على AD. الزوايا القائمة عند B مُعلَّمتان في المثلثين ACB وDCB. علامة الزوايا المتطابقة عند C (∠ACB≅∠DCB) مُوضَّحة.",
+          "pedagogical_point_ar": "AAS تُستخدم في المسح لإيجاد مسافات يصعب قياسها مباشرة عبر حاجز طبيعي."
+        }
+      ]
+    },
+    {
+      "page": 182,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 182,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p182-4",
+              "printed_number": "4",
+              "page": 182,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\overline{F'C} \\cong \\overline{TE}\\). المطلوب: أثبت أن \\(\\overrightarrow{BC} \\cong \\overrightarrow{DE}\\) (أي أن المثلثين الناتجين متطابقان بنظرية AAS).",
+              "concept_tags": ["نظرية AAS", "البرهان الهندسي"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "ملخص المفاهيم — طرق إثبات تطابق المثلثات"
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-congruence-summary",
+          "label_ar": "ملخص المفاهيم — طرق إثبات التطابق",
+          "description_ar": "جدول من أربعة أعمدة بعناوين: AAS وASA وSAS وSSS. تحت كل عنوان مثلث صغير يوضح العناصر المتطابقة: AAS — زاويتان وضلع متباعد (غير محصور). ASA — زاويتان والضلع المحصور بينهما. SAS — ضلعان والزاوية المحصورة بينهما. SSS — الأضلاع الثلاثة. العناصر مُعلَّمة بأقواس وشرطات موحدة في كل رسم.",
+          "pedagogical_point_ar": "يجمع هذا الملخص الحالات الأربع مدروسة في الدروس 3-3 إلى 3-5 للمقارنة الفورية."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تأكَّد"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تأكَّد",
+          "page": 182,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p182-1",
+              "printed_number": "1",
+              "page": 182,
+              "section_ar": "تأكَّد",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\overrightarrow{IJ} \\parallel \\overrightarrow{KL}\\)، \\(\\overline{JM} \\cong \\overline{LM}\\) (M منتصف JL). المطلوب: \\(\\triangle IJM \\cong \\triangle KLM\\).",
+              "given_ar": ["\\(\\overrightarrow{IJ} \\parallel \\overrightarrow{KL}\\)", "\\(\\overline{JM} \\cong \\overline{LM}\\)"],
+              "concept_tags": ["مسلَّمة ASA", "البرهان العمودي", "الخطوط المتوازية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p182-2",
+              "printed_number": "2",
+              "page": 182,
+              "section_ar": "تأكَّد",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\overline{GY} \\cong \\overline{OY}\\)، \\(\\overline{GY} \\perp \\overline{WY}\\). المطلوب: \\(\\triangle GYW \\cong \\triangle OYW\\).",
+              "given_ar": ["\\(\\overline{GY} \\cong \\overline{OY}\\)", "\\(\\overline{GY} \\perp \\overline{WY}\\)"],
+              "concept_tags": ["نظرية AAS", "التعامد", "البرهان العمودي"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p182-3",
+              "printed_number": "3",
+              "page": 182,
+              "section_ar": "تأكَّد",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\angle LAB \\cong \\angle MCD\\)، \\(\\overline{AB} \\cong \\overline{CD}\\). المطلوب: \\(\\triangle LAB \\cong \\triangle MCD\\).",
+              "given_ar": ["\\(\\angle LAB \\cong \\angle MCD\\)", "\\(\\overline{AB} \\cong \\overline{CD}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان الهندسي"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 183,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تدرَّب وحل المسائل"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدرَّب وحل المسائل",
+          "page": 183,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p183-4",
+              "printed_number": "4",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\angle CBD \\cong \\angle BCA\\). المطلوب: \\(\\triangle ACD \\cong \\triangle DBC\\).",
+              "given_ar": ["\\(\\angle CBD \\cong \\angle BCA\\)"],
+              "concept_tags": ["مسلَّمة ASA", "البرهان العمودي"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p183-5",
+              "printed_number": "5",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\overline{CD} \\parallel \\overline{AB}\\)، \\(\\overline{CD} \\cong \\overline{AB}\\). المطلوب: \\(\\triangle OYW \\cong \\triangle GYW\\) (أو التطابق المناظر وفق الشكل).",
+              "given_ar": ["\\(\\overline{CD} \\parallel \\overline{AB}\\)", "\\(\\overline{CD} \\cong \\overline{AB}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان العمودي", "الخطوط المتوازية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p183-6",
+              "printed_number": "6",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: المعطيات: \\(\\overline{LAB} \\cong \\overline{CD}\\)، \\(\\overline{AB} \\parallel \\overline{CD}\\). المطلوب: \\(\\triangle ABE \\cong \\triangle CDE\\)، ثم \\(\\overline{AE} \\cong \\overline{CD}\\).",
+              "given_ar": ["\\(\\overline{AB} \\parallel \\overline{CD}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان العمودي", "الخطوط المتوازية"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p183-7",
+              "printed_number": "7",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "ملاحة: يرصد زوارق الإنقاذ موضع سفينة من نقطتين H وK على الشاطئ. قاس المسافة HJ = 1350 m، وأن المسافة الكلية HG = 2093.4 m، وزوايا الرصد متطابقة. (أ) وضِّح كيف يستعمل فريق المساح المثلثين المتكوِّنين لتقدير المسافة FG عبر البحيرة. (ب) هل طول البحيرة كافٍ لإجراء مسابقات الزوارق باستعمال القياسات الواردة في الشكل؟ استعمل المعلومات المعطاة لتجيب وضِّح إجابتك.",
+              "given_ar": ["HJ = 1350 m", "HG = 2093.4 m"],
+              "concept_tags": ["نظرية AAS", "تطبيق في الحياة", "المسح"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p183-8",
+              "printed_number": "8",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: أوجد قيمة المتغير التي تجعل المثلثين متطابقَين في كل من السؤالين الآتيين: △BCD ≅ △WXY.",
+              "given_ar": [
+                "في △BCD: B = (24x+5)°، CD = 11، زاوية D = (20x-4)°",
+                "في △WXY: Y = 77°، XW = 2x+5"
+              ],
+              "concept_tags": ["نظرية AAS", "حل المعادلات", "جبر"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p183-9",
+              "printed_number": "9",
+              "page": 183,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: أوجد قيمة المتغير التي تجعل المثلثين متطابقَين: △MHJ ≅ △PQI.",
+              "given_ar": [
+                "في △MHJ: MH = 13y، زاوية H = 53°، HJ = 9، زاوية J = (14y-8)°",
+                "في △PQI: PQ = 8.1، QI = 2y-1"
+              ],
+              "concept_tags": ["مسلَّمة ASA", "حل المعادلات", "جبر"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p183-q7-lake",
+          "label_ar": "مسألة 7 — ملاحة",
+          "description_ar": "خريطة جوية لبحيرة أو خليج بحري مع تمثيل هندسي لمثلثَين: رأس H وK على الشاطئ ورأس G وF في البحيرة. المسافة HJ = 1350 m والمسافة HG = 2093.4 m مُكتوبتان على الرسم. تتقاطع أضلاع المثلثين عند نقطة داخلية K.",
+          "pedagogical_point_ar": "تطبيق AAS في تحديد المسافة عبر عائق مائي بقياسات أرضية."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p183-q8-q9",
+          "label_ar": "مسألتان 8 و9 — جبر",
+          "description_ar": "رسمان لمثلثين: الأول △BCD و△WXY بقياسات: زاوية B = (24x+5)°، CD = 11، زاوية D = (20x-4)°، Y = 77°، XW = 2x+5. الثاني △MHJ و△PQI بقياسات: MH = 13y، زاوية H = 53°، HJ = 9، زاوية J = (14y-8)°، PQ = 8.1، QI = 2y-1.",
+          "pedagogical_point_ar": "يستوجب تساوي الأضلاع والزوايا المتناظرة كتابة معادلة وحلها."
+        }
+      ]
+    },
+    {
+      "page": 184,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدرَّب وحل المسائل",
+          "page": 184,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p184-10",
+              "printed_number": "10",
+              "page": 184,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\angle K \\cong \\angle M\\)، \\(\\overline{KP} \\perp \\overline{PR}\\)، \\(\\overline{MR} \\perp \\overline{PR}\\). المطلوب: \\(\\angle KPL \\cong \\angle MRL\\).",
+              "given_ar": ["\\(\\angle K \\cong \\angle M\\)", "\\(\\overline{KP} \\perp \\overline{PR}\\)", "\\(\\overline{MR} \\perp \\overline{PR}\\)"],
+              "concept_tags": ["نظرية AAS", "البرهان العمودي", "التعامد"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-11",
+              "printed_number": "11",
+              "page": 184,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب برهانًا عموديًّا. المعطيات: \\(\\overline{QR} \\cong \\overline{SR}\\)، \\(\\overline{WR} \\cong \\overline{VR}\\)، \\(\\overline{QT} \\cong \\overline{WU}\\). المطلوب: إثبات تطابق المثلثَين المُكوَّنَين.",
+              "given_ar": ["\\(\\overline{QR} \\cong \\overline{SR}\\)", "\\(\\overline{WR} \\cong \\overline{VR}\\)", "\\(\\overline{QT} \\cong \\overline{WU}\\)"],
+              "concept_tags": ["مسلَّمة ASA", "البرهان العمودي"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-12",
+              "printed_number": "12",
+              "page": 184,
+              "section_ar": "تدرَّب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "دراجات هوائية — ربط بالحياة: يُشكِّل أنبوب مقعد الدراجة مثلثًا مع كل من دعامتَي السلسلة والمقعد. إذا كانت كل دعامة تُشكِّل زاوية قياسها 68° مع دعامة السلسلة لها، وكل دعامة مقعد لها الطول نفسه، فبيِّن أن دعامتَي المقعد لهما الزاوية القياسية نفسها.",
+              "given_ar": ["زاوية كل دعامة مع السلسلة = 68°", "دعامتا المقعد متساويتان في الطول"],
+              "concept_tags": ["مسلَّمة ASA", "تطبيق في الحياة"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p184-q10-q11",
+          "label_ar": "مسألتان 10 و11",
+          "description_ar": "رسمان هندسيان: الأول لمثلثَي KPL وMRL متشاركَين نقطة L مع KP⊥PR وMR⊥PR. الثاني لشكل رباعي QSWV ومنتصفه R مع الأضلاع QR≅SR وWR≅VR.",
+          "pedagogical_point_ar": "مسألتان تستوجبان التعامد وخاصية الانعكاس لتطبيق AAS وASA."
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p184-bicycle",
+          "label_ar": "مسألة 12 — هيكل دراجة هوائية",
+          "description_ar": "صورة دراجة هوائية جانبية ورسم هندسي لهيكلها: دعامة السلسلة الأمامية AB، دعامتا المقعد CD وEF تلتقيان في النقطة A العلوية (أنبوب المقعد). الزاويتان عند D وF قياس كل منهما 68° موضَّح على الرسم. الهيكل يُشكِّل مثلثَين متماثلَين.",
+          "pedagogical_point_ar": "الدراجة الهوائية نموذج حقيقي على ASA في الهندسة الصناعية."
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "الربط مع الحياة: تتراوح أحجام إطارات الدراجات الهوائية للشباب بين 12 in و26 in. وتُعدّ الدراجة وسيلة مواصلات مناسبة للأماكن القريبة."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مسائل مهارات التفكير العليا"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مسائل مهارات التفكير العليا",
+          "page": 184,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p184-13",
+              "printed_number": "13",
+              "page": 184,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "مسألة مفتوحة: ارسم مثلثَين يمكن إثبات تطابقهما باستعمال مسلَّمة ASA وسمِّهما.",
+              "concept_tags": ["مسلَّمة ASA", "تفكير إبداعي"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-14",
+              "printed_number": "14",
+              "page": 184,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتشف الخطأ: يقول عمر إنه لا يمكن إثبات تطابق مثلثَين بتطابق ثلاث زوايا AAA، بينما يقول حسن إنه بإمكانه إثبات هذا التطابق. أيُّهما صحيحة إجابته؟ وضِّح إجابتك.",
+              "concept_tags": ["AAA", "التشابه مقابل التطابق", "تفكير ناقد"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-15",
+              "printed_number": "15",
+              "page": 184,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "تبرير: أوجد مثالًا مضادًا يوضِّح لماذا لا تُستعمَل حالة تطابق ضلعَين وزاوية غير محصورة بينهما SSA لإثبات تطابق مثلثين.",
+              "concept_tags": ["SSA", "المثال المضاد", "حالات عدم التطابق"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-16",
+              "printed_number": "16",
+              "page": 184,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "تحدَّ: باستعمال المعلومات المعطاة في الشكل المجاور، اكتب برهانًا تسلسليًّا لإثبات أن \\(\\triangle PVQ \\cong \\triangle SVT\\).",
+              "figure_ref": "fig-3-5-p184-q16-pvqsvt",
+              "concept_tags": ["نظرية AAS", "البرهان التسلسلي", "تفكير عليا"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p184-17",
+              "printed_number": "17",
+              "page": 184,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "اكتب: لخِّص الطرائق الواردة في الدروس من 3-3 إلى 3-5 لإثبات تطابق المثلثات في جدول موضِّحًا متى تُستعمَل كل طريقة.",
+              "concept_tags": ["SSS", "SAS", "ASA", "AAS", "تلخيص"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p184-q16-pvqsvt",
+          "label_ar": "مسألة 16 — برهان تسلسلي",
+          "description_ar": "شكل رباعي PQST مع نقطة V داخلية تقع على تقاطع القطرَين PV وSV. الرأس P في اليسار العلوي، Q في اليمين العلوي، S في اليمين السفلي، T في اليسار السفلي، وV في المنتصف. الأضلاع المتطابقة مُعلَّمة بقوسَين ورديَّين (PV≅SV أو PQ≅ST) وفق الشكل.",
+          "pedagogical_point_ar": "برهان تسلسلي يستدعي تطبيق أكثر من خطوة لإثبات تطابق متعدد."
+        }
+      ]
+    },
+    {
+      "page": 185,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدريب على اختبار",
+          "page": 185,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p185-18",
+              "printed_number": "18",
+              "page": 185,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "mcq",
+              "prompt_ar": "في الشكل أدناه: \\(\\overrightarrow{BC} \\perp \\overrightarrow{AD}\\)، \\(\\angle 1 \\cong \\angle 2\\). أي نظرية أو مسلَّمة يمكن استعمالها لإثبات أن \\(\\triangle ABC \\cong \\triangle DBC\\)؟",
+              "given_ar": ["\\(\\overrightarrow{BC} \\perp \\overrightarrow{AD}\\)", "\\(\\angle 1 \\cong \\angle 2\\)"],
+              "options_ar": ["A — AAS", "B — ASA", "C — SAS", "D — SSS"],
+              "figure_ref": "fig-3-5-p185-q18",
+              "concept_tags": ["مسلَّمة ASA", "نظرية AAS", "اختيار الطريقة"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p185-19",
+              "printed_number": "19",
+              "page": 185,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "numerical",
+              "prompt_ar": "ما قيمة \\(\\sqrt{121 + 104}\\)؟",
+              "options_ar": ["A — 15", "B — 21", "C — 125", "D — 225"],
+              "concept_tags": ["الجذر التربيعي", "العمليات الحسابية"],
+              "difficulty": "easy"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-3-5-p185-q18",
+          "label_ar": "سؤال 18",
+          "description_ar": "مثلثان ABC وDBC يتشاركان الضلع BC. A وD على الخط الأفقي وC في الأعلى وB في مركز الشكل. الزاوية 1 عند A والزاوية 2 عند D مُعلَّمتان بعلامة تطابق. الضلع BC عمودي على AD مع علامة الزاوية القائمة عند B.",
+          "pedagogical_point_ar": "التمييز بين AAS وASA بحسب موضع الضلع المعلوم (BC بين B وC وهو محصور بين الزاوية القائمة B وزاوية C)."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مراجعة تراكمية",
+          "page": 185,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p185-20",
+              "printed_number": "20",
+              "page": 185,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "conceptual",
+              "prompt_ar": "إذا علمت أن \\(A(6,4)\\)، \\(B(1,-6)\\)، \\(C(-9,5)\\)، \\(X(0,7)\\)، \\(Y(5,-3)\\)، \\(Z(15,8)\\)، هل \\(\\triangle ABC \\cong \\triangle XYZ\\)؟ بيِّن ما إذا كان التطابق صحيحًا أم لا. ووضِّح إجابتك. (الدرس 3-4)",
+              "given_ar": ["A(6,4)", "B(1,-6)", "C(-9,5)", "X(0,7)", "Y(5,-3)", "Z(15,8)"],
+              "concept_tags": ["التطابق SSS", "المسافة بين نقطتين", "مراجعة"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p185-21",
+              "printed_number": "21",
+              "page": 185,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "جبر: إذا كان \\(\\triangle RST \\cong \\triangle JKL\\)، \\(RS = 7\\)، \\(ST = 5\\)، \\(RT = 9 + x\\)، \\(JL = 2x - 10\\)، \\(JK = 4y - 5\\)، فارسم شكلًا يمثِّل المثلثَين المتطابقَين، وأوجد قيمة كل من x وy. (الدرس 3-3)",
+              "given_ar": ["RS = 7", "ST = 5", "RT = 9 + x", "JL = 2x - 10", "JK = 4y - 5"],
+              "concept_tags": ["تطابق المثلثات", "حل المعادلات", "مراجعة"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p185-22",
+              "printed_number": "22",
+              "page": 185,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "conceptual",
+              "prompt_ar": "أكمل جدول الصواب المجاور (مهارة سابقة): أوجد قيمة \\(\\sim p\\) و\\(\\sim p \\vee q\\) لكل تركيبة من قيم p وq.",
+              "subparts": [
+                { "label": "أ", "prompt_ar": "p = F، q = T" },
+                { "label": "ب", "prompt_ar": "p = T، q = T" },
+                { "label": "ج", "prompt_ar": "p = F، q = F" },
+                { "label": "د", "prompt_ar": "p = T، q = F" }
+              ],
+              "concept_tags": ["المنطق الرياضي", "جدول الصواب", "مراجعة"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "id": "tbl-3-5-truth-table",
+          "caption_ar": "جدول الصواب — السؤال 22",
+          "columns_ar": ["p", "q", "\\(\\sim p\\)", "\\(\\sim p \\vee q\\)"],
+          "rows": [
+            ["F", "T", "", ""],
+            ["T", "T", "", ""],
+            ["F", "F", "", ""],
+            ["T", "F", "", ""]
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "استعد للدرس اللاحق",
+          "page": 185,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-3-5-p185-23",
+              "printed_number": "23",
+              "page": 185,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "صنِّف المثلث الأيسر المعطى في الشكل وفقًا لأضلاعه.",
+              "concept_tags": ["تصنيف المثلثات", "استعداد للدرس اللاحق"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-3-5-p185-24",
+              "printed_number": "24",
+              "page": 185,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "صنِّف المثلث الأيمن المعطى في الشكل وفقًا لأضلاعه.",
+              "concept_tags": ["تصنيف المثلثات", "استعداد للدرس اللاحق"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
