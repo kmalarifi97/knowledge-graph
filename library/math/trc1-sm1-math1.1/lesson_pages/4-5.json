@@ -1,0 +1,779 @@
+{
+  "lesson_id": "4-5",
+  "title_ar": "متباينة المثلث",
+  "title_en": "The Triangle Inequality",
+  "source": {
+    "book_title_ar": "الرياضيات 1-1 - نظام المسارات - السنة الأولى",
+    "edition": "1447H / 2025M",
+    "page_offset": 0,
+    "extraction": "vision-once",
+    "fidelity": "paraphrased-faithful"
+  },
+  "page_range": { "start": 249, "end": 254 },
+  "lesson_summary_ar": "يتناول الدرس متباينة المثلث التي تنصّ على أن مجموع طولَي أي ضلعين في مثلث يجب أن يكون أكبر من طول الضلع الثالث. يتعلم الطالب كيفية تحديد ما إذا كانت ثلاثة أطوال تشكّل مثلثاً، وكيفية استعمال المتباينات لإيجاد مدى الطول الممكن للضلع الثالث في مثلث، فضلاً عن استعمال النظرية في البرهان الهندسي.",
+  "key_terms": [
+    { "term_ar": "متباينة المثلث", "term_en": "Triangle Inequality" }
+  ],
+  "common_misconceptions_ar": [
+    "الاعتقاد بأن مجموع ضلعين يساوي الضلع الثالث يُشكّل مثلثاً؛ والصحيح أن المجموع يجب أن يكون أكبر تماماً (>) لا متساوياً.",
+    "نسيان التحقق من الحالات الثلاث جميعها عند اختبار تشكيل المثلث؛ يكفي أن يفشل أحدها لعدم تشكّل المثلث.",
+    "الاعتقاد بأن مدى الضلع الثالث يشمل الحدَّين؛ والصحيح أن الحدَّين مستثنيان (متباينة صارمة)."
+  ],
+  "pages": [
+    {
+      "page": 249,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 1,
+          "text_ar": "متباينة المثلث",
+          "text_en": "The Triangle Inequality"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "لماذا؟ يستعمل الملاحون والطيارون المسافات الجوية الأقصر بين المدن عند التخطيط للرحلات. فإذا كانت المدن الثلاث تمثّل رؤوس مثلث، فإن طول أي ضلع يكون أقل من مجموع طولَي الضلعين الآخرين، وهذا ما تُعبّر عنه متباينة المثلث."
+        },
+        {
+          "type": "objectives",
+          "items_ar": [
+            "أستعمل متباينة المثلث لتحديد ما إذا كانت ثلاثة أطوال تشكّل مثلثاً.",
+            "أجد مدى الطول الممكن للضلع الثالث في مثلث."
+          ]
+        },
+        {
+          "type": "key_term",
+          "term_ar": "متباينة المثلث",
+          "term_en": "Triangle Inequality",
+          "definition_ar": "مجموع طولَي أي ضلعين في المثلث يكون دائماً أكبر من طول الضلع الثالث."
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-intro-map",
+          "label_ar": "شكل تمهيدي",
+          "description_ar": "خريطة تُظهر مدينتين أو أكثر مرتبطتين بمسارات جوية، توضح أن المسار المباشر بين مدينتين أقصر من المسار الذي يمر عبر مدينة ثالثة، ما يجسّد مفهوم متباينة المثلث في السياق الحياتي للملاحة الجوية.",
+          "pedagogical_point_ar": "يُبيّن الشكل التطبيق العملي لمتباينة المثلث في الملاحة الجوية."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "نظرية 4.11",
+          "text_en": "Theorem 4.11"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "نظرية متباينة المثلث: مجموع طولَي أي ضلعين في مثلث أكبر من طول الضلع الثالث."
+        },
+        {
+          "type": "equation",
+          "id": "eq-4-5-theorem",
+          "latex": "PQ + QR > PR \\quad \\text{و} \\quad QR + PR > PQ \\quad \\text{و} \\quad PQ + PR > QR",
+          "caption_ar": "نظرية 4.11: متباينة المثلث - المثلث PQR",
+          "symbols_ar": [
+            { "symbol": "PQ", "meaning_ar": "طول الضلع PQ" },
+            { "symbol": "QR", "meaning_ar": "طول الضلع QR" },
+            { "symbol": "PR", "meaning_ar": "طول الضلع PR" }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-theorem-pqr",
+          "label_ar": "نظرية 4.11",
+          "description_ar": "مثلث PQR مُعنوَن بحروف رؤوسه P وQ وR مع إظهار الأضلاع الثلاثة PQ وQR وPR، يوضح تطبيق متباينة المثلث على الأضلاع الثلاثة مجتمعةً.",
+          "pedagogical_point_ar": "يُبرز الشكل ضرورة تحقّق المتباينة لكل ضلع من الأضلاع الثلاثة."
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "مرجع: انظر البرهان في صفحة 19 من الكتاب."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تحديد الأطوال الثلاثة التي تشكّل مثلثاً"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-4-5-1",
+          "printed_number": "1",
+          "prompt_ar": "حدّد ما إذا كان بإمكانك رسم مثلث بكل مجموعة من الأطوال الثلاثة الآتية. اذكر السبب في كل حالة:\n(أ) 8 in, 15 in, 8 in\n(ب) 20 m, 7 cm, 8 cm\n(ج) 1.5 ft, 2.6 ft, 4.2 ft",
+          "solution_ar": "(أ) اختبر المتباينات الثلاث: 8 + 15 = 23 > 8 ✓، 8 + 8 = 16 > 15 ✓، 15 + 8 = 23 > 8 ✓. جميعها تتحقق، إذاً يمكن رسم المثلث.\n(ب) الوحدات مختلفة (متر وسنتيمتر)، فلا يمكن مقارنتها مباشرةً؛ عند التحويل: 7 cm + 8 cm = 0.07 m + 0.08 m = 0.15 m وهو أصغر بكثير من 20 m، إذاً لا يمكن رسم مثلث.\n(ج) اختبر أصغر مجموع: 1.5 + 2.6 = 4.1 وهو ليس أكبر من 4.2 (أي 4.1 < 4.2)، إذاً لا يمكن رسم مثلث.",
+          "answer": "(أ) نعم  (ب) لا  (ج) لا"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 249,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p249-1A",
+              "printed_number": "1A",
+              "page": 249,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 2 ft, 8 ft, 11 ft تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p249-1B",
+              "printed_number": "1B",
+              "page": 249,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 15 cm, 36 cm, 36 cm تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p249-1C",
+              "printed_number": "1C",
+              "page": 249,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 3 cm, 7 cm تشكّل مثلثاً (مع ضلع ثالث غير محدد). اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 250,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "إيجاد مدى الطول الممكن للضلع الثالث"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-4-5-2",
+          "printed_number": "2",
+          "prompt_ar": "في كل مثلث، ما أصغر عدد صحيح ممكن لطول الضلع الثالث؟\n(أ) مثلث ضلعاه 6 cm و7 cm\n(ب) مثلث ضلعاه 3 cm و7 cm",
+          "solution_ar": "(أ) ليكن x الضلع الثالث. من متباينة المثلث: x + 6 > 7 ⟹ x > 1، وأيضاً 6 + 7 > x ⟹ x < 13. إذاً 1 < x < 13، وأصغر عدد صحيح ممكن هو 2.\n(ب) x + 3 > 7 ⟹ x > 4، وأيضاً 3 + 7 > x ⟹ x < 10. إذاً 4 < x < 10، وأصغر عدد صحيح ممكن هو 5.",
+          "answer": "(أ) 2 cm  (ب) 5 cm",
+          "figure_ref": "fig-4-5-ex2-triangles"
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-ex2-triangles",
+          "label_ar": "مثال 2",
+          "description_ar": "مثلثان: الأول بضلعين معلومَي الطول 6 cm و7 cm مع ضلع ثالث مجهول x، والثاني بضلعين طولهما 3 cm و7 cm مع ضلع ثالث مجهول x، يوضّحان كيفية إعداد المتباينات لإيجاد أصغر قيمة صحيحة للضلع الثالث.",
+          "pedagogical_point_ar": "يُبيّن الشكل استخدام المتباينات من ضلعين معلومَين للعثور على مدى الضلع الثالث."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 250,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p250-2A",
+              "printed_number": "2A",
+              "page": 250,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد أصغر عدد صحيح ممكن للضلع الثالث في مثلث ضلعاه 4 cm و13 cm.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p250-2B",
+              "printed_number": "2B",
+              "page": 250,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد أصغر عدد صحيح ممكن للضلع الثالث في مثلث ضلعاه 5 cm و7 cm.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-4-5-3",
+          "printed_number": "3",
+          "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه 3 cm و4 cm.",
+          "solution_ar": "ليكن x الضلع الثالث. من متباينة المثلث:\n- 3 + 4 > x ⟹ x < 7\n- x + 3 > 4 ⟹ x > 1\n- x + 4 > 3 ⟹ x > -1 (دائماً صحيح للأطوال الموجبة)\nإذاً المدى: 1 < x < 7.",
+          "answer": "1 < x < 7",
+          "figure_ref": "fig-4-5-ex3-triangle"
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-ex3-triangle",
+          "label_ar": "مثال 3",
+          "description_ar": "مثلث بضلعين معلومَي الطول 3 cm و4 cm، والضلع الثالث مجهول x، مع إظهار المتباينتين المقيِّدتين: x > 1 وx < 7 على التوالي، لتحديد مدى الطول الممكن.",
+          "pedagogical_point_ar": "يوضّح الشكل استخدام المتباينات الثلاث لإيجاد المدى الكامل للضلع الثالث."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 250,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p250-3",
+              "printed_number": "3",
+              "page": 250,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه 5 cm و7 cm.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "تنبيه: الحدّان الطرفيان للمدى (1 و7 في المثال) مستثنيان لأن المتباينة صارمة (>)؛ عند المساواة تنحل النقاط الثلاث على استقامة واحدة ولا يتشكّل مثلث."
+        }
+      ]
+    },
+    {
+      "page": 251,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مثال 4: استعمال نظرية متباينة المثلث في البرهان"
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-ex4-airline",
+          "label_ar": "مثال 4 (ربط بالحياة)",
+          "description_ar": "صورة طائرة تحلّق في السماء مع خريطة تُظهر مدنًا مرتبطة بمسارات جوية تمثّل أضلاع مثلث. النقاط R وB وY تمثّل ثلاث مدن، والمسارات RB وBY وRY تمثّل أضلاع المثلث، لتوضيح تطبيق متباينة المثلث في حساب المسافات الجوية.",
+          "pedagogical_point_ar": "يُبيّن المثال ربط نظرية متباينة المثلث بمسائل المسافات في الملاحة الجوية."
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-4-5-4",
+          "printed_number": "4",
+          "prompt_ar": "المسافة الجوية: المسافة من R إلى Y هي RY، والمسافة من R إلى B هي RB، والمسافة من B إلى Y هي BY. باستخدام نظرية متباينة المثلث، أثبت أن RY = RX وأن RB + BY > RX.",
+          "solution_ar": "البيانات: RY = RX.\nالمطلوب إثباته: RB + BY > RX.\nالبرهان:\n(أ) RY = RX (معطى)\n(ب) RB + BY > RY (متباينة المثلث في المثلث RBY)\n(ج) RB + BY > RX (تعويض RX مكان RY في الخطوة ب)",
+          "answer": "RB + BY > RX (ثُبت بتطبيق متباينة المثلث والتعويض)",
+          "figure_ref": "fig-4-5-ex4-airline"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تحقق من فهمك",
+          "page": 251,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p251-4A",
+              "printed_number": "4A",
+              "page": 251,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن GL = 1K في المثلث المعطى باستخدام متباينة المثلث والمعطيات المرسومة.",
+              "concept_tags": ["متباينة المثلث", "البرهان"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p251-4B",
+              "printed_number": "4B",
+              "page": 251,
+              "section_ar": "تحقق من فهمك",
+              "qkind": "conceptual",
+              "prompt_ar": "أثبت أن JY + JZ > YZ في المثلث JYZ باستخدام متباينة المثلث.",
+              "concept_tags": ["متباينة المثلث", "البرهان"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تأكد"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تأكد",
+          "page": 251,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p251-ta1",
+              "printed_number": "المثال 1",
+              "page": 251,
+              "section_ar": "تأكد",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال الآتية تشكّل مثلثاً، واذكر السبب:\n(أ) 5 cm, 7 cm, 10 cm\n(ب) 2.7 cm, 4.2 cm\n(ج) 9.9 cm, 1.1 cm, 8.2 cm",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p251-ta2",
+              "printed_number": "المثال 2",
+              "page": 251,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد أصغر عدد صحيح ممكن للضلع الثالث في كل حالة:\n(أ) مثلث ضلعاه 5 m و10 m\n(ب) مثلث ضلعاه 4 B و13 B (بأي وحدة)",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p251-ta3",
+              "printed_number": "المثال 3",
+              "page": 251,
+              "section_ar": "تأكد",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه:\n(أ) \\frac{1}{2} m و\\frac{3}{4} m\n(ب) \\frac{1}{2} km و\\frac{1}{3} km",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "hard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page": 252,
+      "blocks": [
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تدرب وحل المسائل"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 252,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p252-5",
+              "printed_number": "5",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 11 mm, 21 mm, 16 mm تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-6",
+              "printed_number": "6",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 9.9 cm, 1.1 cm, 8.2 cm تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-7",
+              "printed_number": "7",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال 4 B, 0, 15 B (أي ضلعان فعلياً) تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-8",
+              "printed_number": "8",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال \\frac{2}{3} m, \\frac{1}{3} m, \\frac{1}{3} m تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "تحديد تشكّل المثلث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-9",
+              "printed_number": "9",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه 5 cm و7 cm.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-10",
+              "printed_number": "10",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه 5 m و10 m.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "easy"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-11",
+              "printed_number": "11",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه 2.7 cm و4.2 cm.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-12",
+              "printed_number": "12",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه \\frac{1}{2} m و\\frac{3}{4} m.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-13",
+              "printed_number": "13",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث ضلعاه \\frac{1}{2} km و\\frac{1}{3} km.",
+              "concept_tags": ["متباينة المثلث", "مدى الضلع الثالث"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-14",
+              "printed_number": "14",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "سياحة: تسافر طائرة بين ثلاث مدن تمثّل رؤوس مثلث. المسافة من المدينة A إلى B هي RY، ومن B إلى C هي BY. أثبت باستخدام متباينة المثلث أن المسار المباشر من A إلى C أقصر من المسار عبر B.",
+              "concept_tags": ["متباينة المثلث", "البرهان", "تطبيق في الحياة"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "figure",
+          "id": "fig-4-5-p252-rhombus",
+          "label_ar": "شكل التمرين 15-16",
+          "description_ar": "مضلّع رباعي الأضلاع (معيّن أو متوازي أضلاع) مع قطرَيه مرسومَين، تسمية رؤوسه K وJ وL وM، وأضلاع مُعنوَنة بقيم عددية أو تعابير جبرية. يُستعمل لتطبيق متباينة المثلث على القطر أو أضلاع الشكل.",
+          "pedagogical_point_ar": "يمتد تطبيق متباينة المثلث إلى الأضلاع والأقطار في المضلّعات الرباعية."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 252,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p252-15",
+              "printed_number": "15",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "في الشكل المجاور (مضلع رباعي): أثبت أن KJ + KL > JL باستخدام متباينة المثلث، مع معطى KJ = KL = LM.",
+              "figure_ref": "fig-4-5-p252-rhombus",
+              "concept_tags": ["متباينة المثلث", "البرهان", "المضلعات الرباعية"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p252-16",
+              "printed_number": "16",
+              "page": 252,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "في المعيّن ABCD المجاور: أثبت أن AD + AB > BC باستخدام متباينة المثلث.",
+              "figure_ref": "fig-4-5-p252-rhombus",
+              "concept_tags": ["متباينة المثلث", "البرهان", "المعيّن"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "الربط مع الحياة: خريطة توضّح مسارات رحلات جوية بين مدن تقع على أضلاع مثلث، والمسار المباشر دائماً أقصر مما يجسّد متباينة المثلث."
+        }
+      ]
+    },
+    {
+      "page": 253,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 253,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p253-17",
+              "printed_number": "17",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال \\sqrt{90} cm, \\sqrt{40} cm, \\sqrt{65} cm تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "جذر تربيعي"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-18",
+              "printed_number": "18",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "حدّد ما إذا كانت الأطوال \\sqrt{75} in, \\sqrt{15} in, \\sqrt{30} in تشكّل مثلثاً. اذكر السبب.",
+              "concept_tags": ["متباينة المثلث", "جذر تربيعي"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-19",
+              "printed_number": "19",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث رؤوسه X(1, 3), Y(4, 1), Z(2, 3) باستخدام صيغة المسافة.",
+              "concept_tags": ["متباينة المثلث", "صيغة المسافة", "الإحداثيات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-20",
+              "printed_number": "20",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "أوجد مدى الطول الممكن للضلع الثالث في مثلث رؤوسه X(-1, 3), Y(0, 3), Z(4, 0) باستخدام صيغة المسافة.",
+              "concept_tags": ["متباينة المثلث", "صيغة المسافة", "الإحداثيات"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-21",
+              "printed_number": "21",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "جد القيم الصحيحة لـ x إذا كانت أضلاع المثلث: x + 3، وأقل من x، وما يحقق متباينة المثلث مع الضلعين.",
+              "concept_tags": ["متباينة المثلث", "المتباينات الجبرية"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "id": "tbl-4-5-p253-sides",
+          "caption_ar": "جدول لتحديد القيم في مثلثات مختلفة (التمرين 22): عمودان m∠D وZF وm∠A وBC، مع قيم تُملأ بتطبيق خصائص المثلث.",
+          "columns_ar": ["m∠D", "ZF", "m∠A", "BC"],
+          "rows": [
+            ["", "", "", ""]
+          ]
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدرب وحل المسائل",
+          "page": 253,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p253-22",
+              "printed_number": "22",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "أوجد القيم الناقصة في الجدول المجاور بتطبيق خصائص متباينة المثلث ونظرية الزوايا.",
+              "figure_ref": "tbl-4-5-p253-sides",
+              "concept_tags": ["متباينة المثلث", "قياسات المثلث"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-23",
+              "printed_number": "23",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "numerical",
+              "prompt_ar": "طيران: طائرة تسافر بسرعة 600 km/h. بعد ساعة تُحوّل اتجاهها وتسير ساعة أخرى بالسرعة نفسها. ما أصغر مسافة ممكنة ومدى المسافة بين نقطة البداية ونقطة النهاية؟ وضّح باستخدام متباينة المثلث.",
+              "concept_tags": ["متباينة المثلث", "السرعة والمسافة", "تطبيق في الحياة"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p253-24",
+              "printed_number": "24",
+              "page": 253,
+              "section_ar": "تدرب وحل المسائل",
+              "qkind": "conceptual",
+              "prompt_ar": "برهان: في المثلث ABC، المعطيات: AB = BC و CD > AB. أثبت أن BC ليست منصّفاً لـ AD باستخدام متباينة المثلث.",
+              "given_ar": ["AB = BC", "CD > AB"],
+              "concept_tags": ["متباينة المثلث", "البرهان"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "margin_note",
+          "text_ar": "الربط مع الحياة: تُستخدم متباينة المثلث في الملاحة الجوية والبحرية لضمان أن المسار المباشر بين موقعين دائماً أقصر من المسار عبر موقع ثالث."
+        }
+      ]
+    },
+    {
+      "page": 254,
+      "blocks": [
+        {
+          "type": "question_set",
+          "title_ar": "مسائل مهارات التفكير العليا",
+          "page": 254,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p254-25",
+              "printed_number": "25",
+              "page": 254,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "مسألة مفتوحة: كتب طالب أن مجموع ضلعين في مثلث أكبر من الضلع الثالث. هل يكفي هذا الشرط؟ اذكر السبب أو أعطِ مثالاً مضاداً إذا كان خاطئاً.",
+              "concept_tags": ["متباينة المثلث", "مسائل تفكير عليا"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p254-26",
+              "printed_number": "26",
+              "page": 254,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "numerical",
+              "prompt_ar": "استعمال الرياضيات: إذا كانت أضلاع مثلث تساوي (4x + 6) cm و(2x + 8) cm و(x + 2) cm. ما القيم الصحيحة لـ x التي تجعل الثلاثة تشكّل مثلثاً؟",
+              "concept_tags": ["متباينة المثلث", "التعابير الجبرية"],
+              "difficulty": "hard"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p254-27",
+              "printed_number": "27",
+              "page": 254,
+              "section_ar": "مسائل مهارات التفكير العليا",
+              "qkind": "conceptual",
+              "prompt_ar": "تحديد الخطأ: يقول أحمد إن أي ثلاثة أضلاع تكوّن مثلثاً ما دام طول كل ضلع موجباً. أثبت خطأه بمثال مضاد.",
+              "concept_tags": ["متباينة المثلث", "المثال المضاد"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "تدريب على اختبار"
+        },
+        {
+          "type": "worked_example",
+          "id": "ex-4-5-testprep",
+          "printed_number": "28",
+          "prompt_ar": "تدريب على اختبار: في المثلث ABC، m∠C = 3a - 10 وm∠B = 2a. ما قيمة a التي تجعل AC > AB؟ وضّح خطوات الحل.",
+          "solution_ar": "إذا كان AC > AB فإن الزاوية المقابلة لـ AC يجب أن تكون أكبر من الزاوية المقابلة لـ AB. الزاوية المقابلة لـ AC هي ∠B، والزاوية المقابلة لـ AB هي ∠C. إذاً m∠B > m∠C ⟹ 2a > 3a - 10 ⟹ 10 > a ⟹ a < 10. من خطوات الاختبار:\n7 - 14a = a + 7 ⟹ A: z = 14a  ✓\n7 - 14a = a + 7 - B\nz = 14a - C\nz = 14a - D",
+          "answer": "a < 10",
+          "figure_ref": null
+        },
+        {
+          "type": "question_set",
+          "title_ar": "تدريب على اختبار",
+          "page": 254,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p254-28",
+              "printed_number": "28",
+              "page": 254,
+              "section_ar": "تدريب على اختبار",
+              "qkind": "mcq",
+              "prompt_ar": "في المثلث ABC، m∠C = 3a - 10 وm∠B = 2a. إذا كانت AC > AB، أيٌّ من الخيارات الآتية يعبّر عن قيمة a؟",
+              "given_ar": ["m∠C = 3a - 10", "m∠B = 2a", "AC > AB"],
+              "options_ar": ["z = 14a أ", "7 - 14a = a + 7  ب", "z = 14a  ج", "z = 14a - 7  د"],
+              "concept_tags": ["متباينة المثلث", "ترتيب الأضلاع والزوايا", "تدريب على اختبار"],
+              "difficulty": "hard"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "مراجعة تراكمية"
+        },
+        {
+          "type": "paragraph",
+          "text_ar": "انظر الدرس 4-4 صفحة 38."
+        },
+        {
+          "type": "question_set",
+          "title_ar": "مراجعة تراكمية",
+          "page": 254,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p254-29",
+              "printed_number": "29",
+              "page": 254,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "اكتب الأوضاع الثلاثة لمتباينة الجانب والزاوية: إذا كانت m∠A > m∠B فإن... وإذا كان BC > AC فإن...",
+              "concept_tags": ["ترتيب الأضلاع والزوايا", "مراجعة تراكمية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p254-30",
+              "printed_number": "30",
+              "page": 254,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "في الشكل المجاور (مثلثان أو أشكال مع تعابير جبرية): أوجد قيمة x في كل حالة من الحالتين المعطاتين.",
+              "concept_tags": ["التعابير الجبرية", "خصائص المثلث", "مراجعة تراكمية"],
+              "difficulty": "medium"
+            },
+            {
+              "type": "question",
+              "id": "q-4-5-p254-31",
+              "printed_number": "31",
+              "page": 254,
+              "section_ar": "مراجعة تراكمية",
+              "qkind": "numerical",
+              "prompt_ar": "في الشكل المجاور (مثلث أو شكل مع تعابير جبرية): أوجد قيمة x في الحالة المعطاة.",
+              "concept_tags": ["التعابير الجبرية", "خصائص المثلث", "مراجعة تراكمية"],
+              "difficulty": "medium"
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "text_ar": "استعد للدرس اللاحق"
+        },
+        {
+          "type": "question_set",
+          "title_ar": "استعد للدرس اللاحق",
+          "page": 254,
+          "questions": [
+            {
+              "type": "question",
+              "id": "q-4-5-p254-32",
+              "printed_number": "32",
+              "page": 254,
+              "section_ar": "استعد للدرس اللاحق",
+              "qkind": "conceptual",
+              "prompt_ar": "أوجد قيمة x في الأشكال الثلاثة المجاورة (مثلثات ذات تعابير جبرية على أضلاعها، ومعلومات عن تساوي الأضلاع أو الزوايا).",
+              "concept_tags": ["التعابير الجبرية", "أضلاع المثلث", "استعداد للدرس اللاحق"],
+              "difficulty": "medium"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
